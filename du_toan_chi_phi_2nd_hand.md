@@ -224,9 +224,61 @@
 
 ---
 
-## TỔNG DỰ TOÁN — v5.2 BOQ ĐẦY ĐỦ (23/05/2026)
+## 🔥 TỔNG DỰ TOÁN — v6 HARDCORE 400M (23/05/2026)
+
+> **v6**: Cắt TOÀN BỘ trung gian. Tự làm chủ thầu. Mua đầu nguồn/thanh lý/2nd/ve chai/1688. CÓ MÁI CONG.
+> Chi tiết bóc tách từng dòng: xem `implementation_plan.md` (v6)
+
+### 🏆 GĐ1: CỘNG TỪNG DÒNG = ~287 TRIỆU
+
+| Phần | Hạng mục | v5.2 | **v6** | Cắt | Nguồn |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **A** | Phá dỡ + phế thải + san nền | 6,3 | **4** | -2,3 | Tự dọn, 1 chuyến xe |
+| **B** | Xây thô + chống thấm | 5 | **4** | -1 | Tự mua vật tư |
+| **C1** | Xi măng bóng (50% tự làm) | 18 | **12** | -6 | Tự đánh bóng phần dễ |
+| **C2** | Sàn giữ cũ | 4 | **2** | -2 | Chỉ vệ sinh + phủ |
+| **C3** | Nhôm kính 61m² **FULL 2nd** | 56 | **35** | -21 | 2nd Xingfa, thay kính CL nếu nứt |
+| **C4** | **Mái cong 120m²** | 100 | **90** | -10 | Ngói lô 5k, gỗ mít phá dỡ, ép giá thợ |
+| **C5** | Bảng hiệu | 3 | **1** | -2 | Gỗ mít thừa + tự sơn |
+| **D1** | Điện (**Cadivi CK 35%** + 1688) | 50 | **27** | -23 | Đại lý cấp 1 Biên Hòa |
+| **D2** | Đèn (1688) | 7,4 | **5** | -2,4 | Downlight 15-25k, thả 80-150k |
+| **D3** | Nước (**Bình Minh đại lý**) | 25 | **13,4** | -11,6 | Lộc Nam Việt Biên Hòa |
+| **D4-7** | ML Casper + quạt + BNL + loa | 20,8 | **14** | -6,8 | Sale + 1688 + 2nd |
+| **D8** | Toilet × 2 (**thanh lý KS**) | 20 | **10,2** | -9,8 | TOTO/Inax 300-800k/bộ |
+| **E** | Dù 1688 + sân vườn DIY | 13,5 | **6** | -7,5 | 1688 1,1tr/cây + xin cây |
+| **F** | Thiết bị + nội thất + GP + PCCC | 77,5 | **40** | -37,5 | Trọn lô quán đóng mùa mưa |
+| **G** | Phụ hồ (gia đình phụ) | 13,2 | **8** | -5,2 | Giảm ngày, gia đình dọn |
+| **H1** | Marketing | 2 | **1** | -1 | Full organic |
+| **H2** | Dự phòng 5% | 21,5 | **14** | -7,5 | |
+| | **TỔNG v6** | **~451** | **~287** | **-164** | |
+
+### 💰 PHÂN BỔ 113 TRIỆU DƯ (nếu trần 400tr)
+
+| Nâng cấp an toàn | Chi phí | Tổng tích lũy |
+| :--- | :---: | :---: |
+| Mái cong 90→120tr (margin an toàn) | +30 tr | 317 tr |
+| Nhôm kính 35→45tr (chọn kỹ hơn) | +10 tr | 327 tr |
+| Dự phòng 5→10% | +14 tr | 341 tr |
+| **Vốn lưu động 3 tháng đầu** | +50 tr | **391 tr ✅** |
+
+### ⚖️ TRADE-OFF v6 vs v7
+
+| | v6 Hardcore | v7 Full |
+| :--- | :--- | :--- |
+| **Vốn** | **287-391 tr** | 950tr-1,35 tỷ |
+| Mái cong | ✅ 120m² | 240-260m² |
+| Trần | Giữ nguyên | 5m lộ kèo |
+| Cửa | Lùa 2nd 3m | Xếp trượt 3.5m |
+| ML | 2 × 24K (60-80m²) | Multi/cassette full |
+| Kid zone | LEGO + boardgame | Montessori house |
+| Sân | 30m² mini DIY | 525m² full |
+
+---
+
+## TỔNG DỰ TOÁN — v5.2 BOQ ĐẦY ĐỦ (tham khảo lịch sử)
 
 > **v5.2**: Rà soát theo bảng BOQ tiêu chuẩn xây dựng, phát hiện 11 hạng mục thiếu (~45,6 tr). Thay mái tôn sân bằng dù lệch tâm resort. Chi tiết: xem `boq_audit_v5.2.md` + `boc_tach_nguyen_vat_lieu_v5.md`
+
 
 ### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~451 TRIỆU (BOQ đầy đủ)
 
