@@ -222,88 +222,102 @@
 
 ---
 
-## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND + MÁI CONG + SOLAR
+## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND + MÁI CONG + SOLAR (ĐÃ AUDIT)
 
-> **Cập nhật**: 23/05/2026 — Bổ sung mái cong đầu hồi (ngói cũ + gỗ mít tự có) + Solar 5kWp (giai đoạn 2)
+> **Cập nhật**: 23/05/2026 — **v3 đã audit**: Sửa lỗi tổng số học, điều chỉnh giá máy pha, cửa vòm, phụ kiện mái theo evidence thị trường thực 2025-2026. Nguồn audit: [cost_price_audit_2026-05-23.md](file:///Users/mac/Projects/kid-cafe-blueprint/cost_price_audit_2026-05-23.md)
 
-### GIAI ĐOẠN 1: XÂY DỰNG + SETUP (≤ 400 triệu)
+### GIAI ĐOẠN 1: XÂY DỰNG + SETUP
 
-| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
+| Phần | Hạng mục | Giá cũ (VNĐ) | **Giá audit (VNĐ)** | Ghi chú audit |
+| :---: | :--- | :---: | :---: | :--- |
+| **A** | Thiết bị pha chế (2nd) | 54,5 tr | **60 tr** | Appia II cũ 85% thực tế 40-50tr (không phải 28-32tr), phụ kiện giữ nguyên |
+| **B** | Nội thất + Máy lạnh (2nd) | 48 tr | **48 tr** | Có căn cứ, giữ nguyên |
+| **C** | Sửa sang mặt bằng | 155 tr | **170 tr** | Hệ thống điện 55→65tr, nước 28→32tr, sơn giữ (có căn cứ nếu tự sơn) |
+| **C+** | 🏠 Mái cong đầu hồi (ngói cũ + gỗ mít) | 90 tr | **110 tr** | +15tr phụ kiện thiếu: li-tô, máng xối, giàn giáo, ốp nóc, PPE. Ngói 3.036 viên (ĐM BXD 22v/m² × 120m² + 15%) |
+| **C++** | 🪟 Cửa vòm kính cường lực + khung gỗ | 12 tr | **30 tr** | Kính CL 8mm ~580k/m², khung gỗ ~800-900k/md, 5 cửa sổ × 2,9tr + 2 cửa đi × 4,75tr + công lắp |
+| **D1** | Giấy phép | 8 tr | **8 tr** | Giữ nguyên |
+| **D2** | PCCC | 17 tr | **19 tr** | +2tr cho hồ sơ PC07 đầy đủ 200m² đông người |
+| **D3** | Camera (2nd) | 7 tr | **7 tr** | Giữ nguyên |
+| **D4** | Đồ chơi 2nd | 9 tr | **9 tr** | Giữ nguyên |
+| **E** | Marketing khai trương | 3 tr | **3 tr** | Giữ nguyên |
+| **F** | Dự phòng (**8%** — dự án nhiều yếu tố cũ) | 12 tr | **37 tr** | Audit: 3% quá mỏng cho dự án có gỗ cũ + ngói cũ + mái cong. Nâng lên 8% |
+| | **TỔNG GIAI ĐOẠN 1** | ~~399 tr~~ | **~501 tr** | ⚠️ Vượt trần 400tr nếu giữ nguyên scope |
+
+### PHƯƠNG ÁN CẮT SCOPE ĐỂ GIỮ TRẦN 450 TRIỆU
+
+| Hạng mục | Cắt/Giảm | Tiết kiệm | Ghi chú |
+| :--- | :--- | :---: | :--- |
+| C++ Cửa vòm → **Hoãn giai đoạn 2** | Dùng cửa thường trước | **-30 tr** | Lắp cửa vòm sau 3-6 tháng từ doanh thu |
+| A Máy pha → **CRM 3120 thay Appia II** | Entry-level nhưng bền | **-15 tr** | CRM 3120 cũ 85%: 10-18tr (vs Appia II 40-50tr) |
+| F Dự phòng → **Giảm về 5%** | Chấp nhận rủi ro | **-14 tr** | Từ 37tr → 23tr |
+| | **Tổng cắt** | **-59 tr** | |
+| | **TỔNG SAU CẮT** | **~442 tr** | Gần mức 450 triệu |
+
+### GIAI ĐOẠN 2: SOLAR + CỬA VÒM (Tháng 4-6 — từ doanh thu)
+
+| Phần | Hạng mục | Giá audit (VNĐ) | Ghi chú |
 | :---: | :--- | :---: | :--- |
-| **A** | Thiết bị pha chế (2nd) | 54,5 triệu | Giữ nguyên |
-| **B** | Nội thất + Máy lạnh (2nd) | 48 triệu | Giữ nguyên |
-| **C** | Sửa sang mặt bằng (tối giản hơn) | 155 triệu | Giảm 45tr: toilet 2nd, tự mua dây điện/ống nước, thuê thợ trực tiếp |
-| **C+** | 🏠 **Mái cong đầu hồi** (ngói cũ + gỗ mít) | 90 triệu | Ngói cũ tháo dỡ 8-13k/viên, gỗ mít 1.5m³ làm kèo, thuê thợ trực tiếp |
-| **C++** | 🪟 **Cửa vòm khung gỗ mít** (5 cửa sổ + 2 cửa đi) | 12 triệu | Tự đóng khung gỗ mít, chỉ mua kính + bản lề |
-| **D1** | Giấy phép | 8 triệu | Giữ nguyên |
-| **D2** | PCCC | 17 triệu | Giữ nguyên |
-| **D3** | Camera (2nd) | 7 triệu | Giữ nguyên |
-| **D4** | Đồ chơi 2nd | 9 triệu | Giữ nguyên |
-| **E** | Marketing khai trương | 3 triệu | Chủ yếu online (FB/TikTok) |
-| **F** | Dự phòng (3%) | 12 triệu | — |
-| | **TỔNG GIAI ĐOẠN 1** | **~399 triệu** | ✅ ≤ 400 triệu |
-
-### GIAI ĐOẠN 2: SOLAR (Tháng thứ 4 — từ doanh thu)
-
-| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
-| :---: | :--- | :---: | :--- |
-| **G** | ☀️ Solar 5kWp hòa lưới (10 panel + inverter + lắp) | 48 triệu | Hoàn vốn 1 năm 9 tháng, tiết kiệm ~27tr/năm |
-| | **TỔNG CẢ 2 GIAI ĐOẠN** | **~447 triệu** | Solar tự chi từ doanh thu |
+| **G** | ☀️ Solar 5kWp hòa lưới | 55-65 tr | Inverter Growatt 12-13tr (audit: không phải 8-12tr), panel 25-30tr, phụ kiện+công 18-22tr |
+| **C++** | 🪟 Cửa vòm (hoãn từ GĐ1) | 30 tr | Kính CL + khung gỗ mít + công lắp |
+| | **TỔNG GIAI ĐOẠN 2** | **~85-95 tr** | Từ doanh thu |
+| | **TỔNG CẢ 2 GIAI ĐOẠN** | **~527-537 tr** | |
 
 ---
 
-### PHÂN TÍCH CHI PHÍ MÁI CONG (C+ = 90 triệu)
+### PHÂN TÍCH CHI PHÍ MÁI CONG (C+ = 110 triệu — ĐÃ AUDIT)
 
-| Hạng mục | Phương án | Tổng (VNĐ) |
-| :--- | :--- | :---: |
-| Kèo gỗ mít (sẵn có 1.5m³) | Xẻ + gia công: 3-4tr/m³ | 4,5 – 6 triệu |
-| Uốn kèo cong 2 đầu hồi | Thợ mộc cứng 1.5-1.8tr/ngày × 5-7 ngày | 9 – 12,6 triệu |
-| Ngói đất nung cũ (tháo dỡ) | 8-13k/viên × 2.875 viên (gồm 15% dư) | 23 – 37,4 triệu |
-| Xà gồ sắt hộp (mới) | 18-22k/kg × 800 kg | 14,4 – 17,6 triệu |
-| Tôn lót chống dột + cách nhiệt | 85-95k/m² × 120m² | 10,2 – 11,4 triệu |
-| Phụ kiện + vận chuyển | Ty ren, bu lông, 2 chuyến xe | 6 – 10 triệu |
-| Nhân công lợp mái (thuê thợ) | 2 thợ chính + 2 phụ × 10-12 ngày | 11,4 – 13,7 triệu |
-| **Tổng mái cong** | | **~90 triệu** |
+| Hạng mục | Phương án | Tổng (VNĐ) | Audit note |
+| :--- | :--- | :---: | :--- |
+| Kèo gỗ mít (sẵn có 1.5m³) | Xẻ + gia công: 3-4tr/m³ | 4,5 – 6 tr | Cần biên bản độ khô, mối mọt |
+| Uốn kèo cong 2 đầu hồi | Thợ mộc cứng × 5-7 ngày | 9 – 12,6 tr | Cần quote + xem CT đã làm |
+| Ngói đất nung cũ (tháo dỡ) | 8-13k/viên × **3.036 viên** (ĐM BXD: 22v/m² × 120m² + 15%) | 24,3 – 39,5 tr | Audit sửa từ 2.875→3.036 viên |
+| Xà gồ sắt hộp (mới) | 18-22k/kg × 800 kg | 14,4 – 17,6 tr | Cần bản vẽ KT xác nhận khối lượng |
+| Tôn lót chống mưa (tôn lạnh, KHÔNG phải cách nhiệt PU) | 90-140k/m² × 120m² | 10,8 – 16,8 tr | Audit sửa mô tả |
+| **Phụ kiện mái (ĐÃ BỔ SUNG)** | Li-tô gỗ/sắt, máng xối, ốp nóc, bờ chạy, chống dột, dây thép buộc | **16 – 26 tr** | Audit: thiếu hạng mục |
+| **Giàn giáo thuê + PPE** | Thuê 10-15 ngày | **5 – 8 tr** | Audit: thiếu hạng mục |
+| Vận chuyển ngói | 2 chuyến xe từ kho Đồng Nai | 3 – 5 tr | Tạm chấp nhận |
+| Nhân công lợp mái | 2 thợ chính + 2 phụ × 10-12 ngày × hệ số phức tạp 1.2 | 13,7 – 16,4 tr | Audit: thêm hệ số mái cong |
+| **Tổng mái cong** | | **~101 – 149 tr** | **Mức chọn: 110 triệu** |
 
-> **So sánh**: Qua nhà thầu = 180-250 triệu → **Tiết kiệm 90-160 triệu (50-65%)**
+> **So sánh nhà thầu**: Cần lấy 3 báo giá cùng scope mới kết luận được. Ước lượng: 180-250tr cho mái cong tương đương.
 
-**Nguồn ngói cũ uy tín**: trungsongroup.vn · thegioingoilop.com · thegioigachngoi.com · gachngoigiasi.com · muaxacnhasaigon.com
+### PHÂN TÍCH SOLAR (G = 55-65 triệu — ĐÃ AUDIT)
 
-### PHÂN TÍCH SOLAR (G = 48 triệu)
-
-| Chỉ số | Giá trị |
-| :--- | :---: |
-| Công suất | 5 kWp (10 tấm JA Solar 500W) |
-| Sản lượng/tháng | ~630 kWh |
-| Tiền điện tiết kiệm/tháng | ~2,3 triệu (giá điện KD ~3.800đ/kWh) |
-| **Thời gian hoàn vốn** | **~1 năm 9 tháng** |
-| Tiết kiệm 10 năm | ~274 triệu (vs đầu tư 48 triệu) |
-| Tuổi thọ hệ thống | 25 năm |
-
-> **Kết luận**: Solar **ROI rất cao** cho kinh doanh (giá điện KD gấp 2-3× sinh hoạt). Nên lắp sau khai trương (tháng 4) bằng doanh thu.
-
-### TẬN DỤNG GỖ MÍT 5M³
-
-| Mục đích | m³ dùng | Tiết kiệm (VNĐ) |
+| Chỉ số | Kế hoạch cũ | **Audit (evidence)** |
 | :--- | :---: | :---: |
-| Kèo + xà gồ mái cong | 1,5 m³ | ~30–40 triệu |
-| Bàn bar live-edge + 2 bàn dài | 0,5 m³ | ~15–20 triệu |
-| Khung cửa vòm + kệ + bảng hiệu | 0,3 m³ | ~5–8 triệu |
-| **Dự trữ / thanh lý thu hồi** | **2,7 m³** | **~40–55 triệu** |
-| **Tổng giá trị gỗ mít tạo ra** | **5,0 m³** | **~90–123 triệu** |
+| Sản lượng/năm | 7.200-7.900 kWh | **7.095 kWh** (PVGIS API, tọa độ Biên Hòa 10.95, 106.82) |
+| Sản lượng/tháng | ~630 kWh | **591 kWh** |
+| Giá điện KD (giờ BT, có VAT) | 3.800đ/kWh | **3.467đ/kWh** (QĐ 1279/BCT, dưới 6kV) |
+| Tiết kiệm/năm (100% tự tiêu) | ~27 tr | **24,6 tr** |
+| Tiết kiệm/năm (thực tế 75-85% tự tiêu) | — | **18,5 – 20,9 tr** |
+| Chi phí đầu tư | 48 tr | **55-65 tr** (inverter Growatt 12-13tr, không phải 8-12tr) |
+| **Thời gian hoàn vốn** | **1 năm 9 tháng** | **2,6 – 3,5 năm** (realistic) |
+| Tiết kiệm 10 năm | 274 tr | **185 – 209 tr** |
+
+> **Kết luận solar**: Vẫn ROI **tốt** cho kinh doanh, nhưng hoàn vốn 2,6-3,5 năm (không phải 1,75 năm). **Điều kiện gate**: lắp sau khi có 1-2 hóa đơn điện thực + biểu đồ tải ban ngày.
+
+### TẬN DỤNG GỖ MÍT 5M³ (ĐÃ AUDIT)
+
+| Mục đích | m³ dùng | Chi phí tránh được (VNĐ) | Loại |
+| :--- | :---: | :---: | :--- |
+| Kèo + xà gồ mái cong | 1,5 m³ | ~30–40 triệu | ✅ Cost avoidance (thực) |
+| Bàn bar live-edge + 2 bàn dài | 0,5 m³ | ~15–20 triệu | ✅ Cost avoidance (thực) |
+| Khung cửa vòm + kệ + bảng hiệu | 0,3 m³ | ~5–8 triệu | ✅ Cost avoidance (thực) |
+| Dự trữ / thanh lý thu hồi | 2,7 m³ | ~40–55 triệu | ⚠️ Assumption (chưa có người mua) |
+
+> ⚠️ Gỗ mít sẵn có giúp **tránh chi phí mua gỗ** (cost avoidance thực), nhưng phần "thanh lý thu hồi" **không được tính vào ngân sách** cho đến khi có đơn đặt hàng/báo giá thu mua.
 
 ---
 
-### SO SÁNH PHƯƠNG ÁN MỚI vs CŨ
+### SO SÁNH PHƯƠNG ÁN (ĐÃ AUDIT)
 
-| Tiêu chí | v1 (366tr, mái phẳng) | **v2 (399tr, mái cong + cửa vòm)** | Qua nhà thầu (mái cong) |
-| :--- | :---: | :---: | :---: |
-| **Tổng vốn** | 366 triệu | **399 triệu** | ~650+ triệu |
-| Hệ mái | Mái tôn phẳng | **Mái cong ngói đất nung** | Mái cong ngói |
-| Cửa sổ | Cửa thông thường | **Cửa vòm khung gỗ mít** | Cửa vòm |
-| Solar | Không | **48tr (giai đoạn 2)** | Tùy |
-| Thẩm mỹ | Trung bình | **Cao cấp** | Cao cấp |
-| Tiết kiệm vs nhà thầu | — | **~250+ triệu (40%)** | — |
+| Tiêu chí | v2 cũ (sai tổng) | **v3 audit (full scope)** | **v3 cắt scope** | Qua nhà thầu |
+| :--- | :---: | :---: | :---: | :---: |
+| **Tổng vốn GĐ1** | ~~399 tr~~ (thực 415,5) | 501 tr | **~442 tr** | ~650+ tr |
+| **Tổng cả 2 GĐ** | ~~447 tr~~ | 596 tr | **~527 tr** | — |
+| Máy pha | Appia II 30tr | Appia II 45tr | **CRM 3120 15tr** | — |
+| Cửa vòm | GĐ1 | GĐ1 | **Hoãn GĐ2** | — |
+| Dự phòng | 3% (mỏng) | 8% | **5%** | — |
 
 ---
 
