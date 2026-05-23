@@ -120,7 +120,7 @@
 **Nghĩa vụ tối thiểu bắt buộc cho quán (không được miễn):**
 1. Thu thập dữ liệu khách hàng và trẻ em chỉ trong phạm vi tối thiểu cần thiết.
 2. Thông báo mục đích sử dụng dữ liệu (dán nội quy tại quán hoặc ghi trên Phiếu mua vé).
-3. Lấy đồng ý phụ huynh bằng Phiếu mua vé tích hợp (đã có mẫu tại [child_consent_template.md](file:///Users/mac/.gemini/antigravity/scratch/legal_review_cafe_meeting/child_consent_template.md)).
+3. Lấy đồng ý phụ huynh bằng Phiếu mua vé tích hợp (đã có mẫu tại [child_consent_template.md](child_consent_template.md)).
 4. Bảo mật dữ liệu bằng mật khẩu máy tính, khóa tủ hồ sơ.
 5. Xóa dữ liệu khi trẻ không còn tham gia CLB hoặc phụ huynh yêu cầu.
 
@@ -164,7 +164,7 @@
 | :---: | :--- | :---: | :---: |
 | 4.1 | Tuyển 1 quản lý ca + 4–5 nhân viên phục vụ/pha chế (part-time + full-time) | Tuần 9 | Chi phí tuyển dụng ~1 – 3 triệu |
 | 4.2 | Đào tạo nội bộ: pha chế, phục vụ, quy tắc bảo vệ an toàn trẻ em, xử lý sự cố | 3–5 ngày | 0đ (tự đào tạo) |
-| 4.3 | Phổ biến Cẩm nang ứng xử cho Khách mời nước ngoài (mẫu có sẵn tại [foreign_staff_guidelines.md](file:///Users/mac/.gemini/antigravity/scratch/legal_review_cafe_meeting/foreign_staff_guidelines.md)) | 1 ngày | 0đ |
+| 4.3 | Phổ biến Cẩm nang ứng xử cho Khách mời nước ngoài (mẫu có sẵn tại [foreign_staff_guidelines.md](foreign_staff_guidelines.md)) | 1 ngày | 0đ |
 
 ### Giai đoạn 5: Khai trương & Vận hành (Tuần 11+)
 
@@ -244,4 +244,4 @@
 > **Về việc NĐ 141/2026/NĐ-CP**: Nghị định này quy định ngưỡng miễn thuế mới ≤ 1 tỷ/năm cho hộ kinh doanh từ 01/01/2026. Đây là thông tin được trích dẫn từ các nguồn báo chí chính thống (Báo Chính phủ, VietnamNet, EasyInvoice, FastCA) nhưng **chưa có trong SOT legal files** của hệ thống (SOT chỉ bao gồm Luật 91/2025/QH15 và NĐ 356/2025/NĐ-CP). Do đó, trước khi ra quyết định tài chính, bạn nên xác minh lại ngưỡng miễn thuế này với **Chi cục Thuế TP. Biên Hòa** hoặc đại lý thuế địa phương.
 
 > [!IMPORTANT]
-> **Về thuật ngữ pháp lý**: Toàn bộ tài liệu sử dụng đúng hệ thuật ngữ chuẩn hóa của pháp luật Việt Nam: "mã hóa", "khử nhận dạng", "ẩn danh". Tuyệt đối không sử dụng "giả danh hóa" (pseudonymization) hay bất kỳ thuật ngữ GDPR nào không có trong luật VN (theo RCA-004 và xác minh tại [LEGAL_ARTICLE_TRUTH.json](file:///Users/mac/Desktop/Downloads/_SOT/legal/LEGAL_ARTICLE_TRUTH.json)).
+> **Về thuật ngữ pháp lý**: Toàn bộ tài liệu sử dụng đúng hệ thuật ngữ chuẩn hóa của pháp luật Việt Nam: "mã hóa", "khử nhận dạng", "ẩn danh". Tuyệt đối không sử dụng "giả danh hóa" (pseudonymization) hay bất kỳ thuật ngữ GDPR nào không có trong luật VN (theo RCA-004 và xác minh tại `LEGAL_ARTICLE_TRUTH.json`).

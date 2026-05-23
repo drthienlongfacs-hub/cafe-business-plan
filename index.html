@@ -143,35 +143,45 @@
 <!-- PHỐI CẢNH THIẾT KẾ & VẬT LIỆU -->
 <section class="section reveal" id="design">
   <style>
+    #design.reveal {
+      opacity: 1;
+      transform: none;
+    }
     .design-gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
       gap: 1.5rem;
       margin-top: 2rem;
     }
     .gallery-card {
       background: var(--bg-card);
-      border: 1px solid var(--border);
+      border: 1px solid var(--border-glass);
       border-radius: 16px;
       overflow: hidden;
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
+    .gallery-card.featured {
+      grid-column: span 2;
+    }
     .gallery-card:hover {
       transform: translateY(-5px);
-      border-color: var(--accent-1);
-      box-shadow: var(--shadow-glow);
+      border-color: rgba(59,130,246,0.25);
+      box-shadow: var(--shadow-glow-blue);
     }
     .gallery-img-wrap {
       width: 100%;
-      height: 200px;
+      height: 260px;
       overflow: hidden;
       position: relative;
-      background: #1e1e2e;
+      background: #f5f1e8;
+    }
+    .gallery-card.featured .gallery-img-wrap {
+      height: 430px;
     }
     .gallery-img-wrap img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       transition: transform 0.5s;
     }
     .gallery-card:hover .gallery-img-wrap img {
@@ -185,7 +195,7 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      color: var(--accent-green);
+      color: var(--accent-emerald);
       margin-bottom: 0.5rem;
     }
     .gallery-info h3 {
@@ -198,210 +208,105 @@
       color: var(--text-secondary);
       line-height: 1.4;
     }
+    .design-audit {
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .design-audit .audit-item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border-glass);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    .design-audit .audit-item strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+    }
+    .design-audit .audit-item span {
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      line-height: 1.45;
+    }
+    @media (max-width: 760px) {
+      .gallery-card.featured {
+        grid-column: auto;
+      }
+      .gallery-card.featured .gallery-img-wrap,
+      .gallery-img-wrap {
+        height: 240px;
+      }
+    }
   </style>
 
   <div class="section-header">
     <div class="overline">Design &amp; Materials</div>
     <div class="divider"></div>
-    <h2>Phối Cảnh Không Gian &amp; Tối Ưu Vật Liệu</h2>
-    <p>Sự giao thoa giữa Modern Wabi-Sabi mộc mạc và Scandinavian tinh tế · Phù hợp thực tế khu đất ven suối</p>
+    <h2>Phối Cảnh Đồng Nhất Một Công Trình</h2>
+    <p>Bộ v7 dùng chung một visual SSOT: nhà 10×20m trong sân vườn 15×35m, layout 65/35, vách kính full-width và mái dốc hai mái đầu hồi tam giác ngói cong.</p>
   </div>
 
   <div class="design-gallery">
-    <!-- ★★★ v7 — Mái Cong Đầu Hồi (Curved Gable Roof) — MỚI NHẤT ★★★ -->
-    
-    <!-- v7 Image 1: Master Plan SOT -->
-    <div class="gallery-card" style="grid-column: 1 / -1;">
-      <div class="gallery-img-wrap" style="height:320px;">
-        <img src="images/v7_isometric_masterplan_curved_roof.png" alt="3D Isometric Master Plan — Mái cong đầu hồi, cắt mái lộ nội thất">
+    <div class="gallery-card featured">
+      <div class="gallery-img-wrap">
+        <img src="images/v7_master_plan_coherent.png" alt="Phối cảnh sân vườn toàn bộ dự án 3D isometric master plan v7 đồng nhất">
       </div>
       <div class="gallery-info">
-        <div class="gallery-tag" style="color:var(--accent-rose);">★ Bản Vẽ Chuẩn SOT — v7 Mái Cong Đầu Hồi</div>
-        <h3>3D Isometric Master Plan — Mái Cong Đầu Hồi (Kato Design)</h3>
-        <p>Ảnh chuẩn gốc (SOT) của toàn bộ dự án: Mái dốc 2 mái đầu hồi tam giác, ngói đất nung sẫm, bờ nóc + đuôi mái uốn cong lên kiểu Á Đông. Hệ kèo gỗ tự nhiên lộ trần, giàn tam giác thông suốt. Quầy F&B góc trái-trước, vách kính đen ngăn café / kid zone, nhà chơi gỗ Montessori góc phải-sau. Sân trước: cỏ + sandbox + biển LITTLE WORLD.</p>
+        <div class="gallery-tag">Visual SSOT</div>
+        <h3>Phối Cảnh Sân Vườn Toàn Bộ Dự Án (3D Isometric Master Plan)</h3>
+        <p>Đây là ảnh chuẩn để đối chiếu: cùng khu đất, cùng footprint 10×20m, cùng sân vườn bao quanh, cùng vị trí vách kính 65/35 và cùng hệ mái dốc hai mái đầu hồi tam giác với ngói cong màu đất nung.</p>
       </div>
     </div>
 
-    <!-- v7 Image 2: Ngoại thất ban ngày -->
     <div class="gallery-card">
       <div class="gallery-img-wrap">
-        <img src="images/v7_exterior_day_curved_roof.png" alt="Phối cảnh ngoại thất ban ngày — mái cong đầu hồi, tường bê tông xám">
+        <img src="images/v7_exterior_curved_tile_roof.png" alt="Ngoại thất v7 cùng công trình với mái dốc hai mái đầu hồi tam giác ngói cong">
       </div>
       <div class="gallery-info">
-        <div class="gallery-tag" style="color:var(--accent-rose);">v7 Ngoại Thất — Mái Cong</div>
-        <h3>Mặt Tiền Ban Ngày — Mái Cong Đầu Hồi</h3>
-        <p>Mái cong đầu hồi ngói sẫm, tường bê tông xám microcement Wabi-Sabi, cửa kính xếp trượt khung đen cao 3.5m mở rộng. Kèo gỗ lộ bên trong qua cửa kính, trúc dọc hai cạnh, kênh nước + lan can trắng phía trước. 2 mặt tiền (trước + trái).</p>
+        <div class="gallery-tag">Render Ngoại Thất V7</div>
+        <h3>Ngoại Thất Khớp Master Plan</h3>
+        <p>Ngoại thất dùng cùng hình khối nhà 10×20m, cùng đầu hồi tam giác trước/sau, mái hai dốc lợp ngói cong và cùng các cửa kính mở ra sân vườn.</p>
       </div>
     </div>
 
-    <!-- v7 Image 3: Nội thất -->
     <div class="gallery-card">
       <div class="gallery-img-wrap">
-        <img src="images/v7_interior_cafe_curved_roof.png" alt="Nội thất — trần 5m, kèo gỗ mái cong, quầy bar, khu vui chơi">
+        <img src="images/v7_interior_roof_cutaway.png" alt="Phối cảnh nội thất cắt mái v7 khớp layout và ngoại thất">
       </div>
       <div class="gallery-info">
-        <div class="gallery-tag" style="color:var(--accent-rose);">v7 Nội Thất — Mái Cong</div>
-        <h3>Nội Thất Café — Kèo Gỗ Mái Cong 5m</h3>
-        <p>Trần cao 5m với kèo gỗ tam giác hùng vĩ, mái ngói dốc cong nhìn rõ từ bên trong. Quầy bar gỗ mít live-edge + tủ kính tròn, ghế gỗ Scandinavia + sofa vải, vách kính đen phân chia, nhà chơi Montessori phía sau, đèn mây tre pendant treo kèo.</p>
+        <div class="gallery-tag">Nội Thất Cắt Mái V7</div>
+        <h3>Cắt Mái Nhưng Giữ Cùng Công Trình</h3>
+        <p>Mái được nâng/cắt để nhìn rõ nội thất nhưng vẫn giữ nguyên mái ngói cong, khung nhà, vách kính full-width và phân khu F&B / Smart Zone như master plan.</p>
       </div>
     </div>
 
-    <!-- v7 Image 4: Sân vườn Bird's Eye -->
     <div class="gallery-card">
       <div class="gallery-img-wrap">
-        <img src="images/v7_garden_birdseye_curved_roof.png" alt="Toàn cảnh khu đất 15x35m từ trên cao — mái cong nổi bật">
+        <img src="images/v7_layout_10x20_roof_ssot.png" alt="Layout 10x20m v7 làm nguồn đối chiếu cho master plan ngoại thất và nội thất cắt mái">
       </div>
       <div class="gallery-info">
-        <div class="gallery-tag" style="color:var(--accent-rose);">v7 Sân Vườn — Bird's Eye</div>
-        <h3>Toàn Cảnh 15×35m Từ Trên Cao</h3>
-        <p>Nhìn từ trên xuống: Nhà chính 10×20m với mái cong đầu hồi nổi bật ở trung tâm, sân trước 7.5m (cỏ xanh, sandbox, biển LITTLE WORLD), hành lang trúc 2 bên, vườn rau + solar phía sau, 2 mặt tiền + kênh nước phía trước.</p>
+        <div class="gallery-tag">Layout Đối Chiếu V7</div>
+        <h3>Mặt Bằng 10×20m &amp; Quy Ước Mái</h3>
+        <p>Layout chốt tỷ lệ 65/35, quầy bar, vùng phụ huynh, Smart Zone, vách kính cách âm toàn bề ngang và hình thái mái dùng để audit mọi phối cảnh còn lại.</p>
       </div>
     </div>
+  </div>
 
-    <!-- ═══ Các phiên bản trước (v5/v6) ═══ -->
-    
-    <!-- Image 1 -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v6_exterior_day.png" alt="Phối cảnh ngoại thất ban ngày Little World — Mái cong đầu hồi">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render Ngoại Thất</div>
-        <h3>Mặt Tiền Ban Ngày — Mái Cong Đầu Hồi</h3>
-        <p>Lô góc 2 mặt tiền 15×35m. Mái cong đầu hồi ngói đất nung sẫm uốn cong kiểu Á Đông. Tường bê tông xám Wabi-Sabi, cửa kính xếp trượt khung đen mở thông sảnh.</p>
-      </div>
+  <div class="design-audit">
+    <div class="audit-item">
+      <strong>Audit correction</strong>
+      <span>Loại khỏi gallery các render v3/v5/v6 đang trộn nhiều hình khối công trình khác nhau; bộ ảnh hiển thị hiện chỉ dùng asset v7 cùng một footprint.</span>
     </div>
-    
-    <!-- Image 1b -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v5_exterior_night_1779522140464.png" alt="Không khí buổi tối English Hour">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render Ngoại Thất</div>
-        <h3>Mặt Tiền Ban Đêm Lô Góc</h3>
-        <p>Không gian mở toang hai mặt tiền đón gió suối đối lưu tự nhiên mát rượi. Hệ trần kèo gỗ cao rực sáng 3000K ấm cúng ban đêm.</p>
-      </div>
+    <div class="audit-item">
+      <strong>Roof invariant</strong>
+      <span>Thống nhất mái dốc hai mái, đầu hồi tam giác trước/sau, bề mặt ngói cong màu đất nung theo hướng tham chiếu nhà mái cong.</span>
     </div>
-    
-    <!-- Image 1c (New Master Plan 15x35m) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v6_isometric_masterplan.png" alt="3D Isometric Master Plan — Mái cong đầu hồi, cắt mái lộ nội thất">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Mặt Bằng Tổng Thể 3D</div>
-        <h3>3D Master Plan — Mái Cong 15×35m</h3>
-        <p>Quy hoạch nhà chính 10×20m cắt mái lộ nội thất, hệ kèo gỗ tự nhiên dưới mái cong đầu hồi. Sân vườn 4 bề, sandbox, biển LITTLE WORLD, trúc dọc 2 bên.</p>
-      </div>
-    </div>
-
-    <!-- Image 1d (New Isometric Layout 10x20m) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v6_interior_cafe.png" alt="Nội thất cafe — Trần 5m, kèo gỗ mái cong, quầy F&B, khu Montessori">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render Nội Thất</div>
-        <h3>Nội Thất — Trần Kèo Gỗ 5m</h3>
-        <p>Nhìn từ bên trong: trần mái cong 5m với hệ kèo gỗ lộ. F&B bar góc trái, sảnh café giữa, vách kính đen ngăn khu Montessori. Đèn mây tre treo kèo, cửa sổ vòm nhìn vườn trúc.</p>
-      </div>
-    </div>
-
-    <!-- Image 1e (New Outdoor Garden Landscape) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v6_garden_birdseye.png" alt="Sân vườn toàn cảnh bird's eye — khu đất 15×35m, mái cong nổi bật">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Cảnh Quan Sân Vườn</div>
-        <h3>Toàn Cảnh Sân Vườn Bird’s Eye</h3>
-        <p>Nhìn từ drone: khu đất 15×35m với mái cong nổi bật, sân trước 7.5m có sandbox + biển gỗ, hành lang trúc 2 bên, vườn rau + solar phía sau. 2 mặt tiền + kênh nước.</p>
-      </div>
-    </div>
-    
-    <!-- Image 2 -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v6_interior_cafe.png" alt="Không gian cafe phụ huynh — trần kèo gỗ mái cong 5m">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render Nội Thất</div>
-        <h3>Khu Vực Cafe Phụ Huynh</h3>
-        <p>Không gian rộng thoáng với trần hở cao 5m, sàn tráng men xi măng mộc mạc và hệ vách kính 10 ly nhìn xuyên suốt sang khu vui chơi của trẻ.</p>
-      </div>
-    </div>
-
-    <!-- Image 3 -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_play_zone_active_1779517635999.png" alt="Khu vui chơi Active Montessori">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render Khu Chơi</div>
-        <h3>Khu Vận Động Active Montessori</h3>
-        <p>Thiết kế nhà chơi/cầu trượt mini hoàn toàn từ gỗ thông tự nhiên theo chuẩn Montessori. Sàn tráng men xi măng kết hợp thảm xốp EVA dày 2cm.</p>
-      </div>
-    </div>
-
-    <!-- Image 4 -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_language_exchange_1779517676536.png" alt="Phòng giao lưu tiếng Anh">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Render CLB Giao Lưu</div>
-        <h3>Phòng CLB Tiếng Anh Trẻ Em</h3>
-        <p>Bàn dài nhóm trung tâm làm từ gỗ mít cổ thụ nguyên khối. Tường sơn hiệu ứng bê tông mộc trang trí bản đồ thế giới sinh động.</p>
-      </div>
-    </div>
-
-    <!-- Render 5 (Dặc tả 1) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_bar_counter_1779517716406.png" alt="Dặc tả Quầy Bar Gỗ Mít">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Đặc Tả Chi Tiết</div>
-        <h3>Quầy Bar Gỗ Mít Live-Edge</h3>
-        <p>Mặt bàn quầy bar xẻ nguyên khối giữ lại đường cong uốn lượn tự nhiên của thân cây mít cổ thụ, chà mịn phủ resin bóng mờ cao cấp.</p>
-      </div>
-    </div>
-
-    <!-- Render 6 (Dặc tả 2) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_communal_table_1779517760941.png" alt="Dặc tả Bàn Dài Nhóm Gỗ Mít">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Đặc Tả Chi Tiết</div>
-        <h3>Bàn Dài Nhóm (2.4m × 0.8m)</h3>
-        <p>Đóng từ 2 tấm gỗ mít nguyên tấm ghép đôi dày 5cm, kết hợp cùng hệ khung chân sắt hộp sơn tĩnh điện đen phẳng tối giản và vững chãi.</p>
-      </div>
-    </div>
-
-    <!-- Render 7 (Dặc tả 3) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_floating_shelves_1779517807889.png" alt="Dặc tả Kệ Gỗ Mít Treo Tường">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Đặc Tả Chi Tiết</div>
-        <h3>Kệ Gỗ Mít Treo Tường Sau Bar</h3>
-        <p>Hệ kệ mở bằng các tấm gỗ mít dày 4cm bắt vít âm tường, đặt ly tách và cây xanh rủ mộc mạc, có tích hợp đèn LED hắt ấm cúng.</p>
-      </div>
-    </div>
-
-    <!-- Render 8 (Dặc tả 4) -->
-    <div class="gallery-card">
-      <div class="gallery-img-wrap">
-        <img src="images/v3_outdoor_signboard_1779517857929.png" alt="Dặc tả Bảng Hiệu Gỗ Mít">
-      </div>
-      <div class="gallery-info">
-        <div class="gallery-tag">Đặc Tả Chi Tiết</div>
-        <h3>Bảng Hiệu Ngoài Trời "LITTLE WORLD"</h3>
-        <p>Tấm gỗ mít cổ thụ nguyên khối xẻ lớn khắc chìm CNC tinh xảo, quét dầu bảo vệ chống thấm nước ngoài trời đặt ngay lối vào ven suối.</p>
-      </div>
+    <div class="audit-item">
+      <strong>Layout invariant</strong>
+      <span>Giữ một vách kính cách âm full-width tại ranh 65/35: F&amp;B 120-130m² phía trước, Smart Zone/CLB 70-80m² phía sau.</span>
     </div>
   </div>
 
@@ -1030,7 +935,7 @@ const DOCUMENTS_DATA = {
   },
   "ke_hoach_trien_khai_chi_tiet": {
     "title": "KẾ HOẠCH TRIỂN KHAI CHI TIẾT TỪNG BƯỚC",
-    "html": "<h1>KẾ HOẠCH TRIỂN KHAI CHI TIẾT TỪNG BƯỚC</h1>\n<h2>Quán Cà Phê 200m² (10×20) Kết Hợp Giao Lưu Người Nước Ngoài — Trẻ Em</h2>\n<h2>Tại Biên Hòa, Đồng Nai | Đất có sẵn — Chỉ sửa sang và decor cao cấp</h2>\n<p>---</p>\n<p><strong>Cập nhật</strong>: 23/05/2026<br>\n<strong>Cơ sở pháp lý</strong>: Đã rà soát, đối chiếu với các quy định cập nhật nhất 2026 của Việt Nam (chi tiết tại Phần VII).<br>\n<strong>Nguyên tắc xuyên suốt</strong>: Định vị Cao cấp — Trải nghiệm độc đáo — Đúng luật — Tối ưu thuế hợp pháp.</p>\n<p>---</p>\n<h2>PHẦN I: TỔNG QUAN MÔ HÌNH & CẤU TRÚC PHÁP NHÂN</h2>\n<h3>1.1. Mô hình kinh doanh</h3>\n<ul class=\"doc-list\">\n<li><strong>Lớp 1 (Cốt lõi)</strong>: Quán cà phê cao cấp phục vụ đồ uống đặc trưng, thức ăn nhẹ dinh dưỡng — thu phí bằng bán vé dịch vụ trọn gói (Premium Ticket).</li>\n<li><strong>Lớp 2 (Giá trị gia tăng)</strong>: Khu trải nghiệm đồ chơi thông minh, lego lắp ráp, coding robot nhập khẩu chất lượng cao (định vị cao cấp nhờ decor gỗ ấm áp, ánh sáng tinh tế và quản lý sắp xếp khoa học).</li>\n<li><strong>Lớp 3 (Giao lưu tự phát)</strong>: Câu lạc bộ ngôn ngữ & giao lưu văn hóa tự phát hàng ngày giữa khách mời nước ngoài bản xứ và trẻ em Việt Nam, mang đến môi trường giao tiếp 100% tiếng Anh tự nhiên.</li>\n</ul>\n<h3>1.2. Hình thức đăng ký: Hộ kinh doanh cá thể</h3>\n<ul class=\"doc-list\">\n<li><strong>Căn cứ</strong>: Nghị định 01/2021/NĐ-CP.</li>\n<li><strong>Ngành nghề đăng ký</strong>: 5610 (Dịch vụ ăn uống) + 9329 (Hoạt động vui chơi giải trí khác).</li>\n<li><strong>Nơi đăng ký</strong>: Phòng Tài chính - Kế hoạch thuộc UBND TP. Biên Hòa, tỉnh Đồng Nai.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN II: PHÂN TÍCH NGƯỠNG DOANH THU & CHIẾN LƯỢC HỘ VỆ TINH</h2>\n<h3>2.1. Ngưỡng doanh thu 2026 — Quy định mới (Nghị định 141/2026/NĐ-CP)</h3>\n<div class=\"callout danger\"><div class=\"callout-title\">IMPORTANT</div><p>**Từ 01/01/2026**, theo Nghị định 141/2026/NĐ-CP (thay thế cơ chế thuế khoán cũ theo Nghị quyết 198/2025/QH15), ngưỡng miễn thuế cho hộ kinh doanh đã được **nâng gấp 10 lần**:</p></div>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Nhóm doanh thu/năm</th>\n<th>Nghĩa vụ thuế GTGT & TNCN</th>\n<th>Nghĩa vụ hóa đơn & sổ sách</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>≤ 1 tỷ đồng</td>\n<td>✅ <strong>MIỄN</strong> thuế GTGT, <strong>MIỄN</strong> thuế TNCN</td>\n<td>Chỉ thông báo doanh thu (Mẫu 01/TKN-CNKD). Không kê khai thuế theo quý.</td>\n</tr>\n<tr>\n<td>> 1 tỷ — < 3 tỷ</td>\n<td>❌ Phải nộp GTGT + TNCN (tính trên phần doanh thu vượt 1 tỷ hoặc theo thu nhập thực tế, thuế suất TNCN 15%)</td>\n<td>Bắt buộc sử dụng hóa đơn điện tử có mã CQT.</td>\n</tr>\n<tr>\n<td>≥ 3 tỷ</td>\n<td>❌ Phương pháp khấu trừ GTGT; TNCN 17% trên lợi nhuận</td>\n<td>Hóa đơn điện tử + hạch toán đầy đủ chi phí + tài khoản ngân hàng riêng.</td>\n</tr>\n</tbody></table></div>\n<p><strong>Lệ phí môn bài</strong> (Nghị định 139/2016/NĐ-CP, sửa đổi bởi Nghị định 22/2020/NĐ-CP):</p>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Doanh thu bình quan/năm</th>\n<th>Mức lệ phí môn bài</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>≤ 100 triệu</td>\n<td><strong>MIỄN</strong></td>\n</tr>\n<tr>\n<td>> 100 — ≤ 300 triệu</td>\n<td>300.000 đ/năm</td>\n</tr>\n<tr>\n<td>> 300 — ≤ 500 triệu</td>\n<td>500.000 đ/năm</td>\n</tr>\n<tr>\n<td>> 500 triệu</td>\n<td>1.000.000 đ/năm</td>\n</tr>\n</tbody></table></div>\n<p><strong>Miễn lệ phí môn bài năm đầu tiên</strong>: Hộ kinh doanh <strong>mới thành lập</strong> được miễn lệ phí môn bài trong <strong>năm đầu hoạt động</strong> (từ ngày đăng ký đến hết 31/12 năm đó).</p>\n<h3>2.2. Ước tính doanh thu của quán 200m² tại Biên Hòa (Định vị Trung - Cao)</h3>\n<p>Do định vị phân khúc Trung - Cao cấp, giá bán bình quân mỗi khách hàng (Ticket + Add-on thực phẩm nhẹ) cao hơn đáng kể so với mô hình bình dân cũ:</p>\n<ul class=\"doc-list\">\n<li>**Giá vé trung bình của vé trọn gói Premium**: ~135.000 VNĐ (Blended average giữa gói Nhí 120K, Explorer 150K và Family 220K).</li>\n<li>**Chi tiêu add-on thức ăn nhẹ bình quân**: ~35.000 VNĐ/khách (Đạt mức cao nhờ repositioning sang các món ăn nhẹ cao cấp có gu thẩm mỹ và học tập đi kèm).</li>\n<li>**Doanh thu bình quân trên mỗi lượt khách (Blended Ticket + Food)**: **~170.000 VNĐ**.</li>\n</ul>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Kịch bản</th>\n<th>Số khách/ngày</th>\n<th>Doanh thu/tháng</th>\n<th>Doanh thu/năm</th>\n<th>Nghĩa vụ Thuế dự kiến</th>\n</tr></thead>\n<tbody>\n<tr>\n<td><strong>Thấp</strong> (3 tháng đầu)</td>\n<td>30–40</td>\n<td>153 – 204 triệu</td>\n<td>—</td>\n<td>Miễn thuế môn bài năm 1</td>\n</tr>\n<tr>\n<td><strong>Trung bình</strong> (sau 6 tháng)</td>\n<td>50–70</td>\n<td>255 – 357 triệu</td>\n<td><strong>3,06 – 4,28 tỷ</strong></td>\n<td>Vượt ngưỡng 1 tỷ → Kê khai & nộp thuế GTGT+TNCN (~3% DT)</td>\n</tr>\n<tr>\n<td><strong>Cao</strong> (sau 12 tháng + Event)</td>\n<td>80–100</td>\n<td>408 – 510 triệu</td>\n<td><strong>4,90 – 6,12 tỷ</strong></td>\n<td>Thuế GTGT + TNCN phương pháp khấu trừ / hạch toán chi phí</td>\n</tr>\n</tbody></table></div>\n<p>→ <strong>Nhận xét thực tế</strong>: Doanh thu tăng trưởng mạnh mẽ nhờ định vị phân khúc cao cấp. Quán sẽ <strong>nhanh chóng vượt ngưỡng 1 tỷ đồng/năm</strong> ngay từ tháng thứ 3 hoạt động. Do đó, việc chuẩn bị kỹ lưỡng hệ thống sổ sách kế toán, hóa đơn điện tử là bắt buộc.</p>\n<h3>2.3. Chiến lược \"Hộ kinh doanh vệ tinh\" — Phân tích pháp lý</h3>\n<div class=\"callout warn\"><div class=\"callout-title\">WARNING</div><p>Việc lập hộ vệ tinh để chia doanh thu dưới 1 tỷ **không bất hợp pháp tuyệt đối**, nhưng chỉ **hợp pháp khi mỗi hộ thực sự hoạt động độc lập**. Nếu chỉ chia trên giấy tờ → bị coi là **trốn thuế** theo Điều 50 Luật Quản lý thuế 2019.</p></div>\n<p><strong>Hợp pháp nếu:</strong></p>\n<ul class=\"doc-list\">\n<li>Mỗi hộ kinh doanh có **chủ hộ riêng** (người thân thực sự đứng tên và điều hành).</li>\n<li>Mỗi hộ có **khu vực kinh doanh riêng biệt rõ ràng** trong cùng mặt bằng (Ví dụ: Hộ 1 kinh doanh F&B tại quầy bar; Hộ 2 kinh doanh khu trải nghiệm đồ chơi + CLB văn hóa).</li>\n<li>Mỗi hộ có **tài khoản ngân hàng riêng**, **sổ sách riêng**, **nhà cung cấp riêng**.</li>\n</ul>\n<p><strong>Phương án khuyến nghị</strong>: Với doanh thu định vị cao cấp đạt từ 3 - 5 tỷ/năm, chủ quán nên chọn <strong>Phương án kê khai minh bạch 1 hộ duy nhất</strong> hoặc chuyển đổi lên mô hình <strong>Công ty TNHH 1 Thành viên</strong> từ năm thứ 2 để tối ưu hóa chi phí đầu vào, xuất hóa đơn VAT cho các gói Event sinh nhật/sự kiện trường học cao cấp, đảm bảo phát triển bền vững và giảm thiểu tối đa rủi ro thanh tra thuế.</p>\n<p>---</p>\n<h2>PHẦN III: GIẤY PHÉP TỐI THIỂU CẦN CÓ VÀ CÁC TRƯỜNG HỢP MIỄN</h2>\n<h3>3.1. Danh sách giấy phép (Checklist pháp lý)</h3>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>STT</th>\n<th>Giấy phép / Thủ tục</th>\n<th>Bắt buộc?</th>\n<th>Cơ sở miễn/giảm</th>\n<th>Chi phí ước tính</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Đăng ký hộ kinh doanh</td>\n<td>✅ Bắt buộc</td>\n<td>Không được miễn (diện tích cố định 200m²)</td>\n<td>100.000 – 300.000đ</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Giấy chứng nhận ATTP</td>\n<td>✅ Bắt buộc</td>\n<td>Quán F&B cao cấp có chế biến bánh ngọt/sandwich không thuộc diện nhỏ lẻ đường phố.</td>\n<td>3 – 5 triệu</td>\n</tr>\n<tr>\n<td>3</td>\n<td>PCCC (Phòng cháy chữa cháy)</td>\n<td>✅ Bắt buộc</td>\n<td>Quán > 100m² đông người có bếp nấu ga/điện bắt buộc nghiệm thu.</td>\n<td>20 – 35 triệu</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Cam kết bảo vệ ANTT</td>\n<td>✅ Bắt buộc</td>\n<td>Nơi tập trung đông người, có khách nước ngoài lưu trú/giao lưu hằng ngày.</td>\n<td>1 – 3 triệu</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Lệ phí môn bài</td>\n<td>⚠️ <strong>Miễn năm đầu</strong></td>\n<td>NĐ 22/2020/NĐ-CP: miễn lệ phí môn bài năm đầu tiên hoạt động.</td>\n<td>0đ (năm 1) → 1.000.000đ/năm sau</td>\n</tr>\n</tbody></table></div>\n<h3>3.2. Miễn trừ nghĩa vụ Bảo vệ Dữ liệu Cá nhân cho Hộ kinh doanh</h3>\n<div class=\"callout success\"><div class=\"callout-title\">TIP</div><p>**Tin vui cho hộ kinh doanh nhỏ**: Luật BVDLCN số 91/2025/QH15 có điều khoản miễn trừ rõ ràng tại **Điều 38 Khoản 3**.</p></div>\n<p><strong>Điều 38 Khoản 3 Luật số 91/2025/QH15</strong> quy định hộ kinh doanh không phải lập báo cáo đánh giá tác động DLCN (DPIA), đánh giá chuyển dữ liệu xuyên biên giới (CTIA) hay chỉ định DPO riêng biệt, ngoại trừ các đơn vị xử lý dữ liệu nhạy cảm quy mô lớn hoặc phục vụ trên 100.000 người.</p>\n<p><strong>Nghĩa vụ tối thiểu bắt buộc cho quán (không được miễn):</strong></p>\n<p>1. Thu thập dữ liệu khách hàng và trẻ em chỉ trong phạm vi tối thiểu cần thiết (tên PH, SĐT).</p>\n<p>2. Lấy đồng ý phụ huynh bằng Phiếu mua vé tích hợp (đã có mẫu tại <a href=\"file:///Users/mac/Projects/kid-cafe-blueprint/temp_docs/legal_review_cafe_meeting/child_consent_template.md\" target=\"_blank\">child_consent_template.md</a>).</p>\n<p>3. Đối với trẻ từ đủ 7 tuổi trở lên, quy định bắt buộc phải có chữ ký đồng ý của trẻ bên cạnh phụ huynh (Đồng ý kép theo Điều 24 Khoản 3 Luật số 91).</p>\n<p>4. Lưu giữ bảo mật hồ sơ giấy trong tủ có khóa và dữ liệu số trên máy tính được mã hóa mật khẩu bảo vệ.</p>\n<p>---</p>\n<h2>PHẦN IV: KẾ HOẠCH TRIỂN KHAI TỪNG BƯỚC (TIMELINE)</h2>\n<h3>Giai đoạn 1: Chuẩn bị pháp lý & Thiết kế (Tuần 1–3)</h3>\n<ul class=\"doc-list\">\n<li>**1.2. Thiết kế Decor cao cấp (Gu thẩm mỹ sang trọng)**: Sử dụng các gam màu ấm áp (Warm grey, Oak wood, Olive green), kết hợp ánh sáng nghệ thuật vàng nhẹ 3000K, sắp đặt các mô hình đồ chơi thông minh gọn gàng trên các kệ gỗ mộc mạc. Phân chia rõ vách ngăn kính cường lực giữa khu café yên tĩnh của bố mẹ và khu hoạt động của bé.</li>\n<li>**1.3. Lập hồ sơ thiết kế PCCC**: PC07 Công an tỉnh Đồng Nai thẩm duyệt.</li>\n<li>**1.4. Đăng ký khám sức khỏe & tập huấn ATTP**: Trung tâm y tế TP. Biên Hòa.</li>\n</ul>\n<h3>Giai đoạn 2: Sửa sang & Decor mặt bằng (Tuần 3–8)</h3>\n<ul class=\"doc-list\">\n<li>**2.1. Cải tạo xây dựng mặt bằng 200m²**: Lát nền gỗ/thảm kháng khuẩn cao cấp cho khu vui chơi, sơn lại màu ấm áp, hoàn thiện 2 WC sạch sẽ hiện đại.</li>\n<li>**2.2. Lắp đặt ánh sáng & quầy bar**: Sử dụng đèn rọi ray (track light) để tạo điểm nhấn cao cấp. Lắp quầy bar inox bọc mặt gỗ mộc mạc sạch sẽ.</li>\n<li>**2.3. Mua sắm trang thiết bị pha chế**: Nhập máy pha Nuova Simonelli Appia II 2G cũ dọn sạch, máy xay Mazzer, tủ mát Sanaky trưng bày nước ép.</li>\n<li>**2.4. Setup bàn ghế & khu vui chơi**: Mua bàn ghế gỗ thanh lịch (thanh lý hoặc đặt xưởng Biên Hòa), thảm xốp chống va đập chất lượng cao, kệ trưng bày đồ chơi thông minh.</li>\n<li>**2.5. Nhập đồ chơi thông minh**: LEGO chính hãng theo ký, các set đồ chơi STEM, robot coding, boardgame trí tuệ (đảm bảo 100% đồ chơi có tem CR hợp quy gốc).</li>\n</ul>\n<h3>Giai đoạn 3: Nghiệm thu & Giấy phép phụ (Tuần 8–10)</h3>\n<ul class=\"doc-list\">\n<li>**3.1. Nghiệm thu PCCC**: Lắp đặt bình bột ABC, đèn exit, chuông báo cháy, sơ đồ thoát nạn và đón đoàn kiểm tra nghiệm thu.</li>\n<li>**3.2. Cấp GCN ATTP**: Bố trí bếp và quầy bar theo nguyên tắc một chiều, tủ lưu mẫu thức ăn, hồ sơ nguyên liệu đầu vào và đón đoàn thẩm định.</li>\n<li>**3.3. Đăng ký ANTT**: Làm việc với Công an phường sở tại khai báo tạm trú và quy trình đón người nước ngoài giao lưu văn hóa hằng ngày.</li>\n</ul>\n<h3>Giai đoạn 4: Tuyển dụng & Đào tạo (Tuần 9–10)</h3>\n<ul class=\"doc-list\">\n<li>**4.1. Tuyển dụng nhân sự có tiếng Anh cơ bản**: Phục vụ ca có khả năng hiểu và giao tiếp tiếng Anh cơ bản để hỗ trợ khách mời bản xứ.</li>\n<li>**4.2. Đào tạo nghiệp vụ cao cấp**: Kỹ năng phục vụ chu đáo, quy trình vệ sinh đồ chơi hằng ngày, quy tắc ứng xử bảo vệ trẻ em (Child Safeguarding Policy) và SOP xử lý sự cố.</li>\n</ul>\n<h3>Giai đoạn 5: Vận hành & Khai trương (Tuần 11+)</h3>\n<ul class=\"doc-list\">\n<li>**5.1. Chạy thử nghiệm (Soft-opening)**: 1 tuần căn chỉnh dịch vụ, đón nhận feedback của các gia đình đầu tiên.</li>\n<li>**5.2. Khai trương chính thức (Grand Opening)**: Quảng bá trên mạng xã hội về \"Không gian Trải nghiệm Quốc tế cho Bé tại Biên Hòa\".</li>\n<li>**5.3. Khởi động hoạt động CLB Giao lưu**: Đón các khách mời nước ngoài đến giao lưu tự phát hằng ngày, đảm bảo thực hiện nghiêm túc Biên bản thỏa thuận tự nguyện để tránh rủi ro về lao động.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN V: DỰ TOÁN CHI PHÍ & ĐIỂM HÒA VỐN CAO CẤP</h2>\n<h3>5.1. Chi phí đầu tư ban đầu (Phương án Tối ưu 2nd có Gu decor)</h3>\n<p>Nhờ tận dụng <strong>đất có sẵn</strong> (không tốn chi phí thuê mặt bằng và cọc) cùng giải pháp <strong>mua thiết bị 2nd chất lượng cao kết hợp decor thiết kế thông minh</strong>, quán đạt được diện mạo vô cùng đẳng cấp với ngân sách cực kỳ tối ưu:</p>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Hạng mục đầu tư</th>\n<th>Chi tiết bóc tách</th>\n<th>Ngân sách (VNĐ)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td><strong>Sửa sang & Decor cao cấp</strong></td>\n<td>Sơn tường ấm, thảm xốp chống va đập cao cấp, lát gỗ khu chơi, nâng cấp 2 WC hiện đại, vách kính cách âm cường lực.</td>\n<td>180.000.000</td>\n</tr>\n<tr>\n<td><strong>Thiết bị pha chế (2nd chọn lọc)</strong></td>\n<td>Máy pha Appia II 2G dọn mới, máy xay Mazzer, tủ mát, lọc nước RO, máy xay sinh tố, dụng cụ.</td>\n<td>54.500.000</td>\n</tr>\n<tr>\n<td><strong>Nội thất & Máy lạnh (2nd dọn lại)</strong></td>\n<td>20 bộ bàn ghế gỗ mộc thanh lịch, sofa băng, 2 máy lạnh Daikin 24.000BTU cũ 85%.</td>\n<td>48.000.000</td>\n</tr>\n<tr>\n<td><strong>Hồ sơ pháp lý & Giấy phép</strong></td>\n<td>ĐKKD, GCN ATTP, Thẩm duyệt & nghiệm thu PCCC, Cam kết ANTT.</td>\n<td>18.000.000</td>\n</tr>\n<tr>\n<td><strong>Hệ thống an toàn & quản lý</strong></td>\n<td>Camera 6 mắt (Hikvision), trang bị PCCC (bình bột, đèn exit, chuông khói), phần mềm POS.</td>\n<td>15.500.000</td>\n</tr>\n<tr>\n<td><strong>Đồ chơi thông minh (2nd chất lượng)</strong></td>\n<td>LEGO theo ký, STEM kits, boardgame cao cấp, robot coding (đều có tem CR).</td>\n<td>15.000.000</td>\n</tr>\n<tr>\n<td><strong>Marketing & Setup khai trương</strong></td>\n<td>Bảng hiệu, khai trương, quảng cáo Facebook ban đầu, in ấn Phiếu DLCN.</td>\n<td>15.000.000</td>\n</tr>\n<tr>\n<td><strong>Dự phòng rủi ro phát sinh (5%)</strong></td>\n<td>Chi phí phát sinh trong quá trình thi công và decor.</td>\n<td>20.000.000</td>\n</tr>\n<tr class=\"highlight-row\">\n<td><strong>TỔNG VỐN ĐẦU TƯ BAN ĐẦU</strong></td>\n<td><strong>Tối ưu tối đa nhờ Gu thiết kế và thiết bị 2nd lọc kỹ</strong></td>\n<td><strong>~366.000.000</strong></td>\n</tr>\n</tbody></table></div>\n<h3>5.2. Điểm hòa vốn kinh doanh cao cấp</h3>\n<p>Nhờ giá trị trải nghiệm cao cấp (global native environment, smart toys), giá vé dịch vụ trọn gói đạt mức cao (blended ticket + food = 170.000 VNĐ/khách), giúp điểm hòa vốn vận hành cực kỳ an toàn:</p>\n<ul class=\"doc-list\">\n<li>**Chi phí vận hành cố định hằng tháng**: ~105.000.000 VNĐ (Nhân viên lương cao có tiếng Anh, điện nước điều hòa, nguyên liệu organic, phong bì tri ân khách NN bản xứ).</li>\n<li>**Khấu hao đầu tư ban đầu** (mục tiêu thu hồi vốn trong 18 tháng): **20.300.000 VNĐ/tháng** (~366M / 18 tháng).</li>\n<li>**Tổng doanh thu tối thiểu cần đạt/tháng để hòa vốn y tế & tài chính**: **~125.300.000 VNĐ/tháng**.</li>\n</ul>\n<p>$$Doanh\\ th\\ u\\ h\\òa\\ v\\ốn\\ m\\ỗi\\ ng\\ày\\ =\\ \\frac{125.300.000\\ VNĐ}{30\\ ng\\ày}\\ \\approx\\ 4.170.000\\ VNĐ/ng\\ày$$</p>\n<p>$$S\\ố\\ l\\ượng\\ kh\\ách\\ h\\òa\\ v\\ốn\\ m\\ỗi\\ ng\\ày\\ =\\ \\frac{4.170.000\\ VNĐ}{170.000\\ VNĐ/kh\\ách}\\ \\approx\\ 25\\ kh\\ách/ng\\ày$$</p>\n<p>→ <strong>Kết luận</strong>: Quán chỉ cần phục vụ trung bình <strong>25 khách/ngày</strong> (mức vô cùng thấp so với diện tích 200m² tại trung tâm Biên Hòa) là đã đạt điểm hòa vốn vận hành và thu hồi vốn hoàn toàn sau 18 tháng. Đây là ưu thế vượt trội của việc định vị phân khúc Trung - Cao cấp so với phân khúc bình dân (đòi hỏi trên 70-80 khách/ngày mới có thể hòa vốn).</p>\n<p>---</p>\n<h2>PHẦN VI: BẢNG TÓM TẮT LUẬT & VĂN BẢN ĐÃ ĐỐI CHIẾU</h2>\n<p><em>Toàn bộ 12 tài liệu vận hành và kế hoạch này đã được đối chiếu chặt chẽ với hệ thống pháp luật Việt Nam:</em></p>\n<ul class=\"doc-list\">\n<li>**Luật Trẻ em 2016**: Đảm bảo môi trường vui chơi an toàn, cấm xâm hại và tôn trọng quyền riêng tư.</li>\n<li>**Bộ luật Lao động 2019 (Điều 13 & 151-155)**: Phòng ngừa rủi ro tranh chấp lao động đối với khách mời nước ngoài thông qua Biên bản thỏa thuận tự nguyện.</li>\n<li>**Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 & Nghị định 356/2025/NĐ-CP**: Tích hợp thỏa thuận bảo mật dữ liệu tối thiểu, đồng ý kép của trẻ em ≥ 7 tuổi bằng Phiếu mua vé 1 trang.</li>\n<li>**Luật Giá 2023 & Nghị định 87/2024/NĐ-CP**: Niêm yết bảng giá trọn gói minh bạch, tránh mập mờ.</li>\n<li>**Nghị định 141/2026/NĐ-CP (Áp dụng từ 01/01/2026)**: Cập nhật ngưỡng doanh thu thuế hộ kinh doanh.</li>\n<li>**QCVN 3:2019/BKHCN**: Đảm bảo 100% đồ chơi 2nd đưa vào sử dụng có tem hợp quy CR gốc.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN VII: LƯU Ý PHÁP LÝ QUAN TRỌNG</h2>\n<div class=\"callout warn\"><div class=\"callout-title\">CAUTION</div><p>**Về việc NĐ 141/2026/NĐ-CP**: Nghị định này nâng ngưỡng miễn thuế lên ≤ 1 tỷ/năm cho hộ kinh doanh từ 01/01/2026. Mặc dù đây là thông tin thực tế từ các cơ quan thông tấn chính thống tại Việt Nam, tuy nhiên nó **chưa được tích hợp chính thức vào bộ SOT legal files** của hệ thống (SOT chỉ lưu trữ Luật 91/2025/QH15 và NĐ 356/2025/NĐ-CP). Để đảm bảo an toàn tuyệt đối trước khi kê khai tài chính tại thực địa Biên Hòa, chủ hộ kinh doanh nên tham vấn trực tiếp Bộ phận Tuyên truyền - Hỗ trợ người nộp thuế thuộc **Chi cục Thuế TP. Biên Hòa**.</p></div>"
+    "html": "<h1>KẾ HOẠCH TRIỂN KHAI CHI TIẾT TỪNG BƯỚC</h1>\n<h2>Quán Cà Phê 200m² (10×20) Kết Hợp Giao Lưu Người Nước Ngoài — Trẻ Em</h2>\n<h2>Tại Biên Hòa, Đồng Nai | Đất có sẵn — Chỉ sửa sang và decor cao cấp</h2>\n<p>---</p>\n<p><strong>Cập nhật</strong>: 23/05/2026<br>\n<strong>Cơ sở pháp lý</strong>: Đã rà soát, đối chiếu với các quy định cập nhật nhất 2026 của Việt Nam (chi tiết tại Phần VII).<br>\n<strong>Nguyên tắc xuyên suốt</strong>: Định vị Cao cấp — Trải nghiệm độc đáo — Đúng luật — Tối ưu thuế hợp pháp.</p>\n<p>---</p>\n<h2>PHẦN I: TỔNG QUAN MÔ HÌNH & CẤU TRÚC PHÁP NHÂN</h2>\n<h3>1.1. Mô hình kinh doanh</h3>\n<ul class=\"doc-list\">\n<li><strong>Lớp 1 (Cốt lõi)</strong>: Quán cà phê cao cấp phục vụ đồ uống đặc trưng, thức ăn nhẹ dinh dưỡng — thu phí bằng bán vé dịch vụ trọn gói (Premium Ticket).</li>\n<li><strong>Lớp 2 (Giá trị gia tăng)</strong>: Khu trải nghiệm đồ chơi thông minh, lego lắp ráp, coding robot nhập khẩu chất lượng cao (định vị cao cấp nhờ decor gỗ ấm áp, ánh sáng tinh tế và quản lý sắp xếp khoa học).</li>\n<li><strong>Lớp 3 (Giao lưu tự phát)</strong>: Câu lạc bộ ngôn ngữ & giao lưu văn hóa tự phát hàng ngày giữa khách mời nước ngoài bản xứ và trẻ em Việt Nam, mang đến môi trường giao tiếp 100% tiếng Anh tự nhiên.</li>\n</ul>\n<h3>1.2. Hình thức đăng ký: Hộ kinh doanh cá thể</h3>\n<ul class=\"doc-list\">\n<li><strong>Căn cứ</strong>: Nghị định 01/2021/NĐ-CP.</li>\n<li><strong>Ngành nghề đăng ký</strong>: 5610 (Dịch vụ ăn uống) + 9329 (Hoạt động vui chơi giải trí khác).</li>\n<li><strong>Nơi đăng ký</strong>: Phòng Tài chính - Kế hoạch thuộc UBND TP. Biên Hòa, tỉnh Đồng Nai.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN II: PHÂN TÍCH NGƯỠNG DOANH THU & CHIẾN LƯỢC HỘ VỆ TINH</h2>\n<h3>2.1. Ngưỡng doanh thu 2026 — Quy định mới (Nghị định 141/2026/NĐ-CP)</h3>\n<div class=\"callout danger\"><div class=\"callout-title\">IMPORTANT</div><p>**Từ 01/01/2026**, theo Nghị định 141/2026/NĐ-CP (thay thế cơ chế thuế khoán cũ theo Nghị quyết 198/2025/QH15), ngưỡng miễn thuế cho hộ kinh doanh đã được **nâng gấp 10 lần**:</p></div>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Nhóm doanh thu/năm</th>\n<th>Nghĩa vụ thuế GTGT & TNCN</th>\n<th>Nghĩa vụ hóa đơn & sổ sách</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>≤ 1 tỷ đồng</td>\n<td>✅ <strong>MIỄN</strong> thuế GTGT, <strong>MIỄN</strong> thuế TNCN</td>\n<td>Chỉ thông báo doanh thu (Mẫu 01/TKN-CNKD). Không kê khai thuế theo quý.</td>\n</tr>\n<tr>\n<td>> 1 tỷ — < 3 tỷ</td>\n<td>❌ Phải nộp GTGT + TNCN (tính trên phần doanh thu vượt 1 tỷ hoặc theo thu nhập thực tế, thuế suất TNCN 15%)</td>\n<td>Bắt buộc sử dụng hóa đơn điện tử có mã CQT.</td>\n</tr>\n<tr>\n<td>≥ 3 tỷ</td>\n<td>❌ Phương pháp khấu trừ GTGT; TNCN 17% trên lợi nhuận</td>\n<td>Hóa đơn điện tử + hạch toán đầy đủ chi phí + tài khoản ngân hàng riêng.</td>\n</tr>\n</tbody></table></div>\n<p><strong>Lệ phí môn bài</strong> (Nghị định 139/2016/NĐ-CP, sửa đổi bởi Nghị định 22/2020/NĐ-CP):</p>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Doanh thu bình quan/năm</th>\n<th>Mức lệ phí môn bài</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>≤ 100 triệu</td>\n<td><strong>MIỄN</strong></td>\n</tr>\n<tr>\n<td>> 100 — ≤ 300 triệu</td>\n<td>300.000 đ/năm</td>\n</tr>\n<tr>\n<td>> 300 — ≤ 500 triệu</td>\n<td>500.000 đ/năm</td>\n</tr>\n<tr>\n<td>> 500 triệu</td>\n<td>1.000.000 đ/năm</td>\n</tr>\n</tbody></table></div>\n<p><strong>Miễn lệ phí môn bài năm đầu tiên</strong>: Hộ kinh doanh <strong>mới thành lập</strong> được miễn lệ phí môn bài trong <strong>năm đầu hoạt động</strong> (từ ngày đăng ký đến hết 31/12 năm đó).</p>\n<h3>2.2. Ước tính doanh thu của quán 200m² tại Biên Hòa (Định vị Trung - Cao)</h3>\n<p>Do định vị phân khúc Trung - Cao cấp, giá bán bình quân mỗi khách hàng (Ticket + Add-on thực phẩm nhẹ) cao hơn đáng kể so với mô hình bình dân cũ:</p>\n<ul class=\"doc-list\">\n<li>**Giá vé trung bình của vé trọn gói Premium**: ~135.000 VNĐ (Blended average giữa gói Nhí 120K, Explorer 150K và Family 220K).</li>\n<li>**Chi tiêu add-on thức ăn nhẹ bình quân**: ~35.000 VNĐ/khách (Đạt mức cao nhờ repositioning sang các món ăn nhẹ cao cấp có gu thẩm mỹ và học tập đi kèm).</li>\n<li>**Doanh thu bình quân trên mỗi lượt khách (Blended Ticket + Food)**: **~170.000 VNĐ**.</li>\n</ul>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Kịch bản</th>\n<th>Số khách/ngày</th>\n<th>Doanh thu/tháng</th>\n<th>Doanh thu/năm</th>\n<th>Nghĩa vụ Thuế dự kiến</th>\n</tr></thead>\n<tbody>\n<tr>\n<td><strong>Thấp</strong> (3 tháng đầu)</td>\n<td>30–40</td>\n<td>153 – 204 triệu</td>\n<td>—</td>\n<td>Miễn thuế môn bài năm 1</td>\n</tr>\n<tr>\n<td><strong>Trung bình</strong> (sau 6 tháng)</td>\n<td>50–70</td>\n<td>255 – 357 triệu</td>\n<td><strong>3,06 – 4,28 tỷ</strong></td>\n<td>Vượt ngưỡng 1 tỷ → Kê khai & nộp thuế GTGT+TNCN (~3% DT)</td>\n</tr>\n<tr>\n<td><strong>Cao</strong> (sau 12 tháng + Event)</td>\n<td>80–100</td>\n<td>408 – 510 triệu</td>\n<td><strong>4,90 – 6,12 tỷ</strong></td>\n<td>Thuế GTGT + TNCN phương pháp khấu trừ / hạch toán chi phí</td>\n</tr>\n</tbody></table></div>\n<p>→ <strong>Nhận xét thực tế</strong>: Doanh thu tăng trưởng mạnh mẽ nhờ định vị phân khúc cao cấp. Quán sẽ <strong>nhanh chóng vượt ngưỡng 1 tỷ đồng/năm</strong> ngay từ tháng thứ 3 hoạt động. Do đó, việc chuẩn bị kỹ lưỡng hệ thống sổ sách kế toán, hóa đơn điện tử là bắt buộc.</p>\n<h3>2.3. Chiến lược \"Hộ kinh doanh vệ tinh\" — Phân tích pháp lý</h3>\n<div class=\"callout warn\"><div class=\"callout-title\">WARNING</div><p>Việc lập hộ vệ tinh để chia doanh thu dưới 1 tỷ **không bất hợp pháp tuyệt đối**, nhưng chỉ **hợp pháp khi mỗi hộ thực sự hoạt động độc lập**. Nếu chỉ chia trên giấy tờ → bị coi là **trốn thuế** theo Điều 50 Luật Quản lý thuế 2019.</p></div>\n<p><strong>Hợp pháp nếu:</strong></p>\n<ul class=\"doc-list\">\n<li>Mỗi hộ kinh doanh có **chủ hộ riêng** (người thân thực sự đứng tên và điều hành).</li>\n<li>Mỗi hộ có **khu vực kinh doanh riêng biệt rõ ràng** trong cùng mặt bằng (Ví dụ: Hộ 1 kinh doanh F&B tại quầy bar; Hộ 2 kinh doanh khu trải nghiệm đồ chơi + CLB văn hóa).</li>\n<li>Mỗi hộ có **tài khoản ngân hàng riêng**, **sổ sách riêng**, **nhà cung cấp riêng**.</li>\n</ul>\n<p><strong>Phương án khuyến nghị</strong>: Với doanh thu định vị cao cấp đạt từ 3 - 5 tỷ/năm, chủ quán nên chọn <strong>Phương án kê khai minh bạch 1 hộ duy nhất</strong> hoặc chuyển đổi lên mô hình <strong>Công ty TNHH 1 Thành viên</strong> từ năm thứ 2 để tối ưu hóa chi phí đầu vào, xuất hóa đơn VAT cho các gói Event sinh nhật/sự kiện trường học cao cấp, đảm bảo phát triển bền vững và giảm thiểu tối đa rủi ro thanh tra thuế.</p>\n<p>---</p>\n<h2>PHẦN III: GIẤY PHÉP TỐI THIỂU CẦN CÓ VÀ CÁC TRƯỜNG HỢP MIỄN</h2>\n<h3>3.1. Danh sách giấy phép (Checklist pháp lý)</h3>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>STT</th>\n<th>Giấy phép / Thủ tục</th>\n<th>Bắt buộc?</th>\n<th>Cơ sở miễn/giảm</th>\n<th>Chi phí ước tính</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Đăng ký hộ kinh doanh</td>\n<td>✅ Bắt buộc</td>\n<td>Không được miễn (diện tích cố định 200m²)</td>\n<td>100.000 – 300.000đ</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Giấy chứng nhận ATTP</td>\n<td>✅ Bắt buộc</td>\n<td>Quán F&B cao cấp có chế biến bánh ngọt/sandwich không thuộc diện nhỏ lẻ đường phố.</td>\n<td>3 – 5 triệu</td>\n</tr>\n<tr>\n<td>3</td>\n<td>PCCC (Phòng cháy chữa cháy)</td>\n<td>✅ Bắt buộc</td>\n<td>Quán > 100m² đông người có bếp nấu ga/điện bắt buộc nghiệm thu.</td>\n<td>20 – 35 triệu</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Cam kết bảo vệ ANTT</td>\n<td>✅ Bắt buộc</td>\n<td>Nơi tập trung đông người, có khách nước ngoài lưu trú/giao lưu hằng ngày.</td>\n<td>1 – 3 triệu</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Lệ phí môn bài</td>\n<td>⚠️ <strong>Miễn năm đầu</strong></td>\n<td>NĐ 22/2020/NĐ-CP: miễn lệ phí môn bài năm đầu tiên hoạt động.</td>\n<td>0đ (năm 1) → 1.000.000đ/năm sau</td>\n</tr>\n</tbody></table></div>\n<h3>3.2. Miễn trừ nghĩa vụ Bảo vệ Dữ liệu Cá nhân cho Hộ kinh doanh</h3>\n<div class=\"callout success\"><div class=\"callout-title\">TIP</div><p>**Tin vui cho hộ kinh doanh nhỏ**: Luật BVDLCN số 91/2025/QH15 có điều khoản miễn trừ rõ ràng tại **Điều 38 Khoản 3**.</p></div>\n<p><strong>Điều 38 Khoản 3 Luật số 91/2025/QH15</strong> quy định hộ kinh doanh không phải lập báo cáo đánh giá tác động DLCN (DPIA), đánh giá chuyển dữ liệu xuyên biên giới (CTIA) hay chỉ định DPO riêng biệt, ngoại trừ các đơn vị xử lý dữ liệu nhạy cảm quy mô lớn hoặc phục vụ trên 100.000 người.</p>\n<p><strong>Nghĩa vụ tối thiểu bắt buộc cho quán (không được miễn):</strong></p>\n<p>1. Thu thập dữ liệu khách hàng và trẻ em chỉ trong phạm vi tối thiểu cần thiết (tên PH, SĐT).</p>\n<p>2. Lấy đồng ý phụ huynh bằng Phiếu mua vé tích hợp (đã có mẫu tại <a href=\"child_consent_template.md\" target=\"_blank\">child_consent_template.md</a>).</p>\n<p>3. Đối với trẻ từ đủ 7 tuổi trở lên, quy định bắt buộc phải có chữ ký đồng ý của trẻ bên cạnh phụ huynh (Đồng ý kép theo Điều 24 Khoản 3 Luật số 91).</p>\n<p>4. Lưu giữ bảo mật hồ sơ giấy trong tủ có khóa và dữ liệu số trên máy tính được mã hóa mật khẩu bảo vệ.</p>\n<p>---</p>\n<h2>PHẦN IV: KẾ HOẠCH TRIỂN KHAI TỪNG BƯỚC (TIMELINE)</h2>\n<h3>Giai đoạn 1: Chuẩn bị pháp lý & Thiết kế (Tuần 1–3)</h3>\n<ul class=\"doc-list\">\n<li>**1.2. Thiết kế Decor cao cấp (Gu thẩm mỹ sang trọng)**: Sử dụng các gam màu ấm áp (Warm grey, Oak wood, Olive green), kết hợp ánh sáng nghệ thuật vàng nhẹ 3000K, sắp đặt các mô hình đồ chơi thông minh gọn gàng trên các kệ gỗ mộc mạc. Phân chia rõ vách ngăn kính cường lực giữa khu café yên tĩnh của bố mẹ và khu hoạt động của bé.</li>\n<li>**1.3. Lập hồ sơ thiết kế PCCC**: PC07 Công an tỉnh Đồng Nai thẩm duyệt.</li>\n<li>**1.4. Đăng ký khám sức khỏe & tập huấn ATTP**: Trung tâm y tế TP. Biên Hòa.</li>\n</ul>\n<h3>Giai đoạn 2: Sửa sang & Decor mặt bằng (Tuần 3–8)</h3>\n<ul class=\"doc-list\">\n<li>**2.1. Cải tạo xây dựng mặt bằng 200m²**: Lát nền gỗ/thảm kháng khuẩn cao cấp cho khu vui chơi, sơn lại màu ấm áp, hoàn thiện 2 WC sạch sẽ hiện đại.</li>\n<li>**2.2. Lắp đặt ánh sáng & quầy bar**: Sử dụng đèn rọi ray (track light) để tạo điểm nhấn cao cấp. Lắp quầy bar inox bọc mặt gỗ mộc mạc sạch sẽ.</li>\n<li>**2.3. Mua sắm trang thiết bị pha chế**: Nhập máy pha Nuova Simonelli Appia II 2G cũ dọn sạch, máy xay Mazzer, tủ mát Sanaky trưng bày nước ép.</li>\n<li>**2.4. Setup bàn ghế & khu vui chơi**: Mua bàn ghế gỗ thanh lịch (thanh lý hoặc đặt xưởng Biên Hòa), thảm xốp chống va đập chất lượng cao, kệ trưng bày đồ chơi thông minh.</li>\n<li>**2.5. Nhập đồ chơi thông minh**: LEGO chính hãng theo ký, các set đồ chơi STEM, robot coding, boardgame trí tuệ (đảm bảo 100% đồ chơi có tem CR hợp quy gốc).</li>\n</ul>\n<h3>Giai đoạn 3: Nghiệm thu & Giấy phép phụ (Tuần 8–10)</h3>\n<ul class=\"doc-list\">\n<li>**3.1. Nghiệm thu PCCC**: Lắp đặt bình bột ABC, đèn exit, chuông báo cháy, sơ đồ thoát nạn và đón đoàn kiểm tra nghiệm thu.</li>\n<li>**3.2. Cấp GCN ATTP**: Bố trí bếp và quầy bar theo nguyên tắc một chiều, tủ lưu mẫu thức ăn, hồ sơ nguyên liệu đầu vào và đón đoàn thẩm định.</li>\n<li>**3.3. Đăng ký ANTT**: Làm việc với Công an phường sở tại khai báo tạm trú và quy trình đón người nước ngoài giao lưu văn hóa hằng ngày.</li>\n</ul>\n<h3>Giai đoạn 4: Tuyển dụng & Đào tạo (Tuần 9–10)</h3>\n<ul class=\"doc-list\">\n<li>**4.1. Tuyển dụng nhân sự có tiếng Anh cơ bản**: Phục vụ ca có khả năng hiểu và giao tiếp tiếng Anh cơ bản để hỗ trợ khách mời bản xứ.</li>\n<li>**4.2. Đào tạo nghiệp vụ cao cấp**: Kỹ năng phục vụ chu đáo, quy trình vệ sinh đồ chơi hằng ngày, quy tắc ứng xử bảo vệ trẻ em (Child Safeguarding Policy) và SOP xử lý sự cố.</li>\n</ul>\n<h3>Giai đoạn 5: Vận hành & Khai trương (Tuần 11+)</h3>\n<ul class=\"doc-list\">\n<li>**5.1. Chạy thử nghiệm (Soft-opening)**: 1 tuần căn chỉnh dịch vụ, đón nhận feedback của các gia đình đầu tiên.</li>\n<li>**5.2. Khai trương chính thức (Grand Opening)**: Quảng bá trên mạng xã hội về \"Không gian Trải nghiệm Quốc tế cho Bé tại Biên Hòa\".</li>\n<li>**5.3. Khởi động hoạt động CLB Giao lưu**: Đón các khách mời nước ngoài đến giao lưu tự phát hằng ngày, đảm bảo thực hiện nghiêm túc Biên bản thỏa thuận tự nguyện để tránh rủi ro về lao động.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN V: DỰ TOÁN CHI PHÍ & ĐIỂM HÒA VỐN CAO CẤP</h2>\n<h3>5.1. Chi phí đầu tư ban đầu (Phương án Tối ưu 2nd có Gu decor)</h3>\n<p>Nhờ tận dụng <strong>đất có sẵn</strong> (không tốn chi phí thuê mặt bằng và cọc) cùng giải pháp <strong>mua thiết bị 2nd chất lượng cao kết hợp decor thiết kế thông minh</strong>, quán đạt được diện mạo vô cùng đẳng cấp với ngân sách cực kỳ tối ưu:</p>\n<div class=\"table-wrap\"><table>\n<thead><tr>\n<th>Hạng mục đầu tư</th>\n<th>Chi tiết bóc tách</th>\n<th>Ngân sách (VNĐ)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td><strong>Sửa sang & Decor cao cấp</strong></td>\n<td>Sơn tường ấm, thảm xốp chống va đập cao cấp, lát gỗ khu chơi, nâng cấp 2 WC hiện đại, vách kính cách âm cường lực.</td>\n<td>180.000.000</td>\n</tr>\n<tr>\n<td><strong>Thiết bị pha chế (2nd chọn lọc)</strong></td>\n<td>Máy pha Appia II 2G dọn mới, máy xay Mazzer, tủ mát, lọc nước RO, máy xay sinh tố, dụng cụ.</td>\n<td>54.500.000</td>\n</tr>\n<tr>\n<td><strong>Nội thất & Máy lạnh (2nd dọn lại)</strong></td>\n<td>20 bộ bàn ghế gỗ mộc thanh lịch, sofa băng, 2 máy lạnh Daikin 24.000BTU cũ 85%.</td>\n<td>48.000.000</td>\n</tr>\n<tr>\n<td><strong>Hồ sơ pháp lý & Giấy phép</strong></td>\n<td>ĐKKD, GCN ATTP, Thẩm duyệt & nghiệm thu PCCC, Cam kết ANTT.</td>\n<td>18.000.000</td>\n</tr>\n<tr>\n<td><strong>Hệ thống an toàn & quản lý</strong></td>\n<td>Camera 6 mắt (Hikvision), trang bị PCCC (bình bột, đèn exit, chuông khói), phần mềm POS.</td>\n<td>15.500.000</td>\n</tr>\n<tr>\n<td><strong>Đồ chơi thông minh (2nd chất lượng)</strong></td>\n<td>LEGO theo ký, STEM kits, boardgame cao cấp, robot coding (đều có tem CR).</td>\n<td>15.000.000</td>\n</tr>\n<tr>\n<td><strong>Marketing & Setup khai trương</strong></td>\n<td>Bảng hiệu, khai trương, quảng cáo Facebook ban đầu, in ấn Phiếu DLCN.</td>\n<td>15.000.000</td>\n</tr>\n<tr>\n<td><strong>Dự phòng rủi ro phát sinh (5%)</strong></td>\n<td>Chi phí phát sinh trong quá trình thi công và decor.</td>\n<td>20.000.000</td>\n</tr>\n<tr class=\"highlight-row\">\n<td><strong>TỔNG VỐN ĐẦU TƯ BAN ĐẦU</strong></td>\n<td><strong>Tối ưu tối đa nhờ Gu thiết kế và thiết bị 2nd lọc kỹ</strong></td>\n<td><strong>~366.000.000</strong></td>\n</tr>\n</tbody></table></div>\n<h3>5.2. Điểm hòa vốn kinh doanh cao cấp</h3>\n<p>Nhờ giá trị trải nghiệm cao cấp (global native environment, smart toys), giá vé dịch vụ trọn gói đạt mức cao (blended ticket + food = 170.000 VNĐ/khách), giúp điểm hòa vốn vận hành cực kỳ an toàn:</p>\n<ul class=\"doc-list\">\n<li>**Chi phí vận hành cố định hằng tháng**: ~105.000.000 VNĐ (Nhân viên lương cao có tiếng Anh, điện nước điều hòa, nguyên liệu organic, phong bì tri ân khách NN bản xứ).</li>\n<li>**Khấu hao đầu tư ban đầu** (mục tiêu thu hồi vốn trong 18 tháng): **20.300.000 VNĐ/tháng** (~366M / 18 tháng).</li>\n<li>**Tổng doanh thu tối thiểu cần đạt/tháng để hòa vốn y tế & tài chính**: **~125.300.000 VNĐ/tháng**.</li>\n</ul>\n<p>$$Doanh\\ th\\ u\\ h\\òa\\ v\\ốn\\ m\\ỗi\\ ng\\ày\\ =\\ \\frac{125.300.000\\ VNĐ}{30\\ ng\\ày}\\ \\approx\\ 4.170.000\\ VNĐ/ng\\ày$$</p>\n<p>$$S\\ố\\ l\\ượng\\ kh\\ách\\ h\\òa\\ v\\ốn\\ m\\ỗi\\ ng\\ày\\ =\\ \\frac{4.170.000\\ VNĐ}{170.000\\ VNĐ/kh\\ách}\\ \\approx\\ 25\\ kh\\ách/ng\\ày$$</p>\n<p>→ <strong>Kết luận</strong>: Quán chỉ cần phục vụ trung bình <strong>25 khách/ngày</strong> (mức vô cùng thấp so với diện tích 200m² tại trung tâm Biên Hòa) là đã đạt điểm hòa vốn vận hành và thu hồi vốn hoàn toàn sau 18 tháng. Đây là ưu thế vượt trội của việc định vị phân khúc Trung - Cao cấp so với phân khúc bình dân (đòi hỏi trên 70-80 khách/ngày mới có thể hòa vốn).</p>\n<p>---</p>\n<h2>PHẦN VI: BẢNG TÓM TẮT LUẬT & VĂN BẢN ĐÃ ĐỐI CHIẾU</h2>\n<p><em>Toàn bộ 12 tài liệu vận hành và kế hoạch này đã được đối chiếu chặt chẽ với hệ thống pháp luật Việt Nam:</em></p>\n<ul class=\"doc-list\">\n<li>**Luật Trẻ em 2016**: Đảm bảo môi trường vui chơi an toàn, cấm xâm hại và tôn trọng quyền riêng tư.</li>\n<li>**Bộ luật Lao động 2019 (Điều 13 & 151-155)**: Phòng ngừa rủi ro tranh chấp lao động đối với khách mời nước ngoài thông qua Biên bản thỏa thuận tự nguyện.</li>\n<li>**Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 & Nghị định 356/2025/NĐ-CP**: Tích hợp thỏa thuận bảo mật dữ liệu tối thiểu, đồng ý kép của trẻ em ≥ 7 tuổi bằng Phiếu mua vé 1 trang.</li>\n<li>**Luật Giá 2023 & Nghị định 87/2024/NĐ-CP**: Niêm yết bảng giá trọn gói minh bạch, tránh mập mờ.</li>\n<li>**Nghị định 141/2026/NĐ-CP (Áp dụng từ 01/01/2026)**: Cập nhật ngưỡng doanh thu thuế hộ kinh doanh.</li>\n<li>**QCVN 3:2019/BKHCN**: Đảm bảo 100% đồ chơi 2nd đưa vào sử dụng có tem hợp quy CR gốc.</li>\n</ul>\n<p>---</p>\n<h2>PHẦN VII: LƯU Ý PHÁP LÝ QUAN TRỌNG</h2>\n<div class=\"callout warn\"><div class=\"callout-title\">CAUTION</div><p>**Về việc NĐ 141/2026/NĐ-CP**: Nghị định này nâng ngưỡng miễn thuế lên ≤ 1 tỷ/năm cho hộ kinh doanh từ 01/01/2026. Mặc dù đây là thông tin thực tế từ các cơ quan thông tấn chính thống tại Việt Nam, tuy nhiên nó **chưa được tích hợp chính thức vào bộ SOT legal files** của hệ thống (SOT chỉ lưu trữ Luật 91/2025/QH15 và NĐ 356/2025/NĐ-CP). Để đảm bảo an toàn tuyệt đối trước khi kê khai tài chính tại thực địa Biên Hòa, chủ hộ kinh doanh nên tham vấn trực tiếp Bộ phận Tuyên truyền - Hỗ trợ người nộp thuế thuộc **Chi cục Thuế TP. Biên Hòa**.</p></div>"
   },
   "legal_compliance_report": {
     "title": "BÁO CÁO RÀ SOÁT VÀ THẨM ĐỊNH PHÁP LÝ HOẠT ĐỘNG (COMPLIANCE AUDIT REPORT)",
