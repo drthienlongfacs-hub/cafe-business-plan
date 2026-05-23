@@ -224,28 +224,28 @@
 
 ---
 
-## TỔNG DỰ TOÁN — v4 TỐI ƯU TOÀN BỘ (23/05/2026)
+## TỔNG DỰ TOÁN — v5 MUA Ở GIÁ THANH LÝ (23/05/2026)
 
-> **v4**: Bóc tách toàn bộ nguyên vật liệu, mua 1688/Taobao cho đèn + ổ cắm, tường xi măng đánh bóng thay sơn, CRM 3120 thay Appia II, nội thất mua trọn lô thanh lý. Chi tiết bóc tách: xem `boc_tach_nguyen_vat_lieu_v4.md`
+> **Nguyên tắc v5**: Nếu khi đóng quán bán lại được X triệu → mua từ đầu ở giá X. Áp dụng cho MỌI hạng mục thiết bị. Chi tiết bóc tách: xem `boc_tach_nguyen_vat_lieu_v5.md`
 
-### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~345 TRIỆU
+### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~319 TRIỆU
 
-| Phần | Hạng mục | v3 audit | **v4 tối ưu** | Tiết kiệm |
-| :---: | :--- | :---: | :---: | :---: |
-| **A** | Máy pha CRM 3120 + xay CRM 020 + tủ + phụ kiện | 60 tr | **29,5 tr** | -30,5 tr |
-| **B** | Nội thất 2nd (mua trọn lô thanh lý) + ML 2nd | 48 tr | **35 tr** | -13 tr |
-| **C** | Tường xi măng bóng (thay sơn) | 20 tr | **18 tr** | -2 tr |
-| **C** | Sàn giữ cũ + đánh bóng | 4 tr | **4 tr** | — |
-| **C** | Toilet × 2 (thiết bị 2nd KS) | 30 tr | **25 tr** | -5 tr |
-| **C** | Hệ thống điện (tự mua Cadivi + 1688 ổ cắm + thợ) | 65 tr | **50 tr** | -15 tr |
-| **C** | Đèn chiếu sáng (1688 giá gốc) | (gộp) | **7,4 tr** | -5 tr |
-| **C** | Hệ thống nước (tự mua + thợ) | 32 tr | **25 tr** | -7 tr |
-| **C+** | 🏠 Mái cong (ngói cũ lô lớn + gỗ mít) | 110 tr | **100 tr** | -10 tr |
-| **C++** | 🪟 Cửa vòm → **Hoãn GĐ2** | 30 tr | **0** | -30 tr |
-| **D** | Giấy phép + PCCC + Camera + Đồ chơi | 43 tr | **40 tr** | -3 tr |
-| **E** | Marketing (organic) | 3 tr | **2 tr** | -1 tr |
-| **F** | Dự phòng (5%) | 23 tr | **16 tr** | -7 tr |
-| | **TỔNG GĐ1** | **~442 tr** | **~345 tr** | **-97 tr** |
+| Phần | Hạng mục | v4 | **v5** | Tiết kiệm | Cách mua |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **A** | Máy pha CRM 3120 thanh lý + xay CRM 020 + tủ mát + tủ bánh + phụ kiện | 29,5 tr | **20,5 tr** | -9 tr | Chợ Tốt/FB "thanh lý quán" |
+| **B** | Nội thất trọn lô quán đóng + ML **MỚI** Casper Inverter | 35 tr | **25 tr** | -10 tr | Lô quán đóng 300k/bộ; ML mới 6-7tr/cái |
+| **C** | Tường xi măng bóng (thay sơn) | 18 tr | **18 tr** | — | DIY sealer PU |
+| **C** | Sàn giữ cũ + đánh bóng | 4 tr | **4 tr** | — | |
+| **C** | Toilet × 2 (2nd khách sạn) | 25 tr | **20 tr** | -5 tr | TOTO/Inax 2nd từ KS thanh lý |
+| **C** | Hệ thống điện (Cadivi + 1688 + thợ) | 50 tr | **50 tr** | — | An toàn, không cắt |
+| **C** | Đèn (1688 giá gốc) | 7,4 tr | **7,4 tr** | — | |
+| **C** | Hệ thống nước (tự mua + thợ) | 25 tr | **25 tr** | — | |
+| **C+** | 🏠 Mái cong (ngói cũ lô + gỗ mít) | 100 tr | **100 tr** | — | |
+| **C++** | 🪟 Cửa vòm → Hoãn GĐ2 | 0 | **0** | — | |
+| **D** | Giấy phép + PCCC + Camera thanh lý + Đồ chơi lô | 40 tr | **32 tr** | -8 tr | Camera 2nd 3,5tr, đồ chơi FB lô |
+| **E** | Marketing (organic) | 2 tr | **2 tr** | — | |
+| **F** | Dự phòng (5%) | 16 tr | **15 tr** | -1 tr | |
+| | **TỔNG GĐ1** | **~345 tr** | **~319 tr** | **-26 tr** | |
 
 ### GĐ2: SOLAR + CỬA VÒM (tháng 4-6, từ doanh thu)
 
@@ -254,15 +254,24 @@
 | Cửa vòm kính CL + khung gỗ mít | 30 tr |
 | Solar 5kWp hòa lưới | 55-65 tr |
 | **Tổng GĐ2** | **85-95 tr** |
-| **Tổng cả 2 GĐ** | **~430-440 tr** |
+| **Tổng cả 2 GĐ** | **~404-414 tr** |
 
-### 💰 GIÁ TRỊ THU HỒI NẾU THẤT BẠI
+### 💰 THU HỒI v5: GẦN NHƯ KHÔNG MẤT VỐN THIẾT BỊ
 
-| Kịch bản | Thu hồi | Tỷ lệ |
-| :--- | :---: | :---: |
-| Bán lẻ đồ di động | 42-57 tr | 12-17% (+ giữ nhà mái đẹp) |
-| Sang nhượng trọn gói | 100-150 tr | 29-43% |
-| **Cho thuê (đất tự có)** | **Hoàn vốn 14-23 tháng** | **Tốt nhất** |
+| Tài sản | Vốn v5 | Bán lại | Mất thực |
+| :--- | :---: | :---: | :---: |
+| Thiết bị di động (mua ở giá sàn) | 77,5 tr | 55-65 tr | **15-22 tr** (mất 20-28%) |
+| Hạ tầng gắn liền | 224 tr | 0 trực tiếp | Nâng giá BĐS + cho thuê |
+| **Cho thuê nguyên trạng (đất tự có)** | — | **15-25 tr/tháng** | **Hoàn vốn 13-21 tháng** |
+
+### 📊 SO SÁNH EVOLUTION v2 → v5
+
+| Phiên bản | Tổng GĐ1 | Thiết bị di động | Mất khi đóng quán |
+| :--- | :---: | :---: | :---: |
+| v2 (kế hoạch gốc) | ~~399 tr~~ (thực 415,5) | ~150 tr | ~80-100 tr |
+| v3 (sau audit) | 442 tr | ~108 tr | ~50-66 tr |
+| v4 (tối ưu) | 345 tr | ~98 tr | ~41-56 tr |
+| **v5 (mua giá thanh lý)** | **319 tr** | **~77,5 tr** | **~15-22 tr** |
 
 ---
 
