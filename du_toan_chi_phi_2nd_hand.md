@@ -224,28 +224,50 @@
 
 ---
 
-## TỔNG DỰ TOÁN — v5 MUA Ở GIÁ THANH LÝ (23/05/2026)
+## TỔNG DỰ TOÁN — v5.2 BOQ ĐẦY ĐỦ (23/05/2026)
 
-> **Nguyên tắc v5**: Nếu khi đóng quán bán lại được X triệu → mua từ đầu ở giá X. Áp dụng cho MỌI hạng mục thiết bị. Chi tiết bóc tách: xem `boc_tach_nguyen_vat_lieu_v5.md`
+> **v5.2**: Rà soát theo bảng BOQ tiêu chuẩn xây dựng, phát hiện 11 hạng mục thiếu (~45,6 tr). Thay mái tôn sân bằng dù lệch tâm resort. Chi tiết: xem `boq_audit_v5.2.md` + `boc_tach_nguyen_vat_lieu_v5.md`
 
-### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~319 TRIỆU
+### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~451 TRIỆU (BOQ đầy đủ)
 
-| Phần | Hạng mục | v4 | **v5** | Tiết kiệm | Cách mua |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| **A** | Máy pha CRM 3120 thanh lý + xay CRM 020 + tủ mát + tủ bánh + phụ kiện | 29,5 tr | **20,5 tr** | -9 tr | Chợ Tốt/FB "thanh lý quán" |
-| **B** | Nội thất trọn lô quán đóng + ML **MỚI** Casper Inverter | 35 tr | **25 tr** | -10 tr | Lô quán đóng 300k/bộ; ML mới 6-7tr/cái |
-| **C** | Tường xi măng bóng (thay sơn) | 18 tr | **18 tr** | — | DIY sealer PU |
-| **C** | Sàn giữ cũ + đánh bóng | 4 tr | **4 tr** | — | |
-| **C** | Toilet × 2 (2nd khách sạn) | 25 tr | **20 tr** | -5 tr | TOTO/Inax 2nd từ KS thanh lý |
-| **C** | Hệ thống điện (Cadivi + 1688 + thợ) | 50 tr | **50 tr** | — | An toàn, không cắt |
-| **C** | Đèn (1688 giá gốc) | 7,4 tr | **7,4 tr** | — | |
-| **C** | Hệ thống nước (tự mua + thợ) | 25 tr | **25 tr** | — | |
-| **C+** | 🏠 Mái cong (ngói cũ lô + gỗ mít) | 100 tr | **100 tr** | — | |
-| **C++** | 🪟 Cửa vòm → Hoãn GĐ2 | 0 | **0** | — | |
-| **D** | Giấy phép + PCCC + Camera thanh lý + Đồ chơi lô | 40 tr | **32 tr** | -8 tr | Camera 2nd 3,5tr, đồ chơi FB lô |
-| **E** | Marketing (organic) | 2 tr | **2 tr** | — | |
-| **F** | Dự phòng (5%) | 16 tr | **15 tr** | -1 tr | |
-| | **TỔNG GĐ1** | **~345 tr** | **~319 tr** | **-26 tr** | |
+| Phần | Hạng mục | v5.1 | **v5.2** | Ghi chú |
+| :---: | :--- | :---: | :---: | :--- |
+| **A** | Phá dỡ + vận chuyển phế thải + san nền sân | (chưa tính) | **6,3 tr** | ⚡ MỚI — trổ cửa, 3 chuyến phế thải |
+| **B** | Xây thô (trát tường mới + chống thấm toilet/bar) | (gộp) | **5,0 tr** | ⚡ MỚI — chống thấm bắt buộc |
+| **C1** | Tường xi măng bóng + sealer PU | 18 tr | **18 tr** | |
+| **C2** | Sàn giữ cũ + đánh bóng | 4 tr | **4 tr** | |
+| **C3** | Nhôm kính cửa lùa 61m² (kết hợp mới + 2nd) | 56 tr | **56 tr** | Mặt tiền mới VP, còn lại 2nd |
+| **C4** | Mái cong (ngói cũ lô + gỗ mít) | 100 tr | **100 tr** | |
+| **C5** | Bảng hiệu + logo mặt tiền | (chưa tính) | **3 tr** | ⚡ MỚI |
+| **D1** | Hệ thống điện (Cadivi + 1688 + thợ) | 50 tr | **50 tr** | |
+| **D2** | Đèn chiếu sáng (1688) | 7,4 tr | **7,4 tr** | |
+| **D3** | Hệ thống nước (tự mua + thợ) | 25 tr | **25 tr** | |
+| **D4** | Điều hòa Casper Inverter 24K × 2 (MỚI) | 13 tr | **13 tr** | |
+| **D5** | Quạt trần + thông gió toilet | (chưa tính) | **1,8 tr** | ⚡ MỚI |
+| **D6** | Bình nóng lạnh toilet × 2 | (chưa tính) | **3 tr** | ⚡ MỚI |
+| **D7** | Hệ thống âm thanh (loa + amply) | (chưa tính) | **3 tr** | ⚡ MỚI |
+| **D8** | Toilet × 2 (thiết bị 2nd KS) | 20 tr | **20 tr** | |
+| **E1** | Dù lệch tâm sân × 4 (2nd resort/1688) | (mái tôn) | **8 tr** | ⚡ THAY mái tôn |
+| **E2** | Sân vườn (giàn leo + cây + đá stepping) | (chưa tính) | **5,5 tr** | ⚡ MỚI |
+| **F1** | Thiết bị pha chế thanh lý | 20,5 tr | **20,5 tr** | |
+| **F2** | Nội thất trọn lô quán đóng | 12 tr | **12 tr** | |
+| **F3** | Camera + đồ chơi + PCCC + GP | 32 tr | **32 tr** | |
+| **F4** | Phụ hồ + dọn dẹp CT | (chưa tính) | **13,2 tr** | ⚡ MỚI — 2 phụ × 20 ngày |
+| **G** | Marketing (organic) | 2 tr | **2 tr** | |
+| **H** | Dự phòng (5%) | 19 tr | **21,5 tr** | |
+| | **TỔNG GĐ1** | **~394 tr** | **~451 tr** | BOQ đầy đủ |
+
+### Phương án cắt giảm (nếu cần giữ ~430 tr)
+
+| Cắt | Tiết kiệm | Cách |
+| :--- | :---: | :--- |
+| Dù: 1688 mới thay 2nd | -3,6 tr | 商用遮阳伞 3米, 1,1tr/cây |
+| Âm thanh: loa bluetooth 2nd | -2 tr | Chợ Tốt |
+| Bình nóng lạnh: loại trực tiếp | -2 tr | Panasonic DH-3RL2 = 500k/cái |
+| Bảng hiệu: tự làm gỗ mít + sơn | -2 tr | DIY |
+| Phụ hồ: tự làm phần dọn/phụ | -5 tr | Gia đình phụ |
+| Cây sân vườn: xin/chiết cành | -2 tr | |
+| **Tổng cắt** | **~-17 tr** | **→ ~434 tr** |
 
 ### GĐ2: SOLAR + CỬA VÒM (tháng 4-6, từ doanh thu)
 
@@ -254,24 +276,26 @@
 | Cửa vòm kính CL + khung gỗ mít | 30 tr |
 | Solar 5kWp hòa lưới | 55-65 tr |
 | **Tổng GĐ2** | **85-95 tr** |
-| **Tổng cả 2 GĐ** | **~404-414 tr** |
+| **Tổng cả 2 GĐ** | **~536-546 tr** (hoặc ~519-529 nếu cắt) |
 
-### 💰 THU HỒI v5: GẦN NHƯ KHÔNG MẤT VỐN THIẾT BỊ
+### 💰 THU HỒI v5.2
 
-| Tài sản | Vốn v5 | Bán lại | Mất thực |
-| :--- | :---: | :---: | :---: |
-| Thiết bị di động (mua ở giá sàn) | 77,5 tr | 55-65 tr | **15-22 tr** (mất 20-28%) |
-| Hạ tầng gắn liền | 224 tr | 0 trực tiếp | Nâng giá BĐS + cho thuê |
-| **Cho thuê nguyên trạng (đất tự có)** | — | **15-25 tr/tháng** | **Hoàn vốn 13-21 tháng** |
+| Tài sản | Vốn | Bán lại | Ghi chú |
+| :--- | :---: | :---: | :--- |
+| Thiết bị di động (mua giá sàn) | ~85 tr | 60-70 tr | Mất 15-25 tr (18-29%) |
+| Dù lệch tâm × 4 | 8 tr | 5-7 tr | Thu hồi 63-88% |
+| Hạ tầng gắn liền | ~345 tr | 0 trực tiếp | Nâng giá BĐS |
+| **Cho thuê nguyên trạng** | — | **15-25 tr/tháng** | **Hoàn vốn 18-30 tháng** |
 
-### 📊 SO SÁNH EVOLUTION v2 → v5
+### 📊 EVOLUTION v2 → v5.2
 
-| Phiên bản | Tổng GĐ1 | Thiết bị di động | Mất khi đóng quán |
-| :--- | :---: | :---: | :---: |
-| v2 (kế hoạch gốc) | ~~399 tr~~ (thực 415,5) | ~150 tr | ~80-100 tr |
-| v3 (sau audit) | 442 tr | ~108 tr | ~50-66 tr |
-| v4 (tối ưu) | 345 tr | ~98 tr | ~41-56 tr |
-| **v5 (mua giá thanh lý)** | **319 tr** | **~77,5 tr** | **~15-22 tr** |
+| Phiên bản | Tổng GĐ1 | Hạng mục | Thiếu/Sót |
+| :--- | :---: | :---: | :--- |
+| v2 (gốc) | ~~399 tr~~ | ~15 | Appia II sai giá, thiếu phụ kiện mái, cửa vòm |
+| v3 (audit) | 442 tr | ~18 | Thiếu nhôm kính, phụ hồ, ngoại thất |
+| v5 (thanh lý) | 319 tr | ~18 | Thiếu nhôm kính 61m² |
+| v5.1 (+kính) | 394 tr | ~20 | Thiếu BOQ: phá dỡ, chống thấm, âm thanh... |
+| **v5.2 (BOQ đầy đủ)** | **~451 tr** | **~25** | **ĐẦY ĐỦ — không còn sót** |
 
 ---
 
