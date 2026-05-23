@@ -67,7 +67,16 @@
 | | Công thợ (thuê thợ 300k/ngày) | 150m² | 25k | 3,9 tr |
 | | **Tổng C1** | | | **12 tr** |
 
-> **Evidence**: Xi măng đánh bóng = tráng 2 lớp xi măng mịn → mài → phủ sealer. Vật tư rẻ, công tay nghề là chính. Thuê thợ phổ thông 300k/ngày làm việc, không cần thuê thợ chuyên gia.
+> **Evidence**: Xi măng đánh bóng = tráng 2 lớp xi măng mịn → mài → phủ sealer. Vật tư rẻ, công tay nghề là chính.
+
+> [!WARNING]
+> ### KHÔNG ỐP GẠCH 90×180cm NHẬP KHẨU
+> Gạch giá 500k/m² là phần nổi của tảng băng. Keo C2 Weber (80k/m²), nhân công thợ cứng (220k/m²), hao hụt lớn → sàn + tường 1.8m = **~281 triệu** → VỠ TRẬN TÀI CHÍNH.
+>
+> **Giải pháp "Tối ưu hóa kép" (Premium look - Budget safe):**
+> - **Sàn chính**: Gạch giả bê tông mài men Matt 80×80cm hoặc 60×120cm → giá hoàn thiện chỉ **~380k/m²** (cả keo và công). Tiết kiệm ~90 triệu.
+> - **Vách tường**: Ốp đá/gạch xám mộc chân tường cao 1.2m (vừa tầm tay trẻ chạm — chống bẩn). Phần tường trên (1.2m-5m): sơn hiệu ứng bê tông mộc (**Concrete Paint**) + sơn trắng ấm dễ lau chùi. Tiết kiệm ~70 triệu.
+> - **Kết luận**: v6 dùng xi măng bóng 12tr (OK với scope nhỏ), không ốp gạch lớn.
 
 #### C2. Sàn giữ cũ = 2 triệu
 
@@ -108,9 +117,21 @@
 > **An toàn**: Thép ve chai vẫn đảm bảo nếu: (1) không mỏng dưới 1,8mm, (2) không cong/vênh quá 2cm/m, (3) mối hàn được kiểm tra. Thợ kèo có kinh nghiệm sẽ loại bỏ thanh không đạt.
 > **Khác v7**: v7 tính mái 240-260m² (phủ toàn bộ 10×20m + vươn ra). v6 chỉ tính 120m² mái chính + phần còn lại dùng mái hiện hữu/dù che.
 
-#### C5. Bảng hiệu = 1 triệu
-- Gỗ mít từ phần thừa mái + sơn acrylic + đèn LED 1688
-- Tự làm DIY
+#### C5. Bảng hiệu gỗ mít khắc CNC = 1 triệu
+- Gỗ mít từ phần thừa + sơn acrylic + đèn LED 1688
+- Thuê thợ CNC khắc (hoặc thợ mộc đục)
+
+> [!IMPORTANT]
+> ### TẬN DỤNG 5m³ GỖ MÍT CỔ THỤ — KHÔNG GIA CÔNG TOÀN BỘ
+> Gỗ mít rất tốt (bền dẻ, vân đẹp). NHƯNG gia công đục đẽ toàn bộ làm ghế/bàn nhỏ tốn thợ mộc 1,5-1,8tr/ngày — đắt hơn nhiều so với mua 2nd thanh lý.
+>
+> **Giải pháp "Tận dụng thông minh"** — Chỉ dùng **~1m³** cho 4 điểm nhấn nghệ thuật:
+> 1. **Mặt bàn quầy bar live-edge** nguyên tấm phủ resin/PU bóng mờ
+> 2. **2 bàn dài nhóm lớn** chân sắt hộp đen phẳng
+> 3. **Hệ kệ mở treo tường** sau bar trưng bày ly tách + cây xanh
+> 4. **Bảng hiệu gỗ lớn** ngoài trời khắc CNC
+>
+> **4m³ còn lại**: Cất trữ làm tài sản (gỗ mít càng lâu càng cứng, càng đẹp, giá tăng) hoặc thanh lý thu hồi khi cần.
 
 ### D. HỆ THỐNG KỸ THUẬT (MEP) = 69 triệu ⚡
 
