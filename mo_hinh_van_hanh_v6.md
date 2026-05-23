@@ -63,6 +63,81 @@
 - ✅ Chủ quán trực tiếp pha chế ca sáng + kiểm soát POS + kho
 - ✅ Part-time theo giờ cao điểm (T7-CN 16h-20h)
 - ✅ Menu tập trung 4-6 món "đinh" dễ pha = 1 người làm được
+---
+
+## 2B. CHƯƠNG TRÌNH "ENGLISH HOST" — NGƯỜI VIỆT NÓI TIẾNG ANH TỐT
+
+> **Mục tiêu**: Tạo nguồn nhân lực nói tiếng Anh tự nhiên, bổ sung/thay thế khi không đủ volunteer nước ngoài. Chi phí gần 0 — chỉ tặng đồ uống/voucher.
+
+### Đối tượng & Điều kiện
+
+| Tiêu chí | Yêu cầu | Lý do |
+|---|---|---|
+| **IELTS Speaking** | ≥ 7.5 | Giao tiếp tự nhiên như bản xứ, không đọc bài |
+| **TOEFL iBT** | ≥ 26 (Speaking) | Tương đương |
+| **TOEIC** | ≥ 900 + phỏng vấn nói trực tiếp | TOEIC thiên listening/reading, cần verify nói |
+| **Đăng ký** | Qua Google Forms (kèm ảnh chứng chỉ) | Xác minh trước khi chấp nhận |
+| **Hoạt động bắt buộc** | Tổ chức ≥1 hoạt động tiếng Anh cho bé (30-45 phút) | Đổi lấy quà tặng |
+
+### Quà tặng & Chi phí
+
+| Quà tặng | Giá trị thực | Chi phí nguyên liệu | Ghi chú |
+|---|---|---|---|
+| Ly nước thứ 2 **miễn phí** | ~40-60k | ~8-12k (NVL) | Tặng ngay khi đến |
+| 1 phần bánh | ~30-40k | ~10-15k (NVL) | Tặng ngay |
+| Bốc thăm voucher **100k** sử dụng tại quán | 100k | ~25-35k (NVL khi dùng) | Xác suất trúng ~30-50% |
+| **Chi phí/lượt English Host** | | **~30-50k NVL thực** | |
+
+### Phân tích tài chính
+
+| Kịch bản | Số lượt/tháng | Chi phí NVL | Doanh thu tăng thêm | Lý do |
+|---|---|---|---|---|
+| Ít (tháng đầu) | 2 lượt | 60-100k | ~200-400k | Các bé đóng phí workshop |
+| Trung bình | 4 lượt | 120-200k | ~500k-1tr | Phụ huynh order thêm + quay lại |
+| Cao điểm | 8 lượt | 240-400k | ~1-2tr | Event cuối tuần, sinh nhật |
+
+> **ROI**: Chi 120-400k NVL → thu 500k-2tr doanh thu tăng thêm. **Lãi ròng 300-1.600k/tháng** chỉ riêng phần này.
+
+### Hoạt động gợi ý (English Host tổ chức)
+
+| Hoạt động | Thời lượng | Mô tả | Độ tuổi |
+|---|---|---|---|
+| **Story Time** | 30 phút | Đọc + diễn sách tranh bằng tiếng Anh, bé trả lời câu hỏi | 3-7 tuổi |
+| **Game Master** | 45 phút | Quản trò boardgame/LEGO challenge bằng tiếng Anh | 5-12 tuổi |
+| **Mini Talk** | 30 phút | Thuyết trình chủ đề đơn giản + Q&A (travel, animals, food) | 8-15 tuổi |
+| **Show & Tell** | 30 phút | Bé mang đồ yêu thích, giới thiệu bằng tiếng Anh, Host hỗ trợ | 5-10 tuổi |
+
+### Pháp lý — KHÔNG phải quan hệ lao động
+
+| Yếu tố | Phân tích | Kết luận |
+|---|---|---|
+| **Quan hệ** | Khách hàng tham gia chương trình khuyến mại | ✅ KHÔNG phải lao động |
+| **Lương** | Không trả lương — tặng đồ uống/voucher | ✅ Quà tặng khuyến mại |
+| **Thời gian** | Tự do đăng ký, không cam kết giờ | ✅ Không ràng buộc |
+| **Căn cứ** | Luật Thương mại 2005, NĐ 81/2018/NĐ-CP | Tổng quà <100tr/năm → không cần thông báo Sở CT |
+| **Hồ sơ cần** | Thể lệ chương trình nội bộ + danh sách khách tham gia | Lưu Google Sheets |
+
+### So sánh: English Host VN vs Volunteer Nước ngoài
+
+| | English Host VN (IELTS ≥7.5) | Volunteer Nước ngoài |
+|---|---|---|
+| **Chi phí** | ~30-50k NVL/lượt | 0-3tr/tháng + ăn ở |
+| **Nguồn** | Sinh viên, giáo viên Anh ngữ, freelancer | Backpacker, intern, cultural guest |
+| **Pháp lý** | ✅ Đơn giản (khuyến mại) | ⚠️ Phức tạp (Work Permit, tạm trú) |
+| **Ổn định** | ✅ Dễ tìm (Biên Hòa/HCM) | ❌ Không ổn định, mùa vụ |
+| **Phát âm** | Tốt nhưng có accent VN | Bản xứ (nếu Anh/Mỹ/Úc) |
+| **Kết hợp** | ✅ **Kết hợp cả 2 = tối ưu** | ✅ |
+
+### Kênh tuyển English Host
+
+| Kênh | Cách tiếp cận | Chi phí |
+|---|---|---|
+| FB Groups "IELTS Vietnam", "IELTS Speaking Practice" | Post tuyển volunteer, nêu rõ quà tặng | 0 |
+| Zalo nhóm "English Teachers Biên Hòa" | Liên hệ trực tiếp | 0 |
+| Đại học Lạc Hồng / ĐH Đồng Nai | Liên hệ CLB tiếng Anh, đề xuất hợp tác | 0 |
+| TikTok/Instagram của quán | Content "Tìm English Host — nói tiếng Anh nhận quà" | 0 |
+
+> **Kết luận**: ✅ **RẤT PHÙ HỢP**. Chi phí gần 0. Pháp lý đơn giản. Nguồn dồi dào. Bổ sung hoàn hảo cho volunteer nước ngoài. Triển khai ngay từ tuần mở cửa.
 
 ---
 
