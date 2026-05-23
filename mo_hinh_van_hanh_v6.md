@@ -5,33 +5,126 @@
 
 ---
 
-## 1. CHI PHÍ ĐIỆN — SOLAR GIẢM 60-70%
+## 1. CHI PHÍ ĐIỆN — SOLAR LẮP NGAY TỪ ĐẦU
 
-### Tính toán điện thực tế
+### Giá điện kinh doanh 2025-2026 (QĐ 1279/QĐ-BCT, cấp <6kV)
 
-| Thiết bị | Công suất | Giờ/ngày | kWh/tháng |
+| Khung giờ | Thời gian (T2-T7) | Đơn giá (chưa VAT) | + VAT 8% |
 |---|---|---|---|
-| Điều hòa 24K × 2 (Inverter) | 2 × 1,8kW | 10h | 1.080 |
-| Tủ mát + tủ bánh | 0,3kW | 24h | 216 |
-| Đèn chiếu sáng | 0,5kW | 8h | 120 |
-| Máy pha CRM 3120 | 1,5kW | 4h (thực tế) | 180 |
-| Quạt trần × 3 | 0,2kW | 10h | 60 |
-| Khác (máy xay, RO, POS, camera) | 0,3kW | 10h | 90 |
-| **TỔNG** | | | **~1.746 kWh/tháng** |
+| **Cao điểm** | 17h30-22h30 | 5.422 đ/kWh | **5.856 đ** |
+| **Bình thường** | 06h-17h30 + 22h30-24h | 3.152 đ/kWh | **3.404 đ** |
+| **Thấp điểm** | 00h-06h | 1.918 đ/kWh | **2.071 đ** |
+| CN | 06h-24h = bình thường, 00h-06h = thấp điểm | | |
 
-### Solar 5kWp giảm bao nhiêu?
+> **Evidence**: QĐ 1279/QĐ-BCT ngày 09/05/2025, Bộ Công Thương. Khung giờ theo QĐ 963/QĐ-BCT.
 
-| Hạng mục | Giá trị | Evidence |
+### Tải điện THỰC TẾ — phân tích theo cố định vs biến động
+
+#### A. Tải CỐ ĐỊNH (chạy mọi ngày bất kể khách)
+
+| Thiết bị | Công suất | Giờ/ngày | kWh/ngày | kWh/tháng | Ghi chú |
+|---|---|---|---|---|---|
+| Tủ mát 2 cánh Sanaky | 0,15kW (thực tế) | 24h | 3,6 | 108 | Inverter, chạy 24/7 |
+| Tủ bánh trưng bày | 0,12kW | 14h (06h-20h) | 1,7 | 51 | Tắt ban đêm |
+| Camera Hikvision × 4 | 0,04kW | 24h | 1,0 | 30 | 10W/cam × 4 |
+| Đèn LED chiếu sáng | 0,3kW | 6h (17h-23h) | 1,8 | 54 | Buổi tối, cần thiết |
+| String light sân vườn | 0,1kW | 5h (18h-23h) | 0,5 | 15 | Tạo không gian |
+| Router WiFi + POS tablet | 0,03kW | 24h | 0,7 | 21 | |
+| Máy lọc RO | 0,05kW | 4h | 0,2 | 6 | Chạy gián đoạn |
+| **Tổng cố định** | | | **~9,5 kWh/ngày** | **~285 kWh/tháng** | |
+
+#### B. Tải BIẾN ĐỘNG (theo lượng khách + thời tiết)
+
+| Thiết bị | Công suất | Giờ ít khách | Giờ trung bình | Giờ cao điểm | Ghi chú |
+|---|---|---|---|---|---|
+| **Điều hòa Casper 24K × 2** | 2 × 1,8kW = 3,6kW | 6h (11h-17h) | 10h (10h-20h) | 14h (8h-22h) | Biên Hòa nắng nóng 35-40°C, PHẢI bật |
+| Quạt trần × 3 | 0,2kW | 6h | 10h | 14h | Hỗ trợ AC |
+| Máy pha CRM 3120 | 1,5kW (thực tế ~0,8kW trung bình) | 3h | 5h | 8h | Không chạy liên tục, gia nhiệt gián đoạn |
+| Máy xay sinh tố × 2 | 1kW × 2 | 0,5h | 1h | 2h | Chạy từng lúc |
+| Ấm đun gooseneck | 0,8kW | 1h | 2h | 3h | |
+
+| Kịch bản | AC kWh | Quạt | Máy pha | Xay + Ấm | **Tổng biến động/ngày** |
+|---|---|---|---|---|---|
+| **Ít khách** (5-10 khách) | 21,6 | 1,2 | 2,4 | 1,3 | **~26,5 kWh** |
+| **Trung bình** (15-20 khách) | 36,0 | 2,0 | 4,0 | 2,5 | **~44,5 kWh** |
+| **Cao điểm** (25-35 khách) | 50,4 | 2,8 | 6,4 | 4,4 | **~64,0 kWh** |
+
+#### C. TỔNG TIÊU THỤ ĐIỆN — 3 KỊCH BẢN
+
+| Kịch bản | Cố định | Biến động | **Tổng/ngày** | **Tổng/tháng** | Tiền điện/tháng (trung bình 3.404đ/kWh) |
+|---|---|---|---|---|---|
+| **Ít khách** | 9,5 | 26,5 | **36 kWh** | **~1.080 kWh** | **~3,7 tr** |
+| **Trung bình** | 9,5 | 44,5 | **54 kWh** | **~1.620 kWh** | **~5,5 tr** |
+| **Cao điểm** | 9,5 | 64,0 | **73,5 kWh** | **~2.205 kWh** | **~7,5 tr** |
+
+> **Lưu ý**: Giá trung bình 3.404đ/kWh vì quán chủ yếu hoạt động giờ bình thường (06h-17h30). Buổi tối 17h30-22h30 là giờ cao điểm 5.856đ → đắt hơn 72%. Solar chỉ phát ban ngày → offset phần giá rẻ nhất, nhưng tiết kiệm tuyệt đối vẫn lớn.
+
+### Solar: Sizing tối ưu — TỰ DÙNG HẾT, KHÔNG BÁN LẠI
+
+#### Sản lượng solar tại Biên Hòa (PVGIS data)
+
+| Mùa | kWh/kWp/ngày | Nguồn |
 |---|---|---|
-| Sản lượng solar tại Biên Hòa | **600-750 kWh/tháng** | 4-5 giờ nắng/ngày × 5kW × 30 ngày |
-| Giá điện kinh doanh 2025 | **3.467 đ/kWh** (sau VAT) | QĐ 1279/QĐ-BCT 2025 |
-| **Tiền điện KHÔNG solar** | 1.746 × 3.467 = **~6,05 tr/tháng** | |
-| **Tiền điện CÓ solar** | (1.746 - 675) × 3.467 = **~3,71 tr/tháng** | Solar offset trung bình 675 kWh |
-| **Tiết kiệm** | **~2,34 tr/tháng** | 38,7% |
-| **Hoàn vốn solar** (55tr) | 55 / 2,34 = **~24 tháng** | |
+| Xuân (T2-T4) | **6,26** | profilesolar.com / PVGIS |
+| Hè (T5-T7) | **5,58** | Mùa mưa, mây nhiều |
+| Thu (T8-T10) | **4,92** | Mùa mưa chính |
+| Đông (T11-T1) | **5,61** | Nắng trở lại |
+| **Trung bình năm** | **5,09** | Bức xạ: 1.849 kWh/m²/năm |
 
-> **Kết luận**: Solar 5kWp tiết kiệm ~2,3tr/tháng. Hoàn vốn 2 năm. Sau đó = điện gần miễn phí ban ngày.
-> **Lưu ý**: Solar là GĐ2 (từ doanh thu). GĐ1 chịu điện full ~6tr/tháng.
+> **Evidence**: dongnai.gov.vn, vuphong.vn, profilesolar.com — bức xạ ngang trung bình năm Đồng Nai: 1.849 kWh/m².
+
+#### Tính toán công suất tối ưu
+
+**Mục tiêu**: Solar phát ban ngày = tải ban ngày. Không phát dư (không bán lại), không thiếu (không mua thêm ban ngày).
+
+| Tải ban ngày (06h-17h30 = ~11,5h) | Ít khách | Trung bình | Cao điểm |
+|---|---|---|---|
+| AC (ban ngày chạy) | 14,4 | 25,2 | 36,0 |
+| Tủ mát + tủ bánh + camera + RO | 4,5 | 4,5 | 4,5 |
+| Máy pha + xay + ấm | 2,4 | 4,0 | 6,4 |
+| Quạt trần | 0,8 | 1,3 | 1,8 |
+| **Tổng tải ban ngày** | **~22 kWh** | **~35 kWh** | **~49 kWh** |
+
+| Công suất solar | Sản lượng/ngày (× 5,09) | Khớp kịch bản | Dư/thiếu |
+|---|---|---|---|
+| 3 kWp | 15,3 kWh | < ít khách (22) | ❌ Thiếu |
+| **5 kWp** | **25,5 kWh** | ≈ ít khách (22) | ✅ Vừa đủ khi ít khách, thiếu khi đông |
+| **7 kWp** | **35,6 kWh** | ≈ trung bình (35) | ✅✅ **TỐI ƯU** — khớp trung bình, ít dư |
+| 10 kWp | 50,9 kWh | > cao điểm (49) | ⚠️ Dư buổi trưa ít khách |
+
+> **Kết luận: Lắp 7 kWp** — khớp tải trung bình 35 kWh/ngày. Ngày ít khách dư ~10 kWh (tủ lạnh + camera dùng hết). Ngày cao điểm thiếu ~14 kWh (mua thêm điện lưới buổi tối).
+
+#### Chi phí solar 7 kWp — lắp ngay từ đầu
+
+| Hạng mục | Chi phí | Ghi chú |
+|---|---|---|
+| Hệ thống 7 kWp on-grid trọn gói | **70-85 triệu** | QĐ 58/2025/NĐ-CP: tự sản tự tiêu <100kW, thông báo cơ quan |
+| Tấm pin (14 tấm × 500Wp) | ~40-45 tr | JA Solar/Longi/Canadian Solar |
+| Inverter (Sungrow/Growatt) | ~12-15 tr | |
+| Khung, dây, CB, MC4, công lắp | ~18-25 tr | |
+
+> **Evidence**: Giá 2026 Q2: 50-75tr cho 5kWp, 70-100tr cho 7kWp (tăng 5-10% vs 2025 do nhu cầu cao mùa nóng). Nguồn: nhiều đơn vị Biên Hòa/Đồng Nai.
+
+#### Phân tích hoàn vốn chi tiết
+
+| Hạng mục | Giá trị | Cách tính |
+|---|---|---|
+| Sản lượng solar/tháng | **~1.070 kWh** | 7kWp × 5,09 × 30 |
+| Tỷ lệ tự tiêu (ban ngày) | **90-95%** | Không bán lại, dùng hết cho AC + tủ + máy pha |
+| kWh tự tiêu thực tế/tháng | **~960-1.020 kWh** | |
+| Tiền tiết kiệm/tháng (giờ bình thường) | **~3.270-3.470k** | 960-1.020 × 3.404đ |
+| **Hoàn vốn** (với 75tr đầu tư) | **~22-23 tháng** | 75.000k ÷ 3.370k |
+| **Từ tháng 24**: tiền điện ban ngày | **≈ 0 đồng** | |
+
+#### Tiền điện sau khi lắp solar — 3 kịch bản
+
+| Kịch bản | Không solar | Có solar 7kWp | **Tiết kiệm** |
+|---|---|---|---|
+| Ít khách | 3,7 tr | **~700k** (chỉ trả điện tối) | **-3,0 tr** |
+| Trung bình | 5,5 tr | **~2,0 tr** | **-3,5 tr** |
+| Cao điểm | 7,5 tr | **~4,0 tr** | **-3,5 tr** |
+
+> **Kết luận**: Lắp solar **7 kWp NGAY TỪ ĐẦU** (70-85tr). Hoàn vốn ~22 tháng. Sau đó điện ban ngày = 0 đồng. Tiết kiệm 3,0-3,5tr/tháng mãi mãi. Tuổi thọ panel: 25-30 năm.
 
 ---
 
@@ -240,7 +333,7 @@
 | Hạng mục | Chi phí |
 |---|---|
 | Nhân sự (chủ + 1 FT + ít PT) | 7 tr |
-| Điện (chưa solar) | 6 tr |
+| Điện (CÓ solar 7kWp từ đầu) | **700k** |
 | Nước | 1 tr |
 | Nguyên vật liệu F&B | 5 tr |
 | Duy trì + vệ sinh + muỗi | 1,2 tr |
@@ -248,14 +341,14 @@
 | Gas (bếp nhỏ) | 300k |
 | Thuê đất (trả ba mẹ) | 3 tr |
 | Dự phòng | 1 tr |
-| **TỔNG A** | **~25 tr/tháng** |
+| **TỔNG A** | **~19,7 tr/tháng** |
 
 ### Kịch bản B: Tháng trung bình (có khách)
 
 | Hạng mục | Chi phí |
 |---|---|
-| Nhân sự (+ PT + NN) | 9,5 tr |
-| Điện (có solar GĐ2) | 3,7 tr |
+| Nhân sự (+ PT + NN/English Host) | 9,5 tr |
+| Điện (CÓ solar 7kWp) | **2 tr** |
 | Nước | 1,2 tr |
 | Nguyên vật liệu F&B | 10 tr |
 | Duy trì + vệ sinh | 1,5 tr |
@@ -264,14 +357,14 @@
 | Thuê đất | 3 tr |
 | Marketing boost | 500k |
 | Dự phòng | 1 tr |
-| **TỔNG B** | **~31,3 tr/tháng** |
+| **TỔNG B** | **~29,6 tr/tháng** |
 
 ### Kịch bản C: Tháng cao điểm
 
 | Hạng mục | Chi phí |
 |---|---|
-| Nhân sự (đủ PT + NN) | 11,7 tr |
-| Điện (có solar) | 4,5 tr |
+| Nhân sự (đủ PT + NN/English Host) | 11,7 tr |
+| Điện (CÓ solar 7kWp) | **4 tr** |
 | Nước | 1,5 tr |
 | Nguyên vật liệu F&B | 18 tr |
 | Duy trì + vệ sinh | 1,5 tr |
@@ -280,15 +373,15 @@
 | Thuê đất | 3 tr |
 | Marketing boost | 1 tr |
 | Dự phòng | 1,5 tr |
-| **TỔNG C** | **~44,2 tr/tháng** |
+| **TỔNG C** | **~43,2 tr/tháng** |
 
 ### So sánh với bản cũ trên live site
 
 | | Live site cũ | **v6 tối ưu** | Tiết kiệm |
 |---|---|---|---|
-| Chi phí vận hành/tháng | 125-155 tr | **25-44 tr** | **-81 đến -131 tr** |
-| Nhân sự | 5-8 người fix | **2 fix + PT theo nhu cầu** | Linh hoạt |
-| Điện | Chưa tối ưu | **Solar offset 38%** | -2,3 tr/tháng |
+| Chi phí vận hành/tháng | 125-155 tr | **20-43 tr** | **-82 đến -135 tr** |
+| Nhân sự | 5-8 người fix | **2 fix + PT + English Host** | Linh hoạt |
+| Điện | Chưa tối ưu | **Solar 7kWp từ đầu, offset 60-80%** | -3,0 đến -3,5 tr/tháng |
 
 > **Lý do site cũ quá cao**: Site cũ tính theo scope v7 full (200m² trần 5m, 5-8 nhân viên, 525m² sân, điều hòa trung tâm). v6 scope nhỏ hơn + tự vận hành + part-time linh hoạt.
 

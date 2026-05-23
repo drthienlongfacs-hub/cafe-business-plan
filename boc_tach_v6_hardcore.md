@@ -368,31 +368,34 @@ Cập nhật: **13,4 tr** thay vì 15 tr.
 | C1 | Xi măng bóng | 12 tr |
 | C2 | Sàn giữ cũ | 2 tr |
 | C3 | Nhôm kính 61m² full 2nd | **35 tr** |
-| C4 | **Mái cong 120m²** (thép ve chai chọn lọc) | **79 tr** |
-| C5 | Bảng hiệu DIY | 1 tr |
+| C4 | **Mái cong 120m²** (thép ve chai chọn lọc + gỗ mít đà trần) | **79 tr** |
+| C5 | Bảng hiệu gỗ mít CNC | 1 tr |
 | D1 | Điện (Cadivi CK + 1688) | **27 tr** |
 | D2 | Đèn (1688) | 5 tr |
 | D3 | Nước (Bình Minh đại lý) | **13,4 tr** |
 | D4-7 | ML + quạt + BNL + âm thanh | 14 tr |
 | D8 | Toilet × 2 (thanh lý KS) | **10,2 tr** |
-| E | Ngoại thất + sân vườn | 6 tr |
-| F | Thiết bị + nội thất + GP | **40 tr** |
+| **D9** | **Solar 7 kWp on-grid (lắp ngay từ đầu)** | **75 tr** |
+| E | Ngoại thất + tưới nhỏ giọt Tuya WiFi | **9 tr** |
+| F | Thiết bị + nội thất + dụng cụ + GP | **48 tr** |
 | G | Nhân công phụ | 8 tr |
 | H1 | Marketing | 1 tr |
-| | **TỔNG TRƯỚC DỰ PHÒNG** | **~262 tr** |
-| H2 | Dự phòng 5% | **~13 tr** |
+| | **TỔNG TRƯỚC DỰ PHÒNG** | **~348 tr** |
+| H2 | Dự phòng 5% | **~17 tr** |
 | | | |
-| | **TỔNG v6** | **~276 tr** |
+| | **TỔNG v6 (có solar)** | **~365 tr** |
 
 > [!IMPORTANT]
-> ### KẾT QUẢ: ~276 triệu — DƯ 124 triệu so với trần 400 triệu
+> ### KẾT QUẢ: ~365 triệu — DƯ 35 triệu so với trần 400 triệu
 > 
-> Cộng từng dòng chi tiết = **~276 triệu**. Rẻ hơn nhờ:
-> 1. Full 2nd nhôm kính (tiết kiệm 21tr so với v5.2)
-> 2. Cadivi đại lý cấp 1 CK 35% (tiết kiệm 23tr)
-> 3. Toilet thanh lý KS (tiết kiệm 10tr)
-> 4. Nước đại lý trực tiếp (tiết kiệm 11tr)
-> 5. Thiết bị mua 2nd chọn lọc (tiết kiệm 37tr)
+> Cộng từng dòng chi tiết = **~365 triệu** (đã bao gồm solar 7kWp). Vẫn dưới trần 400tr. Solar lắp từ đầu giúp:
+> 1. Tiền điện tháng đầu **chỉ ~700k** (thay vì 3,7-6tr)
+> 2. Hoàn vốn solar sau **22 tháng**
+> 3. Sau đó tiết kiệm **3,0-3,5tr/tháng vĩnh viễn** (tuổi thọ 25-30 năm)
+> 4. Full 2nd nhôm kính (tiết kiệm 21tr so với v5.2)
+> 5. Cadivi đại lý cấp 1 CK 35% (tiết kiệm 23tr)
+> 6. Toilet thanh lý KS (tiết kiệm 10tr)
+> 7. Thiết bị mua 2nd chọn lọc (tiết kiệm 37tr)
 > 6. Thép kèo ve chai chọn lọc (tiết kiệm 11tr)
 > 7. Thuê lao động phổ thông đúng giá (300k thay vì 500k)
 > 
