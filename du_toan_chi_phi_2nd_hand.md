@@ -222,32 +222,88 @@
 
 ---
 
-## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND TỐI ƯU
+## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND + MÁI CONG + SOLAR
 
-| Phần | Hạng mục | Giá chọn (VNĐ) |
-| :---: | :--- | :---: |
-| **A** | Thiết bị pha chế (2nd) | 54,5 triệu |
-| **B** | Nội thất + Máy lạnh (2nd) | 48 triệu |
-| **C** | Sửa sang mặt bằng (tối giản) | 200 triệu |
-| **D1** | Giấy phép | 8 triệu |
-| **D2** | PCCC | 17 triệu |
-| **D3** | Camera (2nd) | 7 triệu |
-| **D4** | Đồ chơi 2nd | 9 triệu |
-| **E** | Marketing khai trương | 5 triệu |
-| **F** | Dự phòng bất ngờ (5%) | 17,4 triệu |
-| | **TỔNG ĐẦU TƯ BAN ĐẦU** | **~366 triệu** |
+> **Cập nhật**: 23/05/2026 — Bổ sung mái cong đầu hồi (ngói cũ + gỗ mít tự có) + Solar 5kWp (giai đoạn 2)
+
+### GIAI ĐOẠN 1: XÂY DỰNG + SETUP (≤ 400 triệu)
+
+| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
+| :---: | :--- | :---: | :--- |
+| **A** | Thiết bị pha chế (2nd) | 54,5 triệu | Giữ nguyên |
+| **B** | Nội thất + Máy lạnh (2nd) | 48 triệu | Giữ nguyên |
+| **C** | Sửa sang mặt bằng (tối giản hơn) | 155 triệu | Giảm 45tr: toilet 2nd, tự mua dây điện/ống nước, thuê thợ trực tiếp |
+| **C+** | 🏠 **Mái cong đầu hồi** (ngói cũ + gỗ mít) | 90 triệu | Ngói cũ tháo dỡ 8-13k/viên, gỗ mít 1.5m³ làm kèo, thuê thợ trực tiếp |
+| **C++** | 🪟 **Cửa vòm khung gỗ mít** (5 cửa sổ + 2 cửa đi) | 12 triệu | Tự đóng khung gỗ mít, chỉ mua kính + bản lề |
+| **D1** | Giấy phép | 8 triệu | Giữ nguyên |
+| **D2** | PCCC | 17 triệu | Giữ nguyên |
+| **D3** | Camera (2nd) | 7 triệu | Giữ nguyên |
+| **D4** | Đồ chơi 2nd | 9 triệu | Giữ nguyên |
+| **E** | Marketing khai trương | 3 triệu | Chủ yếu online (FB/TikTok) |
+| **F** | Dự phòng (3%) | 12 triệu | — |
+| | **TỔNG GIAI ĐOẠN 1** | **~399 triệu** | ✅ ≤ 400 triệu |
+
+### GIAI ĐOẠN 2: SOLAR (Tháng thứ 4 — từ doanh thu)
+
+| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
+| :---: | :--- | :---: | :--- |
+| **G** | ☀️ Solar 5kWp hòa lưới (10 panel + inverter + lắp) | 48 triệu | Hoàn vốn 1 năm 9 tháng, tiết kiệm ~27tr/năm |
+| | **TỔNG CẢ 2 GIAI ĐOẠN** | **~447 triệu** | Solar tự chi từ doanh thu |
 
 ---
 
-### SO SÁNH 3 PHƯƠNG ÁN
+### PHÂN TÍCH CHI PHÍ MÁI CONG (C+ = 90 triệu)
 
-| Tiêu chí | Full 2nd (tối ưu) | Trung bình (mix mới+cũ) | Full mới |
+| Hạng mục | Phương án | Tổng (VNĐ) |
+| :--- | :--- | :---: |
+| Kèo gỗ mít (sẵn có 1.5m³) | Xẻ + gia công: 3-4tr/m³ | 4,5 – 6 triệu |
+| Uốn kèo cong 2 đầu hồi | Thợ mộc cứng 1.5-1.8tr/ngày × 5-7 ngày | 9 – 12,6 triệu |
+| Ngói đất nung cũ (tháo dỡ) | 8-13k/viên × 2.875 viên (gồm 15% dư) | 23 – 37,4 triệu |
+| Xà gồ sắt hộp (mới) | 18-22k/kg × 800 kg | 14,4 – 17,6 triệu |
+| Tôn lót chống dột + cách nhiệt | 85-95k/m² × 120m² | 10,2 – 11,4 triệu |
+| Phụ kiện + vận chuyển | Ty ren, bu lông, 2 chuyến xe | 6 – 10 triệu |
+| Nhân công lợp mái (thuê thợ) | 2 thợ chính + 2 phụ × 10-12 ngày | 11,4 – 13,7 triệu |
+| **Tổng mái cong** | | **~90 triệu** |
+
+> **So sánh**: Qua nhà thầu = 180-250 triệu → **Tiết kiệm 90-160 triệu (50-65%)**
+
+**Nguồn ngói cũ uy tín**: trungsongroup.vn · thegioingoilop.com · thegioigachngoi.com · gachngoigiasi.com · muaxacnhasaigon.com
+
+### PHÂN TÍCH SOLAR (G = 48 triệu)
+
+| Chỉ số | Giá trị |
+| :--- | :---: |
+| Công suất | 5 kWp (10 tấm JA Solar 500W) |
+| Sản lượng/tháng | ~630 kWh |
+| Tiền điện tiết kiệm/tháng | ~2,3 triệu (giá điện KD ~3.800đ/kWh) |
+| **Thời gian hoàn vốn** | **~1 năm 9 tháng** |
+| Tiết kiệm 10 năm | ~274 triệu (vs đầu tư 48 triệu) |
+| Tuổi thọ hệ thống | 25 năm |
+
+> **Kết luận**: Solar **ROI rất cao** cho kinh doanh (giá điện KD gấp 2-3× sinh hoạt). Nên lắp sau khai trương (tháng 4) bằng doanh thu.
+
+### TẬN DỤNG GỖ MÍT 5M³
+
+| Mục đích | m³ dùng | Tiết kiệm (VNĐ) |
+| :--- | :---: | :---: |
+| Kèo + xà gồ mái cong | 1,5 m³ | ~30–40 triệu |
+| Bàn bar live-edge + 2 bàn dài | 0,5 m³ | ~15–20 triệu |
+| Khung cửa vòm + kệ + bảng hiệu | 0,3 m³ | ~5–8 triệu |
+| **Dự trữ / thanh lý thu hồi** | **2,7 m³** | **~40–55 triệu** |
+| **Tổng giá trị gỗ mít tạo ra** | **5,0 m³** | **~90–123 triệu** |
+
+---
+
+### SO SÁNH PHƯƠNG ÁN MỚI vs CŨ
+
+| Tiêu chí | v1 (366tr, mái phẳng) | **v2 (399tr, mái cong + cửa vòm)** | Qua nhà thầu (mái cong) |
 | :--- | :---: | :---: | :---: |
-| **Tổng vốn ban đầu** | **~366 triệu** | ~393 triệu | ~575 triệu |
-| Tiết kiệm so với full mới | **209 triệu (36%)** | 182 triệu | — |
-| Rủi ro hỏng thiết bị | Trung bình (có bảo hành 3–12 tháng) | Thấp | Rất thấp |
-| Chi phí bảo trì năm 1 | ~5–10 triệu | ~3–5 triệu | ~1–2 triệu |
-| Thời gian setup | +1–2 tuần (đi tìm hàng) | Bình thường | Nhanh nhất |
+| **Tổng vốn** | 366 triệu | **399 triệu** | ~650+ triệu |
+| Hệ mái | Mái tôn phẳng | **Mái cong ngói đất nung** | Mái cong ngói |
+| Cửa sổ | Cửa thông thường | **Cửa vòm khung gỗ mít** | Cửa vòm |
+| Solar | Không | **48tr (giai đoạn 2)** | Tùy |
+| Thẩm mỹ | Trung bình | **Cao cấp** | Cao cấp |
+| Tiết kiệm vs nhà thầu | — | **~250+ triệu (40%)** | — |
 
 ---
 
