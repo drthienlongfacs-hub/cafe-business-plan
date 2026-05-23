@@ -126,6 +126,21 @@
 
 > **Kết luận**: Lắp solar **7 kWp NGAY TỪ ĐẦU** (70-85tr). Hoàn vốn ~22 tháng. Sau đó điện ban ngày = 0 đồng. Tiết kiệm 3,0-3,5tr/tháng mãi mãi. Tuổi thọ panel: 25-30 năm.
 
+#### Kế hoạch mở rộng solar — MỤC TIÊU: TIỀN ĐIỆN < 500k/tháng
+
+> **Nguyên tắc**: Nếu tiền điện lưới > 500k/tháng liên tục 3 tháng → lắp bổ sung.
+
+| Trigger | Nguyên nhân | Giải pháp | Chi phí bổ sung | Kết quả |
+|---|---|---|---|---|
+| Điện lưới > 500k × 3 tháng | Lượng khách tăng → AC chạy nhiều hơn (kịch bản cao điểm) | Lắp thêm **2-3 kWp** (4-6 tấm) | **20-30 tr** | 9-10 kWp → cover cao điểm |
+| Điện lưới > 1tr × 3 tháng | Mở rộng thiết bị (thêm AC, tủ mát) | Lắp thêm **3-5 kWp** | **30-50 tr** | 10-12 kWp → gần tự chủ hoàn toàn |
+| Mùa mưa solar giảm 20-30% | Thu (T8-T10): 4,92 kWh/kWp thay vì 5,09 | Không lắp thêm — chấp nhận mua lưới 2-3 tháng mùa mưa | 0 | Tiền lưới mùa mưa ~500-800k OK |
+
+> **Lộ trình**:
+> - **Tháng 1-6**: Theo dõi hóa đơn EVN hàng tháng. Ghi nhận kWh mua lưới vs solar sản xuất.
+> - **Tháng 7**: Nếu trung bình > 500k → báo giá lắp thêm 2-3 kWp.
+> - **Mục tiêu cuối**: Tiền điện lưới **< 500k/tháng** (chỉ trả phần tối + mùa mưa). Inverter Sungrow/Growatt hỗ trợ mở rộng dễ dàng, không cần thay inverter mới.
+
 ---
 
 ## 2. NHÂN SỰ — THÔNG MINH, KHÔNG LÃNG PHÍ
@@ -191,7 +206,7 @@
 
 > **ROI**: Chi 120-400k NVL → thu 500k-2tr doanh thu tăng thêm. **Lãi ròng 300-1.600k/tháng** chỉ riêng phần này.
 
-### Hoạt động gợi ý (English Host tổ chức)
+### Hoạt động khi CÓ khách audience (trẻ em/khách giao tiếp)
 
 | Hoạt động | Thời lượng | Mô tả | Độ tuổi |
 |---|---|---|---|
@@ -199,6 +214,22 @@
 | **Game Master** | 45 phút | Quản trò boardgame/LEGO challenge bằng tiếng Anh | 5-12 tuổi |
 | **Mini Talk** | 30 phút | Thuyết trình chủ đề đơn giản + Q&A (travel, animals, food) | 8-15 tuổi |
 | **Show & Tell** | 30 phút | Bé mang đồ yêu thích, giới thiệu bằng tiếng Anh, Host hỗ trợ | 5-10 tuổi |
+
+### Hoạt động khi KHÔNG CÓ khách audience (Host vẫn nhận quà)
+
+> **Tình huống**: Host đến quán nhưng hôm đó không có trẻ em/khách muốn giao tiếp. Vẫn tạo giá trị marketing cho quán → vẫn nhận quà.
+
+| Hoạt động thay thế | Yêu cầu cụ thể | Giá trị cho quán |
+|---|---|---|
+| **Video review tiếng Anh** | Quay 60-90s review quán bằng tiếng Anh, nêu cảm nghĩ thật | Content marketing chất lượng cao |
+| **Đăng FB cá nhân** | Đăng public, tag quán + tag ≥3 người bạn, giữ public ≥7 ngày | Reach organic miễn phí |
+| **Review Google Maps** | Viết review ≥50 từ + ảnh thực tế + rating ≥4 sao | SEO local, tăng uy tín |
+| **Video TikTok/Reels** | Quay video ngắn 15-30s trải nghiệm tại quán, tag quán | Viral potential |
+| **Phỏng vấn ngắn** | Chủ quán phỏng vấn Host về trải nghiệm (2-3 phút), đồng ý đăng trên page quán | Content cho kênh YouTube/TikTok quán |
+| **Mini presentation tự do** | Thuyết trình 5-10 phút trước camera về bất kỳ chủ đề nào bằng tiếng Anh | Content giáo dục cho kênh quán |
+
+> **Điều kiện nhận quà khi không có audience**: Hoàn thành ≥2 trong 6 hoạt động trên. Content phải giữ public ≥7 ngày, không xóa. Quán giữ quyền sử dụng content cho marketing.
+> **Giá trị thực**: 1 video review tiếng Anh chất lượng trên TikTok = tương đương 200-500k quảng cáo. 1 review Google Maps = vĩnh viễn.
 
 ### Pháp lý — KHÔNG phải quan hệ lao động
 
