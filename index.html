@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kế Hoạch Kinh Doanh — Quán Cafe 200m² Biên Hòa</title>
+<meta name="description" content="Kế hoạch triển khai chi tiết quán cafe 200m² kết hợp khu vui chơi trẻ em và giao lưu văn hóa tại Biên Hòa, Đồng Nai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg-primary:#0a0e1a;--bg-secondary:#111827;--bg-card:#1a2035;--bg-card-hover:#222b45;
+--accent-1:#6366f1;--accent-2:#8b5cf6;--accent-3:#a78bfa;--accent-green:#10b981;
+--accent-amber:#f59e0b;--accent-rose:#f43f5e;--accent-cyan:#06b6d4;
+--text-primary:#f1f5f9;--text-secondary:#94a3b8;--text-muted:#64748b;
+--border:#1e293b;--border-accent:#2d3a5c;
+--gradient-primary:linear-gradient(135deg,#6366f1,#8b5cf6,#a78bfa);
+--gradient-warm:linear-gradient(135deg,#f59e0b,#ef4444);
+--gradient-cool:linear-gradient(135deg,#06b6d4,#3b82f6);
+--gradient-green:linear-gradient(135deg,#10b981,#059669);
+--shadow-glow:0 0 40px rgba(99,102,241,.15);
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.7;overflow-x:hidden}
+
+/* ── NAV ── */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,14,26,.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:.75rem 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+.nav-links a{color:var(--text-secondary);text-decoration:none;font-size:.8rem;font-weight:500;transition:color .3s;letter-spacing:.02em}
+.nav-links a:hover{color:var(--accent-3)}
+@media(max-width:768px){.nav-links{display:none}.nav{padding:.75rem 1rem}}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:6rem 2rem 4rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 30% 50%,rgba(99,102,241,.08) 0%,transparent 50%),radial-gradient(ellipse at 70% 50%,rgba(139,92,246,.06) 0%,transparent 50%);animation:heroGlow 15s ease-in-out infinite alternate}
+@keyframes heroGlow{0%{transform:translate(0,0)}100%{transform:translate(-5%,3%)}}
+.hero-content{position:relative;z-index:1;max-width:900px}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.25);border-radius:99px;padding:.4rem 1.2rem;font-size:.75rem;color:var(--accent-3);font-weight:500;margin-bottom:2rem;letter-spacing:.05em}
+.hero-badge::before{content:'';width:6px;height:6px;background:var(--accent-green);border-radius:50%;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.hero h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.2rem,5vw,4rem);font-weight:800;line-height:1.15;margin-bottom:1.5rem;background:linear-gradient(135deg,#fff 0%,#a78bfa 50%,#6366f1 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{color:var(--text-secondary);font-size:1.1rem;max-width:650px;margin:0 auto 2.5rem}
+.hero-stats{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap}
+.hero-stat{text-align:center}
+.hero-stat .num{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-stat .label{font-size:.75rem;color:var(--text-muted);margin-top:.25rem}
+
+/* ── SECTIONS ── */
+.section{padding:5rem 2rem;max-width:1200px;margin:0 auto}
+.section-header{text-align:center;margin-bottom:3.5rem}
+.section-header .overline{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-cyan);margin-bottom:.75rem}
+.section-header h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-bottom:1rem}
+.section-header p{color:var(--text-secondary);max-width:600px;margin:0 auto;font-size:.95rem}
+.divider{width:60px;height:3px;background:var(--gradient-primary);border-radius:99px;margin:0 auto 1.5rem}
+
+/* ── CARDS ── */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;transition:all .4s cubic-bezier(.25,.8,.25,1);position:relative;overflow:hidden}
+.card:hover{transform:translateY(-4px);border-color:var(--border-accent);box-shadow:var(--shadow-glow)}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0;opacity:0;transition:opacity .4s}
+.card:hover::before{opacity:1}
+.card.accent-indigo::before{background:var(--gradient-primary)}
+.card.accent-green::before{background:var(--gradient-green)}
+.card.accent-amber::before{background:var(--gradient-warm)}
+.card.accent-cyan::before{background:var(--gradient-cool)}
+.card-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1.25rem}
+.card-icon.indigo{background:rgba(99,102,241,.12);color:var(--accent-1)}
+.card-icon.green{background:rgba(16,185,129,.12);color:var(--accent-green)}
+.card-icon.amber{background:rgba(245,158,11,.12);color:var(--accent-amber)}
+.card-icon.cyan{background:rgba(6,182,212,.12);color:var(--accent-cyan)}
+.card-icon.rose{background:rgba(244,63,94,.12);color:var(--accent-rose)}
+.card h3{font-size:1.1rem;font-weight:600;margin-bottom:.75rem}
+.card p,.card li{color:var(--text-secondary);font-size:.88rem;line-height:1.65}
+.card ul{list-style:none;padding:0}
+.card ul li{padding:.3rem 0;padding-left:1.2rem;position:relative}
+.card ul li::before{content:'→';position:absolute;left:0;color:var(--accent-3);font-weight:600}
+
+/* ── MODEL LAYERS ── */
+.model-layers{display:flex;flex-direction:column;gap:0;max-width:800px;margin:0 auto}
+.layer{padding:2rem;border:1px solid var(--border);position:relative;transition:all .4s}
+.layer:first-child{border-radius:16px 16px 0 0}
+.layer:last-child{border-radius:0 0 16px 16px}
+.layer:hover{z-index:2;transform:scale(1.02);box-shadow:var(--shadow-glow)}
+.layer-num{position:absolute;top:1.5rem;right:1.5rem;font-family:'Space Grotesk',sans-serif;font-size:2.5rem;font-weight:800;opacity:.08}
+.layer.l1{background:linear-gradient(135deg,rgba(99,102,241,.08),rgba(99,102,241,.02))}
+.layer.l2{background:linear-gradient(135deg,rgba(16,185,129,.08),rgba(16,185,129,.02))}
+.layer.l3{background:linear-gradient(135deg,rgba(245,158,11,.08),rgba(245,158,11,.02))}
+.layer-tag{display:inline-block;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;padding:.25rem .75rem;border-radius:99px;margin-bottom:.75rem}
+.l1 .layer-tag{background:rgba(99,102,241,.15);color:var(--accent-3)}
+.l2 .layer-tag{background:rgba(16,185,129,.15);color:var(--accent-green)}
+.l3 .layer-tag{background:rgba(245,158,11,.15);color:var(--accent-amber)}
+.layer h3{font-size:1.15rem;font-weight:600;margin-bottom:.5rem}
+.layer p{color:var(--text-secondary);font-size:.9rem}
+
+/* ── FLOOR PLAN ── */
+.floorplan{max-width:800px;margin:0 auto;background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;position:relative}
+.floorplan-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:1rem;min-height:280px}
+.zone{border-radius:12px;padding:1.5rem;display:flex;flex-direction:column;justify-content:center;transition:all .3s}
+.zone:hover{transform:scale(1.03)}
+.zone-fb{background:linear-gradient(135deg,rgba(99,102,241,.12),rgba(99,102,241,.04));border:1px dashed rgba(99,102,241,.3)}
+.zone-play{background:linear-gradient(135deg,rgba(16,185,129,.12),rgba(16,185,129,.04));border:1px dashed rgba(16,185,129,.3)}
+.zone-tag{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.75rem}
+.zone-fb .zone-tag{color:var(--accent-3)}
+.zone-play .zone-tag{color:var(--accent-green)}
+.zone h4{font-size:1rem;font-weight:600;margin-bottom:.5rem}
+.zone ul{list-style:none;padding:0}
+.zone ul li{font-size:.8rem;color:var(--text-secondary);padding:.15rem 0;padding-left:1rem;position:relative}
+.zone ul li::before{content:'•';position:absolute;left:0;color:var(--accent-3)}
+.zone-play ul li::before{color:var(--accent-green)}
+.floorplan-footer{display:flex;justify-content:space-between;margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.78rem;color:var(--text-muted)}
+@media(max-width:600px){.floorplan-grid{grid-template-columns:1fr}}
+
+/* ── TIMELINE ── */
+.timeline{position:relative;max-width:800px;margin:0 auto}
+.timeline::before{content:'';position:absolute;left:24px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--accent-1),var(--accent-2),var(--accent-green),var(--accent-amber),var(--accent-rose))}
+.tl-item{position:relative;padding-left:64px;padding-bottom:3rem}
+.tl-item:last-child{padding-bottom:0}
+.tl-dot{position:absolute;left:14px;top:4px;width:22px;height:22px;border-radius:50%;border:3px solid;display:flex;align-items:center;justify-content:center;font-size:.55rem;font-weight:700;color:#fff;background:var(--bg-primary)}
+.tl-item:nth-child(1) .tl-dot{border-color:var(--accent-1);background:var(--accent-1)}
+.tl-item:nth-child(2) .tl-dot{border-color:var(--accent-2);background:var(--accent-2)}
+.tl-item:nth-child(3) .tl-dot{border-color:var(--accent-green);background:var(--accent-green)}
+.tl-item:nth-child(4) .tl-dot{border-color:var(--accent-amber);background:var(--accent-amber)}
+.tl-item:nth-child(5) .tl-dot{border-color:var(--accent-rose);background:var(--accent-rose)}
+.tl-time{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-3);margin-bottom:.3rem}
+.tl-title{font-size:1.1rem;font-weight:600;margin-bottom:.5rem}
+.tl-body{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;font-size:.85rem;color:var(--text-secondary)}
+.tl-body ul{list-style:none;padding:0;margin:.5rem 0 0}
+.tl-body li{padding:.25rem 0;padding-left:1.2rem;position:relative}
+.tl-body li::before{content:'✓';position:absolute;left:0;color:var(--accent-green);font-weight:700;font-size:.75rem}
+.tl-cost{display:inline-block;margin-top:.75rem;background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);color:var(--accent-3);padding:.3rem .8rem;border-radius:8px;font-size:.75rem;font-weight:600}
+
+/* ── TABLES ── */
+.table-wrap{overflow-x:auto;border-radius:12px;border:1px solid var(--border);margin-bottom:1.5rem}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+thead{background:rgba(99,102,241,.08)}
+th{padding:.85rem 1rem;text-align:left;font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent-3);border-bottom:1px solid var(--border)}
+td{padding:.75rem 1rem;border-bottom:1px solid var(--border);color:var(--text-secondary)}
+tbody tr{transition:background .2s}
+tbody tr:hover{background:rgba(99,102,241,.04)}
+tbody tr:last-child td{border-bottom:none}
+.highlight-row{background:rgba(16,185,129,.06) !important}
+.highlight-row td{color:var(--text-primary);font-weight:500}
+
+/* ── COMPARISON ── */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;max-width:900px;margin:0 auto}
+@media(max-width:700px){.compare{grid-template-columns:1fr}}
+.compare-card{border-radius:16px;padding:2rem;border:1px solid var(--border)}
+.compare-card.rec{border-color:rgba(16,185,129,.3);background:linear-gradient(135deg,rgba(16,185,129,.06),transparent)}
+.compare-card.alt{background:var(--bg-card)}
+.compare-badge{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:.3rem .8rem;border-radius:99px;display:inline-block;margin-bottom:1rem}
+.rec .compare-badge{background:rgba(16,185,129,.15);color:var(--accent-green)}
+.alt .compare-badge{background:rgba(245,158,11,.15);color:var(--accent-amber)}
+.compare-card h3{font-size:1.1rem;font-weight:600;margin-bottom:1rem}
+.compare-card ul{list-style:none;padding:0}
+.compare-card li{padding:.35rem 0;font-size:.85rem;color:var(--text-secondary);padding-left:1.4rem;position:relative}
+.compare-card li::before{content:'✓';position:absolute;left:0;font-weight:700}
+.rec li::before{color:var(--accent-green)}
+.alt li::before{color:var(--accent-amber)}
+
+/* ── RISK MATRIX ── */
+.risk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.risk-card{border-radius:12px;padding:1.25rem;border:1px solid var(--border);background:var(--bg-card);transition:all .3s}
+.risk-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-glow)}
+.risk-level{display:inline-flex;align-items:center;gap:.4rem;font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.25rem .65rem;border-radius:6px;margin-bottom:.75rem}
+.risk-level.low{background:rgba(16,185,129,.12);color:var(--accent-green)}
+.risk-level.med{background:rgba(245,158,11,.12);color:var(--accent-amber)}
+.risk-level.high{background:rgba(244,63,94,.12);color:var(--accent-rose)}
+.risk-card h4{font-size:.95rem;font-weight:600;margin-bottom:.4rem}
+.risk-card p{font-size:.8rem;color:var(--text-secondary)}
+.risk-action{margin-top:.5rem;font-size:.78rem;color:var(--accent-cyan);font-weight:500}
+
+/* ── CALLOUT ── */
+.callout{border-radius:12px;padding:1.5rem 2rem;margin:2rem 0;border-left:4px solid}
+.callout.info{background:rgba(6,182,212,.06);border-color:var(--accent-cyan)}
+.callout.warn{background:rgba(245,158,11,.06);border-color:var(--accent-amber)}
+.callout.success{background:rgba(16,185,129,.06);border-color:var(--accent-green)}
+.callout.danger{background:rgba(244,63,94,.06);border-color:var(--accent-rose)}
+.callout-title{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.callout.info .callout-title{color:var(--accent-cyan)}
+.callout.warn .callout-title{color:var(--accent-amber)}
+.callout.success .callout-title{color:var(--accent-green)}
+.callout.danger .callout-title{color:var(--accent-rose)}
+.callout p{font-size:.88rem;color:var(--text-secondary)}
+
+/* ── WORKFLOW ── */
+.workflow{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;margin:2rem 0}
+.wf-step{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:.8rem 1.2rem;text-align:center;min-width:120px;transition:all .3s}
+.wf-step:hover{border-color:var(--accent-1);transform:translateY(-2px)}
+.wf-step .wf-num{font-family:'Space Grotesk',sans-serif;font-size:1.4rem;font-weight:700;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.wf-step .wf-label{font-size:.7rem;color:var(--text-muted);margin-top:.2rem;font-weight:500}
+.wf-arrow{color:var(--text-muted);font-size:1.2rem}
+@media(max-width:600px){.wf-arrow{transform:rotate(90deg)}.workflow{flex-direction:column}}
+
+/* ── LEGAL CARDS ── */
+.legal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.legal-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;transition:all .3s}
+.legal-card:hover{border-color:var(--border-accent)}
+.legal-status{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.2rem .6rem;border-radius:6px;display:inline-block;margin-bottom:.75rem}
+.legal-status.required{background:rgba(244,63,94,.12);color:var(--accent-rose)}
+.legal-status.exempt{background:rgba(16,185,129,.12);color:var(--accent-green)}
+.legal-status.conditional{background:rgba(245,158,11,.12);color:var(--accent-amber)}
+.legal-card h4{font-size:.9rem;font-weight:600;margin-bottom:.4rem}
+.legal-card p{font-size:.78rem;color:var(--text-secondary)}
+.legal-ref{margin-top:.5rem;font-size:.72rem;color:var(--text-muted);font-style:italic}
+
+/* ── KPI BOXES ── */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2rem 0}
+.kpi{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;text-align:center;transition:all .3s}
+.kpi:hover{border-color:var(--accent-1);box-shadow:var(--shadow-glow)}
+.kpi-value{font-family:'Space Grotesk',sans-serif;font-size:1.8rem;font-weight:700;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.kpi-label{font-size:.75rem;color:var(--text-muted);margin-top:.3rem}
+.kpi-sub{font-size:.7rem;color:var(--text-muted);margin-top:.2rem;font-style:italic}
+
+/* ── FOOTER ── */
+.footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);margin-top:4rem}
+.footer p{color:var(--text-muted);font-size:.8rem}
+
+/* ── SCROLL ANIMATION ── */
+.reveal{opacity:0;transform:translateY(30px);transition:all .7s cubic-bezier(.25,.8,.25,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-brand">☕ Cafe Business Plan</div>
+  <div class="nav-links">
+    <a href="#model">Mô hình</a>
+    <a href="#floorplan">Mặt bằng</a>
+    <a href="#legal">Pháp lý</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#cost">Chi phí</a>
+    <a href="#tax">Thuế 2026</a>
+    <a href="#satellite">Hộ vệ tinh</a>
+    <a href="#risk">Rủi ro</a>
+    <a href="#data">DLCN</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span></span> Kế hoạch kinh doanh 2026
+    </div>
+    <h1>Quán Café 200m²<br>Kết Hợp Giao Lưu Văn Hóa</h1>
+    <p>Mô hình tinh gọn — Giấy phép tối thiểu — Đúng luật — Tối ưu thuế hợp pháp. Cafe + Khu vui chơi thông minh + CLB giao lưu ngôn ngữ tự phát tại Biên Hòa, Đồng Nai.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">200m²</div><div class="label">Diện tích</div></div>
+      <div class="hero-stat"><div class="num">10×20</div><div class="label">Kích thước</div></div>
+      <div class="hero-stat"><div class="num">208–575</div><div class="label">Triệu đầu tư</div></div>
+      <div class="hero-stat"><div class="num">~11</div><div class="label">Tuần triển khai</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MÔ HÌNH KINH DOANH -->
+<section class="section reveal" id="model">
+  <div class="section-header">
+    <div class="overline">Business Model</div>
+    <div class="divider"></div>
+    <h2>Mô Hình Kinh Doanh 3 Lớp</h2>
+    <p>Hộ kinh doanh F&B + CLB giao lưu tự phát — đăng ký tại UBND TP. Biên Hòa</p>
+  </div>
+  <div class="model-layers">
+    <div class="layer l1">
+      <div class="layer-num">01</div>
+      <div class="layer-tag">Lớp cốt lõi — Doanh thu chính</div>
+      <h3>☕ Quán Café + Thức Ăn Nhẹ</h3>
+      <p>Thu phí bằng bán vé nước uống / dịch vụ trọn gói. Ngành nghề 5610 — Dịch vụ ăn uống. Đây là lớp tạo doanh thu chính và là lý do pháp lý để khách hàng đến quán.</p>
+    </div>
+    <div class="layer l2">
+      <div class="layer-num">02</div>
+      <div class="layer-tag">Lớp giá trị gia tăng — Khác biệt hóa</div>
+      <h3>🧩 Khu Trải Nghiệm Đồ Chơi Thông Minh</h3>
+      <p>Đồ chơi 2nd hand có tem CR gốc. Mục tiêu: trẻ em chơi và học hiệu quả với chi phí thấp. Ngành nghề 9329 — Hoạt động vui chơi giải trí.</p>
+    </div>
+    <div class="layer l3">
+      <div class="layer-num">03</div>
+      <div class="layer-tag">Lớp thu hút — Tạo cộng đồng</div>
+      <h3>🌍 CLB Giao Lưu Ngôn Ngữ & Văn Hóa Tự Phát</h3>
+      <p>Meeting hàng ngày giữa khách mời nước ngoài và trẻ em VN. Tự phát, không giáo trình, không cấp chứng chỉ. Thù lao dạng phong bì cảm ơn (chi phí hỗ trợ đi lại/quà tri ân).</p>
+    </div>
+  </div>
+</section>
+
+<!-- WORKFLOW -->
+<section class="section reveal" id="workflow">
+  <div class="section-header">
+    <div class="overline">Daily Workflow</div>
+    <div class="divider"></div>
+    <h2>Quy Trình Vận Hành Hàng Ngày</h2>
+  </div>
+  <div class="workflow">
+    <div class="wf-step"><div class="wf-num">1</div><div class="wf-label">Khách đến quán</div></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="wf-num">2</div><div class="wf-label">Mua vé nước/gói</div></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="wf-num">3</div><div class="wf-label">PH ký đồng ý</div></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="wf-num">4</div><div class="wf-label">Trẻ vào khu chơi</div></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="wf-num">5</div><div class="wf-label">Giao lưu tự phát</div></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="wf-num">6</div><div class="wf-label">Check-out</div></div>
+  </div>
+  <div class="callout info">
+    <div class="callout-title">💡 Key Point</div>
+    <p>Phiếu mua vé tích hợp đồng ý DLCN (1 trang). Phụ huynh ký 1 lần, bao gồm: đồng ý cho trẻ tham gia hoạt động, đồng ý chụp ảnh (nếu có), xác nhận biết nội quy. Trẻ ≥ 7 tuổi cần thêm chữ ký của trẻ (đồng ý kép — Điều 24 Luật 91/2025).</p>
+  </div>
+</section>
+
+<!-- MẶT BẰNG -->
+<section class="section reveal" id="floorplan">
+  <div class="section-header">
+    <div class="overline">Floor Plan</div>
+    <div class="divider"></div>
+    <h2>Phân Khu Mặt Bằng 200m²</h2>
+    <p>Tách biệt rõ ràng giữa khu F&B và khu vui chơi — sẵn sàng cho mô hình 2 hộ</p>
+  </div>
+  <div class="floorplan">
+    <div class="floorplan-grid">
+      <div class="zone zone-fb">
+        <div class="zone-tag">Hộ 1 — F&B · 120–130 m²</div>
+        <h4>☕ Khu Pha Chế & Phục Vụ</h4>
+        <ul>
+          <li>Quầy bar + bếp nhỏ</li>
+          <li>60–80 chỗ ngồi (20–25 bộ bàn ghế)</li>
+          <li>Khu vệ sinh</li>
+          <li>POS / máy tính tiền riêng</li>
+          <li>Chủ hộ: Vợ · Ngành 5610</li>
+        </ul>
+      </div>
+      <div class="zone zone-play">
+        <div class="zone-tag">Hộ 2 — Vui chơi · 70–80 m²</div>
+        <h4>🧩 Khu Chơi & Giao Lưu</h4>
+        <ul>
+          <li>Đồ chơi thông minh 2nd</li>
+          <li>Bàn hoạt động CLB</li>
+          <li>Camera giám sát</li>
+          <li>POS / quầy thu vé riêng</li>
+          <li>Chủ hộ: Chồng · Ngành 9329</li>
+        </ul>
+      </div>
+    </div>
+    <div class="floorplan-footer">
+      <span>📐 Tổng 200m² (10×20) · Đất có sẵn</span>
+      <span>🔲 Vách/kệ ngăn 2 khu rõ ràng</span>
+    </div>
+  </div>
+</section>
+
+<!-- GIẤY PHÉP PHÁP LÝ -->
+<section class="section reveal" id="legal">
+  <div class="section-header">
+    <div class="overline">Legal Requirements</div>
+    <div class="divider"></div>
+    <h2>Giấy Phép & Miễn Trừ</h2>
+    <p>Chỉ những gì thực sự cần — không tự làm nặng thêm</p>
+  </div>
+  <div class="legal-grid">
+    <div class="legal-card">
+      <div class="legal-status required">Bắt buộc</div>
+      <h4>📋 Đăng ký Hộ kinh doanh</h4>
+      <p>UBND TP. Biên Hòa. Quán 200m² có địa điểm cố định — không thuộc diện miễn ĐKKD.</p>
+      <div class="legal-ref">NĐ 01/2021/NĐ-CP — Điều 79–87</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status required">Bắt buộc</div>
+      <h4>🔥 PCCC</h4>
+      <p>Quán > 100m² + đông người + có bếp. Thẩm duyệt + nghiệm thu với Phòng PC07 Công an Đồng Nai.</p>
+      <div class="legal-ref">Luật PCCC 2001, NĐ 136/2020</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status required">Nên xin</div>
+      <h4>🍽️ Giấy CN ATTP</h4>
+      <p>Quán 200m² phục vụ thức ăn tại chỗ khó xếp vào "nhỏ lẻ". Nên xin để an toàn.</p>
+      <div class="legal-ref">NĐ 15/2018 — Điều 11</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status required">Bắt buộc</div>
+      <h4>🛡️ Cam kết ANTT</h4>
+      <p>Đăng ký tại Công an phường/xã sở tại. Quán đông người → bắt buộc.</p>
+      <div class="legal-ref">NĐ 96/2016/NĐ-CP</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status exempt">Miễn năm đầu</div>
+      <h4>💰 Lệ phí Môn bài</h4>
+      <p>Hộ KD mới thành lập được miễn trong năm đầu. Từ năm 2: 300k–1 triệu/năm tùy doanh thu.</p>
+      <div class="legal-ref">NĐ 139/2016 sửa đổi NĐ 22/2020</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status exempt">Miễn nếu ≤ 1 tỷ/năm</div>
+      <h4>📊 Thuế GTGT + TNCN</h4>
+      <p>Từ 01/01/2026: hộ KD doanh thu ≤ 1 tỷ/năm → miễn hoàn toàn GTGT + TNCN.</p>
+      <div class="legal-ref">NĐ 141/2026/NĐ-CP</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status exempt">Miễn cho Hộ KD</div>
+      <h4>📝 DPIA (Đánh giá tác động DLCN)</h4>
+      <p>Hộ kinh doanh không phải làm DPIA, CTIA, hoặc bổ nhiệm DPO — trừ khi xử lý DL nhạy cảm quy mô lớn (≥ 100.000 người).</p>
+      <div class="legal-ref">Luật 91/2025 — Điều 38 Khoản 3</div>
+    </div>
+    <div class="legal-card">
+      <div class="legal-status conditional">Không cần nếu "giao lưu"</div>
+      <h4>🎓 Giấy phép Giáo dục</h4>
+      <p>Chỉ bắt buộc nếu có dạy theo giáo trình, chấm bài, cấp chứng chỉ. CLB giao lưu tự phát → không cần.</p>
+      <div class="legal-ref">TT 29/2024/TT-BGDĐT</div>
+    </div>
+  </div>
+
+  <div class="callout warn" style="margin-top:2rem">
+    <div class="callout-title">⚠️ Ranh giới "Giao lưu" vs "Giáo dục"</div>
+    <p><strong>An toàn:</strong> Trò chuyện tự do, chơi boardgame, uống nước cùng nhau → giao lưu văn hóa.<br>
+    <strong>Nguy hiểm:</strong> Dạy tiếng Anh theo giáo trình, làm bài tập, workshop STEM → bị coi là giáo dục → cần giấy phép + GPLĐ cho người nước ngoài.</p>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="section reveal" id="timeline">
+  <div class="section-header">
+    <div class="overline">Implementation Timeline</div>
+    <div class="divider"></div>
+    <h2>Kế Hoạch Triển Khai 5 Giai Đoạn</h2>
+    <p>Từ giấy phép đến khai trương trong ~11 tuần</p>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot">1</div>
+      <div class="tl-time">Tuần 1–3</div>
+      <div class="tl-title">Chuẩn bị pháp lý & Thiết kế</div>
+      <div class="tl-body">
+        <ul>
+          <li>Đăng ký hộ kinh doanh tại UBND TP. Biên Hòa (ngành 5610 + 9329)</li>
+          <li>Thuê đơn vị thiết kế nội thất lên bản vẽ mặt bằng 200m²</li>
+          <li>Lập hồ sơ PCCC và nộp thẩm duyệt tại Phòng PC07</li>
+          <li>Khám sức khỏe + tập huấn ATTP cho chủ + 2 nhân viên chế biến</li>
+        </ul>
+        <div class="tl-cost">Chi phí: 7 – 33 triệu</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">2</div>
+      <div class="tl-time">Tuần 3–8</div>
+      <div class="tl-title">Sửa sang & Mua sắm trang thiết bị</div>
+      <div class="tl-body">
+        <ul>
+          <li>Sửa sang: sơn tường, lát sàn, nâng cấp toilet, điện nước, mái che</li>
+          <li>Lắp quầy bar + kệ trưng bày + hệ thống chiếu sáng</li>
+          <li>Mua máy pha cà phê 2 group + máy xay + tủ mát + thiết bị</li>
+          <li>Mua bàn ghế 60–80 chỗ (20–25 bộ)</li>
+          <li>Mua đồ chơi thông minh 2nd (có tem CR gốc)</li>
+          <li>Lắp camera an ninh (4–6 mắt, khu chơi trẻ em)</li>
+          <li>Trang bị PCCC (bình chữa cháy, đèn exit, chuông báo)</li>
+        </ul>
+        <div class="tl-cost">Chi phí: 160 – 455 triệu</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">3</div>
+      <div class="tl-time">Tuần 8–10</div>
+      <div class="tl-title">Xin giấy phép & Nghiệm thu</div>
+      <div class="tl-body">
+        <ul>
+          <li>Nghiệm thu PCCC với Phòng PC07 Công an Đồng Nai</li>
+          <li>Nộp hồ sơ GCN ATTP tại Chi cục ATVSTP Đồng Nai</li>
+          <li>Đăng ký cam kết ANTT tại Công an phường</li>
+          <li>In ấn Phiếu mua vé tích hợp đồng ý DLCN + Nội quy khu chơi</li>
+        </ul>
+        <div class="tl-cost">Chi phí: 3 – 12 triệu</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">4</div>
+      <div class="tl-time">Tuần 9–10</div>
+      <div class="tl-title">Tuyển dụng & Đào tạo</div>
+      <div class="tl-body">
+        <ul>
+          <li>Tuyển 1 quản lý ca + 4–5 nhân viên phục vụ/pha chế</li>
+          <li>Đào tạo nội bộ: pha chế, phục vụ, bảo vệ an toàn trẻ em</li>
+          <li>Phổ biến Cẩm nang ứng xử cho Khách mời nước ngoài (song ngữ)</li>
+        </ul>
+        <div class="tl-cost">Chi phí: 1 – 3 triệu</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">5</div>
+      <div class="tl-time">Tuần 11+</div>
+      <div class="tl-title">Khai trương & Vận hành</div>
+      <div class="tl-body">
+        <ul>
+          <li>Soft-opening 1 tuần (mời bạn bè, khách thử nghiệm)</li>
+          <li>Grand opening + Marketing fanpage/Zalo</li>
+          <li>Bắt đầu CLB giao lưu với khách mời nước ngoài</li>
+          <li>Theo dõi doanh thu → quyết định tách hộ khi đạt ngưỡng</li>
+        </ul>
+        <div class="tl-cost">Chi phí: 10 – 25 triệu</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHI PHÍ -->
+<section class="section reveal" id="cost">
+  <div class="section-header">
+    <div class="overline">Cost Estimates</div>
+    <div class="divider"></div>
+    <h2>Dự Toán Chi Phí</h2>
+    <p>Đất có sẵn — Chỉ sửa sang — Không thuê mặt bằng</p>
+  </div>
+
+  <h3 style="font-size:1.1rem;margin-bottom:1rem">💰 Đầu tư ban đầu (một lần)</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Hạng mục</th><th>Tối giản</th><th>Trung bình</th><th>Đầu tư đẹp</th></tr></thead>
+      <tbody>
+        <tr><td>Sửa sang mặt bằng 200m²</td><td>60 triệu</td><td>120 triệu</td><td>200 triệu</td></tr>
+        <tr><td>Máy pha + thiết bị pha chế</td><td>50 triệu</td><td>95 triệu</td><td>120 triệu</td></tr>
+        <tr><td>Quầy bar + kệ trưng bày</td><td>15 triệu</td><td>35 triệu</td><td>50 triệu</td></tr>
+        <tr><td>Bàn ghế (60–80 chỗ)</td><td>30 triệu</td><td>55 triệu</td><td>80 triệu</td></tr>
+        <tr><td>Ly tách, dụng cụ phục vụ</td><td>8 triệu</td><td>12 triệu</td><td>15 triệu</td></tr>
+        <tr><td>Camera an ninh</td><td>5 triệu</td><td>8 triệu</td><td>10 triệu</td></tr>
+        <tr><td>Đồ chơi thông minh 2nd</td><td>10 triệu</td><td>18 triệu</td><td>25 triệu</td></tr>
+        <tr><td>Giấy phép (ĐKKD+ATTP+PCCC+ANTT)</td><td>25 triệu</td><td>35 triệu</td><td>50 triệu</td></tr>
+        <tr><td>Marketing khai trương</td><td>5 triệu</td><td>15 triệu</td><td>25 triệu</td></tr>
+        <tr class="highlight-row"><td><strong>TỔNG</strong></td><td><strong>~208 triệu</strong></td><td><strong>~393 triệu</strong></td><td><strong>~575 triệu</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="font-size:1.1rem;margin:2rem 0 1rem">📅 Chi phí vận hành hàng tháng</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Hạng mục</th><th>Ước tính/tháng</th></tr></thead>
+      <tbody>
+        <tr><td>Nhân sự (1 QL + 4–5 NV)</td><td>35 – 55 triệu</td></tr>
+        <tr><td>Nguyên vật liệu (café, sữa, trà, bánh)</td><td>25 – 60 triệu</td></tr>
+        <tr><td>Điện + nước + internet</td><td>6 – 15 triệu</td></tr>
+        <tr><td>Marketing (Facebook, Zalo)</td><td>3 – 10 triệu</td></tr>
+        <tr><td>Phong bì khách mời NN (~20 buổi × 300k)</td><td>4 – 6 triệu</td></tr>
+        <tr><td>Vật tư tiêu hao, vệ sinh, bảo trì</td><td>2 – 5 triệu</td></tr>
+        <tr><td>Thuế (nếu DT > 1 tỷ/năm)</td><td>0 – 7 triệu</td></tr>
+        <tr class="highlight-row"><td><strong>TỔNG</strong></td><td><strong>~75 – 158 triệu</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-value">65–95</div>
+      <div class="kpi-label">khách/ngày để hòa vốn</div>
+      <div class="kpi-sub">sau 18 tháng</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">50–60k</div>
+      <div class="kpi-label">giá vé trung bình</div>
+      <div class="kpi-sub">nước + dịch vụ trọn gói</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">0đ</div>
+      <div class="kpi-label">tiền thuê mặt bằng</div>
+      <div class="kpi-sub">đất có sẵn</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">0đ</div>
+      <div class="kpi-label">thuế năm đầu</div>
+      <div class="kpi-sub">nếu DT ≤ 1 tỷ/năm</div>
+    </div>
+  </div>
+</section>
+
+<!-- THUẾ 2026 -->
+<section class="section reveal" id="tax">
+  <div class="section-header">
+    <div class="overline">Tax Thresholds 2026</div>
+    <div class="divider"></div>
+    <h2>Ngưỡng Thuế 2026 — NĐ 141/2026</h2>
+    <p>Từ 01/01/2026, ngưỡng miễn thuế nâng gấp 10 lần so với trước</p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Nhóm doanh thu/năm</th><th>GTGT</th><th>TNCN</th><th>Hóa đơn & Sổ sách</th></tr></thead>
+      <tbody>
+        <tr class="highlight-row"><td><strong>≤ 1 tỷ đồng</strong></td><td>✅ MIỄN</td><td>✅ MIỄN</td><td>Chỉ thông báo DT (Mẫu 01/TKN)</td></tr>
+        <tr><td>> 1 tỷ — < 3 tỷ</td><td>Phải nộp</td><td>15% trên TNCT</td><td>HĐ điện tử bắt buộc</td></tr>
+        <tr><td>≥ 3 tỷ</td><td>Khấu trừ</td><td>17% trên lợi nhuận</td><td>HĐ + hạch toán + TK ngân hàng riêng</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout success">
+    <div class="callout-title">✅ Không bắt buộc chuyển lên doanh nghiệp</div>
+    <p>Ngưỡng 1 tỷ/năm là mốc phân chia nghĩa vụ thuế, <strong>không phải</strong> mốc bắt buộc chuyển đổi thành doanh nghiệp. Chuyển hay không hoàn toàn tự nguyện (NĐ 01/2021/NĐ-CP, Điều 42).</p>
+  </div>
+</section>
+
+<!-- HỘ VỆ TINH -->
+<section class="section reveal" id="satellite">
+  <div class="section-header">
+    <div class="overline">Satellite Strategy</div>
+    <div class="divider"></div>
+    <h2>Chiến Lược 2 Hộ Kinh Doanh</h2>
+    <p>Bắt đầu 1 hộ → Tách khi doanh thu đạt ngưỡng → Tối ưu chi phí tách</p>
+  </div>
+  <div class="compare">
+    <div class="compare-card rec">
+      <div class="compare-badge">✅ Khuyến nghị</div>
+      <h3>Bắt đầu 1 Hộ → Tách khi đủ điều kiện</h3>
+      <ul>
+        <li>6 tháng đầu: 1 hộ duy nhất, DT < 1 tỷ → miễn thuế 100%</li>
+        <li>Khi DT đạt ~80 triệu/tháng → đăng ký hộ thứ 2</li>
+        <li>Tách tự nhiên: F&B (vợ) vs Vui chơi (chồng)</li>
+        <li>Chi phí tách tối ưu: chỉ ~500k–800k/năm</li>
+        <li>Tiết kiệm 8–44 triệu/năm thuế</li>
+        <li>An toàn pháp lý — 2 ngành nghề khác nhau thực sự</li>
+      </ul>
+    </div>
+    <div class="compare-card alt">
+      <div class="compare-badge">⚠️ Tránh</div>
+      <h3>Chia giả tạo trên giấy</h3>
+      <ul>
+        <li>Cùng bảng hiệu, cùng người điều hành</li>
+        <li>Cùng tài khoản ngân hàng</li>
+        <li>Chỉ khác tên đăng ký</li>
+        <li>CQ thuế hợp nhất DT → ấn định thuế (Điều 50 Luật QLT)</li>
+        <li>Rủi ro truy thu + phạt + hình sự</li>
+        <li>Không đáng vì thuế F&B chỉ ~4.5%</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="font-size:1.05rem;margin:2.5rem 0 1rem;text-align:center">📊 So sánh chi phí thuế: 1 hộ vs 2 hộ (tự làm sổ sách)</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Doanh thu/năm</th><th>1 Hộ: Thuế nộp</th><th>2 Hộ: Thuế + Chi phí tách</th><th>Tiết kiệm thực</th></tr></thead>
+      <tbody>
+        <tr><td>≤ 1 tỷ</td><td>0đ</td><td>~1 triệu (chi phí tách)</td><td style="color:var(--accent-rose)">❌ Không lợi</td></tr>
+        <tr><td>1,2 tỷ</td><td>9 triệu</td><td>~1 triệu</td><td style="color:var(--accent-green)">✅ Lời ~8 triệu</td></tr>
+        <tr><td>1,5 tỷ</td><td>22,5 triệu</td><td>~1 triệu</td><td style="color:var(--accent-green)">✅ Lời ~21 triệu</td></tr>
+        <tr class="highlight-row"><td><strong>2 tỷ</strong></td><td><strong>45 triệu</strong></td><td><strong>~1 triệu</strong></td><td style="color:var(--accent-green)"><strong>✅ Lời ~44 triệu</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-title">🕐 Thời điểm tách tối ưu</div>
+    <p>Khi doanh thu ổn định ≥ 80 triệu/tháng (tức ~960 triệu/năm, sắp chạm ngưỡng 1 tỷ). Đăng ký hộ thứ 2 <strong>trước</strong> khi tổng doanh thu vượt 1 tỷ/năm.</p>
+  </div>
+</section>
+
+<!-- DLCN -->
+<section class="section reveal" id="data">
+  <div class="section-header">
+    <div class="overline">Data Protection</div>
+    <div class="divider"></div>
+    <h2>Bảo Vệ Dữ Liệu Cá Nhân</h2>
+    <p>Luật 91/2025/QH15 — Điều 38 Khoản 3: Miễn trừ cho hộ kinh doanh</p>
+  </div>
+  <div class="card-grid">
+    <div class="card accent-green">
+      <div class="card-icon green">✅</div>
+      <h3>Được MIỄN</h3>
+      <ul>
+        <li>DPIA (Đánh giá tác động — Điều 21)</li>
+        <li>CTIA (Đánh giá chuyển DL xuyên biên giới — Điều 22)</li>
+        <li>Bổ nhiệm DPO / Bộ phận BVDL (Điều 33 K2)</li>
+      </ul>
+      <p style="margin-top:.75rem;font-size:.78rem;color:var(--accent-green)">Lý do: Hộ KD không kinh doanh dịch vụ xử lý DL, không xử lý DL nhạy cảm quy mô lớn, tổng khách < 100.000 người.</p>
+    </div>
+    <div class="card accent-amber">
+      <div class="card-icon amber">⚠️</div>
+      <h3>Vẫn PHẢI tuân thủ</h3>
+      <ul>
+        <li>Thông báo mục đích thu thập DL (dán nội quy tại quán)</li>
+        <li>Lấy đồng ý phụ huynh cho trẻ em tham gia</li>
+        <li>Đồng ý kép: trẻ ≥ 7 tuổi + phụ huynh (Điều 24)</li>
+        <li>Bảo mật: mật khẩu máy tính, khóa tủ hồ sơ</li>
+        <li>Xóa DL khi trẻ không còn tham gia CLB</li>
+        <li>Không đăng ảnh/video trẻ lên MXH nếu chưa có đồng ý</li>
+      </ul>
+    </div>
+    <div class="card accent-indigo">
+      <div class="card-icon indigo">📄</div>
+      <h3>Giải pháp: Phiếu mua vé 1 trang</h3>
+      <ul>
+        <li>Tích hợp: mua vé + đồng ý DLCN + nội quy</li>
+        <li>PH ký 1 lần → đủ pháp lý cho toàn bộ buổi</li>
+        <li>Trẻ ≥ 7 tuổi: thêm ô ký tên của trẻ</li>
+        <li>Lưu 30 ngày → hủy/xóa</li>
+      </ul>
+      <p style="margin-top:.75rem;font-size:.78rem;color:var(--text-muted)">Thuật ngữ chuẩn VN: "mã hóa", "khử nhận dạng", "ẩn danh" — không dùng "giả danh hóa".</p>
+    </div>
+  </div>
+</section>
+
+<!-- RỦI RO -->
+<section class="section reveal" id="risk">
+  <div class="section-header">
+    <div class="overline">Risk Assessment</div>
+    <div class="divider"></div>
+    <h2>Ma Trận Rủi Ro & Biện Pháp</h2>
+  </div>
+  <div class="risk-grid">
+    <div class="risk-card">
+      <div class="risk-level high">🔴 Cao</div>
+      <h4>Hoạt động bị coi là "giáo dục"</h4>
+      <p>Nếu CLB giao lưu chuyển sang dạy theo giáo trình → cần giấy phép GD + GPLĐ cho người NN.</p>
+      <div class="risk-action">→ Giữ ranh giới "trò chuyện tự do", không dạy bài, không chấm điểm</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-level high">🔴 Cao</div>
+      <h4>Người NN bị coi là "lao động"</h4>
+      <p>Hoạt động thường xuyên + có thù lao → có thể bị xem là quan hệ lao động.</p>
+      <div class="risk-action">→ Khách mời tự nguyện, thù lao = "chi phí hỗ trợ đi lại", không hợp đồng lao động</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-level med">🟠 Trung bình</div>
+      <h4>Đồ chơi 2nd không đạt QCVN</h4>
+      <p>Đồ chơi nhập không rõ nguồn gốc, không tem CR → vi phạm QCVN 3:2019.</p>
+      <div class="risk-action">→ Chỉ mua sản phẩm có tem CR gốc còn nguyên vẹn + hóa đơn</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-level med">🟠 Trung bình</div>
+      <h4>Chia hộ vệ tinh giả tạo</h4>
+      <p>CQ thuế hợp nhất doanh thu → ấn định thuế + truy thu + phạt (Điều 50 Luật QLT 2019).</p>
+      <div class="risk-action">→ 2 hộ tách biệt thực sự: khác chủ, khác TK ngân hàng, khác nhà cung cấp</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-level med">🟠 Trung bình</div>
+      <h4>Đăng ảnh trẻ lên MXH</h4>
+      <p>Vi phạm Điều 24 Luật 91/2025 → phạt 10–15 triệu + yêu cầu gỡ.</p>
+      <div class="risk-action">→ Luôn có đồng ý kép (trẻ ≥ 7 + PH) bằng văn bản trước khi đăng</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-level low">🟢 Thấp</div>
+      <h4>An toàn trẻ em tại quán</h4>
+      <p>Trẻ té ngã, va chạm tại khu chơi → trách nhiệm của quán.</p>
+      <div class="risk-action">→ Camera giám sát, luôn có NV trực khu chơi, nội quy rõ ràng, PH luôn có mặt</div>
+    </div>
+  </div>
+</section>
+
+<!-- LEGAL TABLE -->
+<section class="section reveal" id="legal-table">
+  <div class="section-header">
+    <div class="overline">Legal References</div>
+    <div class="divider"></div>
+    <h2>Bảng Tổng Hợp Văn Bản Pháp Luật</h2>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Lĩnh vực</th><th>Văn bản</th><th>Điều khoản</th><th>Ý nghĩa</th></tr></thead>
+      <tbody>
+        <tr><td>Đăng ký KD</td><td>NĐ 01/2021/NĐ-CP</td><td>Điều 79–87</td><td>Bắt buộc ĐKKD cho quán 200m² cố định</td></tr>
+        <tr><td>ATTP</td><td>NĐ 15/2018/NĐ-CP</td><td>Điều 11</td><td>Miễn GCN cho cơ sở nhỏ lẻ — quán 200m² nên xin</td></tr>
+        <tr><td>PCCC</td><td>Luật PCCC 2001 sửa đổi</td><td>Toàn bộ</td><td>Bắt buộc cho quán > 100m²</td></tr>
+        <tr><td>Thuế HKD</td><td>NĐ 141/2026/NĐ-CP</td><td>Toàn bộ</td><td>≤ 1 tỷ/năm → miễn GTGT + TNCN</td></tr>
+        <tr><td>Lệ phí môn bài</td><td>NĐ 139/2016 (sửa đổi NĐ 22/2020)</td><td>Điều 4</td><td>Miễn năm đầu thành lập</td></tr>
+        <tr><td>Quản lý thuế</td><td>Luật QLT 2019</td><td>Điều 4, 50</td><td>Trung thực; quyền ấn định thuế</td></tr>
+        <tr><td>BVDLCN</td><td>Luật 91/2025/QH15</td><td>Điều 24, 38 K3</td><td>Miễn DPIA, DPO cho hộ KD; đồng ý kép cho trẻ</td></tr>
+        <tr><td>BVDLCN</td><td>NĐ 356/2025/NĐ-CP</td><td>Điều 7</td><td>DL nhạy cảm — bảo mật bằng mã hóa</td></tr>
+        <tr><td>Lao động NN</td><td>BLLĐ 2019</td><td>Điều 151–155</td><td>GPLĐ; miễn cho khách mời tự nguyện</td></tr>
+        <tr><td>Bảo vệ trẻ em</td><td>Luật Trẻ em 2016</td><td>Toàn bộ</td><td>Cấm xâm hại, bảo vệ quyền riêng tư</td></tr>
+        <tr><td>An toàn đồ chơi</td><td>QCVN 3:2019/BKHCN</td><td>Toàn bộ</td><td>Đồ chơi 2nd phải có tem CR gốc</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>Kế hoạch kinh doanh — Quán Café 200m² Biên Hòa, Đồng Nai · Cập nhật 23/05/2026</p>
+  <p style="margin-top:.5rem;font-size:.72rem">Tài liệu này mang tính tham khảo. Cần xác minh quy định cụ thể với cơ quan quản lý địa phương trước khi triển khai.</p>
+</footer>
+
+<script>
+// Scroll reveal animation
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Smooth scroll for nav links
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+</script>
+
+</body>
+</html>
