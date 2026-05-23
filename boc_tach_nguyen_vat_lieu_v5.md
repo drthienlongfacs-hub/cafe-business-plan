@@ -106,6 +106,110 @@
 
 ---
 
+## NHÔM KÍNH — BÓC TÁCH & PHÂN TÍCH 4 PHƯƠNG ÁN
+
+### Bảng đo lường diện tích cửa kính theo layout 10×20m
+
+| Vị trí | Loại cửa | Kích thước ước | Diện tích (m²) | Ghi chú |
+|---|---|---|---|---|
+| Mặt tiền trước (10m) | Cửa lùa 4 cánh | 8m × 3m | **24 m²** | Mở tối đa cho visual |
+| Mặt tiền phải (20m, sân vườn) | Cửa lùa 3 bộ + cửa đi | 6m × 3m | **18 m²** | Kết nối sân vườn |
+| Vách kính Kid Zone | Vách kính cố định + cửa | 4m × 2.5m | **10 m²** | An toàn trẻ em |
+| Cửa sổ tường trái (3 ô) | Cửa sổ lùa | 1.2m × 1.5m × 3 | **5,4 m²** | Lấy sáng + thông gió |
+| Cửa toilet × 2 | Cửa lùa nhôm kính mờ | 0.8m × 2.1m × 2 | **3,4 m²** | Kính mờ |
+| **TỔNG** | | | **~61 m²** | |
+
+### So sánh 4 phương án mua
+
+| Tiêu chí | ① Phật Sơn trực tiếp | ② 1688 thành phẩm | ③ 2nd VN (thanh lý CT) | ④ Mới nội địa (Việt Pháp) |
+|---|---|---|---|---|
+| **Giá/m² (đến tay)** | 900-1.200k | 800-1.100k | **460-700k** | 1.000-1.600k |
+| **Tổng 61m²** | 55-73 tr | 49-67 tr | **28-43 tr** | 61-98 tr |
+| Thuế NK + chống BPG | 0-15% + CBPG | Tiểu ngạch/trung gian | Không | Không |
+| Thuế VAT | 10% | 0 (tiểu ngạch) | 0 | 10% (có HĐ) |
+| Kiểm tra CL bắt buộc | ✅ TT19/2019 BXD | Không (tiểu ngạch) | Không | Không |
+| Ship | Container đường biển 3-5 ngày | Đường bộ 7-12 ngày | Tự chở/thuê xe | Miễn phí/có ship |
+| Phí ship 61m² | ~8-15 tr | ~5-8 tr | ~1-2 tr | 0-2 tr |
+| Bảo hành | Không | Không | Không | 1-5 năm |
+| Kích thước custom | ✅ Đặt theo ý | ✅ Đặt theo ý | ❌ May rủi | ✅ Đặt theo ý |
+| An toàn kính CL | ✅ (nếu chọn đúng) | ⚠️ Cần kiểm tra | ⚠️ Cần kiểm tra | ✅ |
+| Rủi ro vỡ khi ship | Cao (quốc tế) | Trung bình | Thấp (nội địa) | Rất thấp |
+| **Thu hồi khi đóng quán** | 30-40% | 30-40% | **70-85%** (mua=bán) | 40-50% |
+
+### Evidence chi tiết
+
+**① Phật Sơn trực tiếp**:
+- Giá FOB tại xưởng: ~600-800k/m² (nhôm hệ 93 lùa, 1.4mm)
+- + Thuế NK 0% (có CO form E) + VAT 10% + CBPG (nếu có)
+- + Kiểm tra CL theo TT19/2019 BXD: ~5-8 triệu/lô
+- + Ship container LCL: ~8-15 tr
+- **Kết luận**: Chỉ rẻ khi nhập >200m². Với 61m² → **KHÔNG khả thi**
+
+**② 1688 thành phẩm** (qua trung gian):
+- Giá sỉ 1688: 120-180 CNY/m² (430-650k/m²)
+- + Ship đường bộ: 5-8 tr
+- + Rủi ro vỡ kính khi vận chuyển: **RẤT CAO** cho cửa lùa lớn (8m × 3m)
+- **Kết luận**: Rủi ro vỡ kính quá lớn cho kích thước lớn → **KHÔNG nên**
+
+**③ 2nd VN — thanh lý công trình** (✅ KHUYẾN NGHỊ):
+- Giá thị trường: 460-700k/m² cho Xingfa cũ còn tốt (50-70% giá mới)
+- Áp dụng logic v5 "mua ở giá thanh lý": **460-600k/m²**
+- Nguồn: tháo dỡ CT sửa chữa/phá dỡ nhà, KS cải tạo, VP đóng cửa
+- **Rủi ro chính**: kích thước không khớp → cần đo trước hoặc chấp nhận cắt/ráp lại
+- **Giải pháp**: Mua khung nhôm 2nd + thay kính CL mới (~150-200k/m²) = an toàn + rẻ
+
+**④ Mới nội địa Việt Pháp** (backup plan):
+- Giá: 1.000-1.600k/m² (rẻ nhất trong hàng mới)
+- Ưu điểm: đo đạt, đặt đúng, bảo hành, an toàn
+- Nhược: đắt gấp 2× so với 2nd
+
+### ✅ KHUYẾN NGHỊ: PHƯƠNG ÁN KẾT HỢP
+
+| Vị trí | Phương án | Lý do | Chi phí |
+|---|---|---|---|
+| Mặt tiền trước (24m²) | **Việt Pháp MỚI cửa lùa** | Là bộ mặt quán, cần custom đúng, an toàn | 24 × 1.200k = **28,8 tr** |
+| Mặt tiền phải (18m²) | **2nd Xingfa + thay kính CL mới** | Kết nối sân vườn, có thể dùng kích thước gần đúng | 18 × 650k = **11,7 tr** |
+| Vách kính Kid Zone (10m²) | **2nd Xingfa cố định** | Vách cố định = dễ tái sử dụng kích thước | 10 × 500k = **5 tr** |
+| Cửa sổ trái (5,4m²) | **2nd bất kỳ** | Cửa sổ nhỏ = dễ tìm kích thước phổ biến | 5,4 × 460k = **2,5 tr** |
+| Toilet (3,4m²) | **2nd nhôm kính mờ** | Toilet không cần đẹp, cần chức năng | 3,4 × 460k = **1,6 tr** |
+| Phụ kiện (khóa, ray, bánh xe) | **Mua mới Kinlong** | An toàn, bền | **3 tr** |
+| Công lắp đặt | Thợ trực tiếp | 50-70k/m² | 61 × 60k = **3,7 tr** |
+| **TỔNG NHÔM KÍNH** | | | **~56,3 tr** |
+
+### So sánh tổng
+
+| Phương án | Tổng 61m² | Thu hồi khi đóng |
+|---|---|---|
+| Full mới Xingfa | 116-150 tr | 50-75 tr (40-50%) |
+| Full mới Việt Pháp | 61-98 tr | 25-40 tr (40%) |
+| Full 2nd | 28-43 tr | 20-35 tr (70-85%) |
+| **Kết hợp (khuyến nghị)** | **~56 tr** | **35-45 tr (62-80%)** |
+
+> [!IMPORTANT]
+> ### CẬP NHẬT TỔNG v5.1
+> v5 chưa tính nhôm kính 61m². Bổ sung:
+> 
+> | Hạng mục | v5 | v5.1 |
+> |---|---|---|
+> | Nhôm kính cửa lùa (mới + 2nd kết hợp) | Chưa tính | **+56 tr** |
+> | **TỔNG GĐ1** | 319 tr | **~375 tr** |
+> | Dự phòng (5%) | 15 tr | **~19 tr** |
+> | **TỔNG GĐ1 THỰC** | — | **~394 tr** |
+> 
+> → Gần mức **400 triệu** ban đầu, nhưng lần này **ĐÃ TÍNH ĐỦ** mọi thứ.
+
+### Nguồn mua 2nd nhôm kính Đồng Nai
+
+| Nguồn | Loại | Liên hệ/Từ khóa |
+|---|---|---|
+| Chợ Tốt | Cửa lùa tháo dỡ | "cửa nhôm kính cũ Đồng Nai" |
+| FB Groups | Lô lớn từ CT phá dỡ | "Thu mua nhôm kính cũ", "Thanh lý cửa nhôm" |
+| muabankinhcu.com | Chuyên mua bán kính cũ | Online, có ship |
+| thanhlydocusaigon.com | Kho tổng hợp HCM | Gần Đồng Nai |
+| Đồ Cũ Tiến Dũng | Chuyên nhôm kính 2nd | HCM, có tháo dỡ miễn phí |
+
+---
+
 ## CHECKLIST SĂN HÀNG THANH LÝ
 
 ### Kênh săn hàng (ưu tiên theo thứ tự)
