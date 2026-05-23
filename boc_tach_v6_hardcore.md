@@ -122,16 +122,42 @@
 - Thuê thợ CNC khắc (hoặc thợ mộc đục)
 
 > [!IMPORTANT]
-> ### TẬN DỤNG 5m³ GỖ MÍT CỔ THỤ — KHÔNG GIA CÔNG TOÀN BỘ
-> Gỗ mít rất tốt (bền dẻ, vân đẹp). NHƯNG gia công đục đẽ toàn bộ làm ghế/bàn nhỏ tốn thợ mộc 1,5-1,8tr/ngày — đắt hơn nhiều so với mua 2nd thanh lý.
+> ### PHÂN BỔ 5m³ GỖ MÍT CỔ THỤ — CÓ ĐÀ TRẦN LỘ KÈO
 >
-> **Giải pháp "Tận dụng thông minh"** — Chỉ dùng **~1m³** cho 4 điểm nhấn nghệ thuật:
-> 1. **Mặt bàn quầy bar live-edge** nguyên tấm phủ resin/PU bóng mờ
-> 2. **2 bàn dài nhóm lớn** chân sắt hộp đen phẳng
-> 3. **Hệ kệ mở treo tường** sau bar trưng bày ly tách + cây xanh
-> 4. **Bảng hiệu gỗ lớn** ngoài trời khắc CNC
+> Thiết kế có **đà gỗ lộ trần** — đây là điểm nhấn visual quan trọng nhất (xem render). Cần tính gỗ cho cả trần, KHÔNG CHỈ nội thất.
 >
-> **4m³ còn lại**: Cất trữ làm tài sản (gỗ mít càng lâu càng cứng, càng đẹp, giá tăng) hoặc thanh lý thu hồi khi cần.
+> #### Tính toán gỗ cho đà trần 120m²
+> - Khoảng cách giữa các thanh đà trang trí: **80cm**
+> - Nhịp mái (chiều rộng nhà): **10m** → mỗi thanh dài ~10m
+> - Số thanh: 120m² ÷ 10m ÷ 0,8m = **~15 thanh**
+> - Tiết diện mỗi thanh: **15×20cm** (đủ visual, nhẹ hơn 20×25cm)
+> - Thể tích: 15 × 10m × 0,15m × 0,20m = **~4,5 m³** (lý thuyết)
+> - Thực tế cần: **~2-2,5 m³** (xẻ thanh, hao hụt 10%)
+>
+> #### Phân bổ 5m³ gỗ mít
+>
+> | Dùng cho | Khối lượng | Chi phí gia công | Ghi chú |
+> |---|---|---|---|
+> | **Đà trần lộ kèo** (15 thanh 10m) | ~2 m³ | 3-5 tr (xẻ + bào + sơn PU) | Visual chính của quán |
+> | **4 điểm nhấn nội thất** | ~1 m³ | 2-3 tr (xẻ + chà nhám) | Bar live-edge, 2 bàn dài, kệ, bảng hiệu |
+> | **Cất trữ (tài sản tăng giá)** | ~2 m³ | 0 | Gỗ mít càng lâu càng cứng, giá ~10-15tr/m³ |
+> | **Tổng** | **5 m³** | **5-8 tr** | |
+>
+> #### So sánh 3 phương án nguồn gỗ đà trần
+>
+> | Phương án | Chi phí | Ưu điểm | Nhược điểm |
+> |---|---|---|---|
+> | **A. Gỗ mít tự có (XẺ THANH)** ✅ | **5-8 tr** (công xẻ + bào + PU) | Miễn phí vật liệu, vân đẹp, bền, không mối | Cần xưởng xẻ, phơi/sấy 2-4 tuần |
+> | B. Gỗ tháo dỡ nhà cũ (SĂN) | 2-5 tr/m³ × 2 = 4-10 tr | Đã xẻ sẵn, dùng ngay | Khó tìm đúng kích thước, phải săn |
+> | C. Gỗ thông mới (RẺ NHẤT nếu không có mít) | 5-7 tr/m³ × 2 = 10-14 tr | Dễ mua, phong cách mộc | Đắt hơn, dễ mối mọt hơn mít |
+>
+> **Kết luận: Phương án A** — dùng gỗ mít tự có, xẻ thanh tại xưởng gỗ Biên Hòa. Chi phí chỉ 5-8 tr (công xẻ + bào + sơn PU). Tiết kiệm 5-10 tr so với mua mới.
+>
+> **Lưu ý**:
+> - Gỗ mít PHẢI phơi/sấy trước khi lắp (tránh co ngót, nứt trên trần)
+> - Sơn PU bóng mờ bảo vệ + giữ màu vàng ấm tự nhiên
+> - Nếu gỗ mít không đủ dài 10m → ghép mối, che bằng đai sắt trang trí (phong cách industrial)
+> - 4 điểm nhấn: bar live-edge, 2 bàn dài chân sắt, kệ treo tường, bảng hiệu CNC
 
 ### D. HỆ THỐNG KỸ THUẬT (MEP) = 69 triệu ⚡
 
@@ -197,29 +223,120 @@ Cập nhật: **13,4 tr** thay vì 15 tr.
 
 > **Evidence**: Bồn cầu TOTO thanh lý KS: 300-800k/cái (search 23/05). Lavabo 50-200k. Gạch ốp 2nd từ phá dỡ: 100-200k/m² bao gồm công.
 
-### E. NGOẠI THẤT = 6 triệu
+### E. NGOẠI THẤT + HỆ THỐNG TƯỚI THÔNG MINH = 9 triệu
 
-| # | Hạng mục | Thành tiền | Nguồn |
-|---|---|---|---|
-| E1 | Dù lệch tâm 3m × 3 cây (1688 MỚI) | 3,5 tr | 商用遮阳伞 3米, ~1,1tr/cây ship |
-| E2 | Cây xanh (xin/chiết cành/chợ cây rẻ) | 1 tr | Chợ cây Long Khánh |
-| E3 | Đá stepping + ghế đá 2nd | 1 tr | Ve chai/phá dỡ |
-| E4 | Giàn dây leo (khung sắt + cây giống) | 0,5 tr | Sắt thừa + cây hoa giấy |
-| | **Tổng E** | **6 tr** | |
-
-### F. THIẾT BỊ + NỘI THẤT = 48 triệu
-
-| # | Hạng mục | v5.2 | **v6** | Cắt | Cách |
+| # | Hạng mục | SL | Đơn giá | Thành tiền | Nguồn |
 |---|---|---|---|---|---|
-| F1 | Thiết bị + nội thất + GP + PCCC | 77,5 | **40** | -37,5 | Tính kỹ SL bàn ghế + kiểu dáng → mua 2nd → sơn lại/bọc lại |
-| F2 | Nội thất trọn lô quán đóng | 12 | **7** | -5 | Đợi quán đóng mùa mưa, lấy hết |
-| F3 | Camera 2nd | — | **2** | — | Hikvision 4 mắt 2nd |
-| F4 | Đồ chơi LEGO+boardgame | — | **3** | — | FB "LEGO theo ký" |
-| F5 | PCCC (bình + exit + báo khói) | — | **5** | — | Mua mới — bắt buộc |
-| F6 | Giấy phép (GP+ATTP+ANTT) | — | **5** | — | Tự làm hồ sơ |
-| F7 | Máy lọc nước RO | — | **1** | — | 2nd Chợ Tốt |
-| F8 | Máy xay sinh tố × 2 | — | **1** | — | 2nd |
-| | **Tổng F** | 77,5 | **40** | -37,5 | |
+| E1 | Dù lệch tâm 3m (1688 MỚI) | 3 cây | 1,1tr | 3,3 tr | 1688: 商用遮阳伞 3米 |
+| E2 | Cây xanh (sả, hương thảo, bông giấy, trúc bầu nhỏ) | — | — | 1 tr | Chợ cây Long Khánh, xin/chiết cành |
+| E3 | Đá stepping + ghế đá 2nd | — | — | 800k | Ve chai/phá dỡ |
+| E4 | Giàn dây leo (khung sắt thừa + cây hoa giấy) | 2 bộ | — | 500k | Sắt thừa CT |
+| **E5** | **HỆ THỐNG TƯỚI NHỎ GIỌT TỰ ĐỘNG** | | | **2,4 tr** | **Xem chi tiết dưới** |
+| E6 | Đèn sân vườn string light 1688 | 5 dây | 150k | 750k | 1688 |
+| | **Tổng E** | | | **~8,8 tr** | |
+
+#### E5. Chi tiết hệ thống tưới nhỏ giọt thông minh = 2,4 triệu
+
+| # | Thiết bị | SL | Đơn giá | Thành tiền | Nguồn |
+|---|---|---|---|---|---|
+| 1 | Timer tưới WiFi Tuya (van điện từ 12V tích hợp, dùng pin AA) | 1 | 250k | 250k | 1688: Tuya WiFi 智能浇水 |
+| 2 | Cảm biến độ ẩm đất Zigbee (tự skip tưới khi đất ướt) | 2 | 80k | 160k | 1688 |
+| 3 | Gateway Zigbee Tuya | 1 | 200k | 200k | 1688 |
+| 4 | Bộ lọc đĩa (chống tắc béc) | 1 | 50k | 50k | 1688 |
+| 5 | Ống PE chính 16mm (cuộn 25m) | 1 | 80k | 80k | 1688 hoặc Shopee |
+| 6 | Ống nhánh 4mm (cuộn 50m) | 1 | 60k | 60k | 1688 |
+| 7 | Đầu tưới nhỏ giọt bù áp | 30 cái | 5k | 150k | 1688: 滴灌头 补偿式 |
+| 8 | Que cắm cố định | 30 cái | 3k | 90k | 1688 |
+| 9 | Phụ kiện (co, tê, nút bịt, khởi thủy, đục lỗ) | 1 bộ | — | 200k | 1688 |
+| 10 | Pin AA + dự phòng | — | — | 50k | |
+| | **Tổng E5** | | | **~1,3 tr** | |
+| | Dư + phụ kiện dự phòng 15% + ship | | | **~2,4 tr** | |
+
+> **Cách dùng**: App Smart Life (miễn phí) → hẹn giờ tưới 6h sáng + 17h chiều → cảm biến tự skip nếu đất ướt.
+> **Tiết kiệm**: Không cần người tưới = tiết kiệm 30 phút/ngày. Nhỏ giọt tiết kiệm 50-70% nước so với tưới vòi. Đặc biệt quan trọng khi Biên Hòa nắng nóng 35-40°C.
+> **Kích hoạt qua điện thoại**: Bất cứ lúc nào, ở bất cứ đâu — bật/tắt/hẹn giờ qua app.
+
+---
+
+### F. THIẾT BỊ + NỘI THẤT + DỤNG CỤ — BÓC TÁCH ĐẦY ĐỦ = 48 triệu
+
+#### F1. Thiết bị pha chế = 18 triệu
+
+| # | Thiết bị | Dòng cụ thể | Đơn giá | Nguồn | Visual |
+|---|---|---|---|---|---|
+| 1 | **Máy pha espresso 2 group** | CRM 3120 / Gemilai thanh lý 85-90% | **8-10 tr** | Chợ Tốt "máy pha cafe CRM 3120 cũ" / thanhlymayphacaphe.vn | ✅ Inox bóng, visual pro |
+| 2 | **Máy xay cà phê** | Fiorenzato F4 cũ / 1Zpresso cũ | **2-3 tr** | Chợ Tốt "máy xay cafe cũ" / Phadin Coffee | ✅ |
+| 3 | **Máy xay sinh tố** × 2 | Blendtec/Vitamix cũ hoặc Omniblend 1688 mới | **1,5 tr** | Chợ Tốt 2nd: 500-800k/cái | ✅ |
+| 4 | **Tủ mát 2 cánh** | Sanaky/Hoshizaki thanh lý | **2-3 tr** | Điện lạnh Dương Thanh Lý Đồng Nai / Chợ Tốt | ✅ Inox |
+| 5 | **Tủ bánh trưng bày** mini | Tủ kính cong thanh lý | **1,5-2 tr** | Chợ Tốt "tủ bánh thanh lý" | ✅ Visual đẹp |
+| 6 | **Máy lọc nước RO** | Karofi/Kangaroo 2nd | **800k-1 tr** | Chợ Tốt | — |
+| | **Tổng F1** | | **~18 tr** | | |
+
+#### F2. Dụng cụ pha chế (barista tools) = 2,5 triệu
+
+| # | Dụng cụ | SL | Đơn giá | Tổng | Nguồn |
+|---|---|---|---|---|---|
+| 1 | Ca đánh sữa inox 350ml + 600ml | 2+1 | 80k | 240k | 1688 |
+| 2 | Tamper 58mm inox | 1 | 120k | 120k | 1688 |
+| 3 | Jigger đong inox | 2 | 40k | 80k | 1688 |
+| 4 | Bình shaker inox 750ml | 2 | 60k | 120k | 1688 |
+| 5 | Muỗng bar khuấy dài 30cm | 3 | 25k | 75k | 1688 |
+| 6 | Rây lọc + chày dầm | 1+1 | 50k | 50k | 1688 |
+| 7 | Cân điện tử tiểu ly 0.1g | 1 | 150k | 150k | 1688 |
+| 8 | Ca đong 500ml + 1L | 2+1 | 30k | 90k | 1688 |
+| 9 | Ấm đun nước siêu tốc (gooseneck) | 1 | 200k | 200k | 1688 |
+| 10 | Phin inox + pour-over dripper | 5+1 | 30k | 180k | 1688 |
+| 11 | Bình bơm syrup/sốt × 4 | 4 | 30k | 120k | 1688 |
+| 12 | Khăn lau + cọ vệ sinh máy + knock box | 1 bộ | — | 200k | 1688 |
+| 13 | Cốc đo espresso 2oz | 2 | 40k | 80k | 1688 |
+| | **Tổng F2** | | | **~1,7 tr** | |
+| | + dự phòng phụ kiện | | | **~2,5 tr** | |
+
+#### F3. Ly tách + khay + dụng cụ phục vụ = 3 triệu
+
+| # | Hạng mục | SL | Đơn giá | Tổng | Nguồn |
+|---|---|---|---|---|---|
+| 1 | **Ly sứ cappuccino** 180ml (visual đẹp, màu nhã) | 20 | 35k | 700k | 1688: 咖啡杯 拿铁杯 (chọn kiểu Nhật/Bắc Âu) |
+| 2 | **Ly thủy tinh cao** 450ml (trà, sinh tố, cafe đá) | 30 | 20k | 600k | 1688 hoặc ve chai chọn lọc |
+| 3 | **Ly espresso** 90ml sứ trắng | 10 | 25k | 250k | 1688 |
+| 4 | **Ly trẻ em** nhựa Tritan an toàn 300ml | 15 | 30k | 450k | 1688 (BPA-free) |
+| 5 | Muỗng khuấy inox nhỏ | 30 | 5k | 150k | 1688 |
+| 6 | Đĩa lót bánh + nĩa nhỏ | 15+15 | 15k | 450k | 1688 hoặc ve chai |
+| 7 | Khay bưng đồ chống trượt | 5 | 50k | 250k | 1688 |
+| 8 | Ống hút giấy/tre + hộp đựng | — | — | 150k | 1688 |
+| | **Tổng F3** | | | **~3 tr** | |
+
+#### F4. Nội thất = 8 triệu
+
+| # | Hạng mục | SL | Yêu cầu visual | Đơn giá 2nd | Tổng | Nguồn + cách làm mới |
+|---|---|---|---|---|---|---|
+| 1 | **Bàn cafe** gỗ/sắt (60×60cm) | 8 | Phong cách industrial/vintage | 150-250k | 1,6 tr | Chợ Tốt "bàn cafe cũ" → sơn lại màu đen/nâu |
+| 2 | **Ghế cafe** gỗ/sắt | 24 | Tông warm, khớp bàn | 80-150k | 2,4 tr | Chợ Tốt "ghế cafe cũ Biên Hòa" → sơn lại/bọc nệm |
+| 3 | **Ghế sofa đơn** / ghế bành | 4 | Visual ấm cúng, vải bọc sạch | 300-500k | 1,6 tr | Chợ Tốt "sofa đơn thanh lý" → bọc vải mới 80k/cái |
+| 4 | **Bàn dài nhóm** gỗ mít live-edge × 2 | 2 | Chân sắt hộp đen | — | 0 | Gỗ mít tự có + chân sắt 200k × 2 = 400k |
+| 5 | **Kệ treo tường** sau bar (gỗ mít) | 1 hệ | Trưng bày ly + cây | — | 0 | Gỗ mít tự có |
+| 6 | **Kệ sách thiếu nhi** | 1 | Thấp, an toàn | 200k | 200k | 2nd hoặc DIY gỗ pallet |
+| 7 | **Ghế cao quầy bar** × 4 | 4 | Industrial | 150k | 600k | 2nd sơn lại |
+| 8 | Gối tựa + khăn bàn | — | — | — | 500k | Shopee/1688 |
+| 9 | Công sơn lại/bọc lại | — | — | — | 700k | Thuê thợ sơn 300k/ngày × 2 + vật tư |
+| | **Tổng F4** | | | | **~8 tr** | |
+
+> **Nguyên tắc nội thất**: Tính chính xác 8 bàn + 24 ghế + 4 sofa + 4 ghế bar = phục vụ ~40 khách ngồi. Visual: tông industrial/vintage warm. Mua 2nd → sơn lại cùng 1 tông → bọc nệm mới nếu cần. 2 bàn dài + kệ bar = gỗ mít tự có (0đ vật liệu).
+
+#### F5. Camera + PCCC + GP + đồ chơi + POS = 16,5 triệu
+
+| # | Hạng mục | Đơn giá | Nguồn |
+|---|---|---|---|
+| 1 | **Camera Hikvision 4 mắt** 2nd (2MP, có đêm) | 2 tr | Chợ Tốt "camera Hikvision bộ 4" |
+| 2 | **Ổ cứng WD Purple 1TB** mới | 800k | Shopee |
+| 3 | **PCCC**: bình CO2 × 2 + exit sign × 3 + báo khói × 4 | 5 tr | Mua mới — BẮT BUỘC |
+| 4 | **Giấy phép**: GP kinh doanh + ATTP + ANTT | 5 tr | Tự làm hồ sơ, nộp trực tiếp |
+| 5 | **Đồ chơi**: LEGO theo ký 3kg + boardgame 2nd 5 bộ + sách 2nd 15 cuốn | 1,5 tr | FB "LEGO theo ký SG" + Chợ Tốt |
+| 6 | **Giáo cụ Montessori** 1688 (1 lô 10 bộ gỗ) | 700k | 1688: "Montessori 教具 批发" |
+| 7 | **POS**: tablet 2nd + app quản lý miễn phí (KiotViet free/Sapo) | 1,5 tr | Chợ Tốt "iPad cũ" hoặc Samsung Tab A |
+| | **Tổng F5** | **~16,5 tr** | |
+
+| | **TỔNG F (F1+F2+F3+F4+F5)** | **~48 tr** | |
 
 ### G. NHÂN CÔNG = 8 triệu
 
