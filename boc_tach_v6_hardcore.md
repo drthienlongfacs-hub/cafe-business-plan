@@ -1,7 +1,8 @@
 # BÓC TÁCH v6 — HARDCORE 400 TRIỆU (CÓ MÁI CONG)
 
 > **Nguyên tắc**: Cắt TOÀN BỘ trung gian. Tự làm chủ thầu. Mua đầu nguồn/thanh lý/2nd/ve chai/1688. Chỉ mua mới khi BẮT BUỘC vì an toàn.
-> **Scope**: Nhà 10×20m, mái cong ~120m², cửa lùa (KHÔNG xếp trượt), trần giữ nguyên (KHÔNG trần 5m lộ kèo), sân vườn mini DIY
+> **Nhân lực**: KHÔNG tự làm — mà tìm đúng nguồn lao động giá tốt nhất cho đúng nhu cầu công việc. Thợ 300k làm tốt thì KHÔNG thuê thợ 500k. Đàm phán, so giá, chọn người.
+> **Scope**: Nhà 10×20m, mái cong ~120m², cửa lùa (KHÔNG xếp trượt), trần giữ nguyên (KHÔNG trần 5m lộ kèo), sân vườn mini
 
 ---
 
@@ -9,9 +10,9 @@
 
 | Hạng mục | v5.2 (451tr) | **v6 (387tr)** | Cắt | Cách cắt |
 |---|---|---|---|---|
-| Phá dỡ + phế thải | 6,3 | **4** | -2,3 | Tự dọn, thuê xe 1 chuyến |
+| Phá dỡ + phế thải + san nền | 6,3 | **4** | -2,3 | Đàm phán giá thợ phổ thông 250-300k/ngày + xe tải nhỏ 1 chuyến |
 | Xây thô + chống thấm | 5 | **4** | -1 | Tự mua vật tư, thợ chỉ công |
-| Xi măng bóng | 18 | **12** | -6 | Tự đánh bóng 50%, thợ làm phần khó |
+| Xi măng bóng | 18 | **12** | -6 | Thuê thợ phổ thông 300k/ngày (không cần thợ chuyên 500k) |
 | Sàn | 4 | **2** | -2 | Giữ nguyên, chỉ vệ sinh + phủ |
 | **Nhôm kính 61m²** | **56** | **35** | **-21** | Full 2nd Xingfa, thay kính CL chỗ nào nứt |
 | **Mái cong 120m²** | **100** | **90** | **-10** | Ép giá thợ, tự mua tất cả vật tư |
@@ -27,9 +28,9 @@
 | Dù sân | 8 | **4** | -4 | 1688 mới 1,1tr/cây × 3 |
 | Sân vườn | 5,5 | **2** | -3,5 | Xin cây, đá ve chai, tự trồng |
 | Thiết bị pha chế | 20,5 | **18** | -2,5 | Ép giá thêm, mua trọn lô |
-| Nội thất | 12 | **8** | -4 | Trọn lô quán đóng giá sát hơn |
+| Nội thất | 12 | **8** | -4 | Thuê nguồn lao động giá tốt nhất, tìm đồ 2nd |
 | Camera+đồ chơi+PCCC+GP | 32 | **22** | -10 | Camera 2nd 2tr, đồ chơi FB 3tr, PCCC tối giản, tự làm GP |
-| Phụ hồ | 13,2 | **8** | -5,2 | Gia đình phụ, giảm ngày |
+| Phụ hồ + lao động phổ thông | 13,2 | **8** | -5,2 | Thuê lao động 250-300k/ngày (không thuê thợ 500k cho việc phổ thông) |
 | Marketing | 2 | **1** | -1 | Full organic |
 | Dự phòng | 21,5 | **16** | -5,5 | 5% × 320 |
 | **TỔNG** | **~451** | **~387** | **-64** | |
@@ -63,10 +64,10 @@
 |---|---|---|---|---|
 | | Xi măng Hà Tiên + cát mịn | 300m² | 15k | 4,5 tr |
 | | Sealer PU chống thấm | 300m² | 12k | 3,6 tr |
-| | Công thợ (50% tự làm) | 150m² | 25k | 3,9 tr |
+| | Công thợ (thuê thợ 300k/ngày) | 150m² | 25k | 3,9 tr |
 | | **Tổng C1** | | | **12 tr** |
 
-> **Evidence**: Xi măng đánh bóng = tráng 2 lớp xi măng mịn → mài → phủ sealer. Vật tư rẻ, công tay nghề là chính. Tự làm phần tường thấp/đơn giản, thợ làm phần trần/góc khó.
+> **Evidence**: Xi măng đánh bóng = tráng 2 lớp xi măng mịn → mài → phủ sealer. Vật tư rẻ, công tay nghề là chính. Thuê thợ phổ thông 300k/ngày làm việc, không cần thuê thợ chuyên gia.
 
 #### C2. Sàn giữ cũ = 2 triệu
 
@@ -97,13 +98,14 @@
 |---|---|---|---|---|
 | | Ngói cũ lô tồn kho/tháo dỡ (~3.100 viên) | 3.100 | 5k/viên | 15,5 tr |
 | | Gỗ mít cột xà (tự tìm nguồn phá dỡ nhà cũ) | — | — | 15 tr |
-| | Thép khung kèo (kèo chính + phụ) | 120m² | 200k | 24 tr |
+| | Thép khung kèo VE CHAI chọn lọc (còn tốt, kiểm dày/thẳng/không rỉ sâu) | 120m² | 110k | 13,2 tr |
 | | Tôn lạnh chống dột dưới ngói | 120m² | 90k | 10,8 tr |
 | | Phụ kiện (li tô, xà gồ, bù lon, chống sét) | — | — | 5 tr |
 | | Công thợ mộc + thợ lợp | 6 thợ × 15 ngày | 430k | 19,7 tr |
-| | **Tổng C4** | | | **90 tr** |
+| | **Tổng C4** | | | **~79 tr** |
 
-> **Evidence**: Ngói cũ lô 3-8k/viên (audit trước). Gỗ mít phá dỡ 10-20tr tùy khối lượng. Thép kèo 180-250k/m². Tôn lạnh 80-100k/m². Scope 120m² = mái nhà chính (10×12m tính dốc), KHÔNG phải 240-260m² như v7 full.
+> **Evidence**: Ngói cũ lô 3-8k/viên (audit trước). Gỗ mít phá dỡ 10-20tr. Thép ve chai chọn lọc: kiểm dày ≥1,8mm, thẳng, không rỉ sâu (rỉ bề mặt chấp nhận — sơn chống rỉ lại), giá ve chai ~7-9k/kg so với mới 14-16k/kg = tiết kiệm 45-50%. Nguồn: vựa sắt Biên Hòa, Chợ Tốt "thép cũ xà gồ kèo".
+> **An toàn**: Thép ve chai vẫn đảm bảo nếu: (1) không mỏng dưới 1,8mm, (2) không cong/vênh quá 2cm/m, (3) mối hàn được kiểm tra. Thợ kèo có kinh nghiệm sẽ loại bỏ thanh không đạt.
 > **Khác v7**: v7 tính mái 240-260m² (phủ toàn bộ 10×20m + vươn ra). v6 chỉ tính 120m² mái chính + phần còn lại dùng mái hiện hữu/dù che.
 
 #### C5. Bảng hiệu = 1 triệu
@@ -188,7 +190,7 @@ Cập nhật: **13,4 tr** thay vì 15 tr.
 
 | # | Hạng mục | v5.2 | **v6** | Cắt | Cách |
 |---|---|---|---|---|---|
-| F1 | Thiết bị pha chế thanh lý | 20,5 | **16** | -4,5 | Mua trọn lô quán đóng, ép giá |
+| F1 | Thiết bị + nội thất + GP + PCCC | 77,5 | **40** | -37,5 | Tính kỹ SL bàn ghế + kiểu dáng → mua 2nd → sơn lại/bọc lại |
 | F2 | Nội thất trọn lô quán đóng | 12 | **7** | -5 | Đợi quán đóng mùa mưa, lấy hết |
 | F3 | Camera 2nd | — | **2** | — | Hikvision 4 mắt 2nd |
 | F4 | Đồ chơi LEGO+boardgame | — | **3** | — | FB "LEGO theo ký" |
@@ -228,7 +230,7 @@ Cập nhật: **13,4 tr** thay vì 15 tr.
 | C1 | Xi măng bóng | 12 tr |
 | C2 | Sàn giữ cũ | 2 tr |
 | C3 | Nhôm kính 61m² full 2nd | **35 tr** |
-| C4 | **Mái cong 120m²** | **90 tr** |
+| C4 | **Mái cong 120m²** (thép ve chai chọn lọc) | **79 tr** |
 | C5 | Bảng hiệu DIY | 1 tr |
 | D1 | Điện (Cadivi CK + 1688) | **27 tr** |
 | D2 | Đèn (1688) | 5 tr |
@@ -239,26 +241,29 @@ Cập nhật: **13,4 tr** thay vì 15 tr.
 | F | Thiết bị + nội thất + GP | **40 tr** |
 | G | Nhân công phụ | 8 tr |
 | H1 | Marketing | 1 tr |
-| | **TỔNG TRƯỚC DỰ PHÒNG** | **~273 tr** |
-| H2 | Dự phòng 5% | **~14 tr** |
+| | **TỔNG TRƯỚC DỰ PHÒNG** | **~262 tr** |
+| H2 | Dự phòng 5% | **~13 tr** |
 | | | |
-| | **TỔNG v6** | **~287 tr** |
+| | **TỔNG v6** | **~276 tr** |
 
 > [!IMPORTANT]
-> ### KẾT QUẢ: 287 triệu — DƯ 113 triệu so với trần 400 triệu
+> ### KẾT QUẢ: ~276 triệu — DƯ 124 triệu so với trần 400 triệu
 > 
-> Cộng từng dòng chi tiết = **~287 triệu**. Rẻ hơn dự kiến vì:
+> Cộng từng dòng chi tiết = **~276 triệu**. Rẻ hơn nhờ:
 > 1. Full 2nd nhôm kính (tiết kiệm 21tr so với v5.2)
-> 2. Cadivi đại lý cấp 1 CK 35% (tiết kiệm 15tr)
+> 2. Cadivi đại lý cấp 1 CK 35% (tiết kiệm 23tr)
 > 3. Toilet thanh lý KS (tiết kiệm 10tr)
-> 4. Nước đại lý trực tiếp (tiết kiệm 10tr)
-> 5. Thiết bị mua trọn lô quán đóng (tiết kiệm 37tr)
+> 4. Nước đại lý trực tiếp (tiết kiệm 11tr)
+> 5. Thiết bị mua 2nd chọn lọc (tiết kiệm 37tr)
+> 6. Thép kèo ve chai chọn lọc (tiết kiệm 11tr)
+> 7. Thuê lao động phổ thông đúng giá (300k thay vì 500k)
 > 
-> **Với 113 triệu dư**, có thể:
-> - Nâng mái cong 90→120tr (an toàn hơn): +30tr → 317tr
-> - Nâng nhôm kính 35→45tr (chọn kỹ hơn): +10tr → 327tr
-> - Nâng dự phòng 5→10%: +14tr → 341tr
-> - Để vốn lưu động 3 tháng đầu: +50tr → 391tr ✅
+> **Với 124 triệu dư**, có thể:
+> - Nâng mái cong 79→100tr (an toàn hơn): +21tr → 297tr
+> - Nâng nhôm kính 35→45tr (chọn kỹ hơn): +10tr → 307tr
+> - Nâng dự phòng 5→10%: +13tr → 320tr
+> - Nội thất sơn lại/bọc lại cho đẹp: +5tr → 325tr
+> - Để vốn lưu động 3 tháng đầu: +60tr → 385tr ✅
 
 ---
 
