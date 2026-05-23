@@ -224,9 +224,51 @@
 
 ---
 
-## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND + MÁI CONG + SOLAR (ĐÃ AUDIT)
+## TỔNG DỰ TOÁN — v4 TỐI ƯU TOÀN BỘ (23/05/2026)
 
-> **Cập nhật**: 23/05/2026 — **v3 đã audit**: Sửa lỗi tổng số học, điều chỉnh giá máy pha, cửa vòm, phụ kiện mái theo evidence thị trường thực 2025-2026. Nguồn audit: [cost_price_audit_2026-05-23.md](file:///Users/mac/Projects/kid-cafe-blueprint/cost_price_audit_2026-05-23.md)
+> **v4**: Bóc tách toàn bộ nguyên vật liệu, mua 1688/Taobao cho đèn + ổ cắm, tường xi măng đánh bóng thay sơn, CRM 3120 thay Appia II, nội thất mua trọn lô thanh lý. Chi tiết bóc tách: xem `boc_tach_nguyen_vat_lieu_v4.md`
+
+### 🏆 GIAI ĐOẠN 1: XÂY DỰNG + SETUP = ~345 TRIỆU
+
+| Phần | Hạng mục | v3 audit | **v4 tối ưu** | Tiết kiệm |
+| :---: | :--- | :---: | :---: | :---: |
+| **A** | Máy pha CRM 3120 + xay CRM 020 + tủ + phụ kiện | 60 tr | **29,5 tr** | -30,5 tr |
+| **B** | Nội thất 2nd (mua trọn lô thanh lý) + ML 2nd | 48 tr | **35 tr** | -13 tr |
+| **C** | Tường xi măng bóng (thay sơn) | 20 tr | **18 tr** | -2 tr |
+| **C** | Sàn giữ cũ + đánh bóng | 4 tr | **4 tr** | — |
+| **C** | Toilet × 2 (thiết bị 2nd KS) | 30 tr | **25 tr** | -5 tr |
+| **C** | Hệ thống điện (tự mua Cadivi + 1688 ổ cắm + thợ) | 65 tr | **50 tr** | -15 tr |
+| **C** | Đèn chiếu sáng (1688 giá gốc) | (gộp) | **7,4 tr** | -5 tr |
+| **C** | Hệ thống nước (tự mua + thợ) | 32 tr | **25 tr** | -7 tr |
+| **C+** | 🏠 Mái cong (ngói cũ lô lớn + gỗ mít) | 110 tr | **100 tr** | -10 tr |
+| **C++** | 🪟 Cửa vòm → **Hoãn GĐ2** | 30 tr | **0** | -30 tr |
+| **D** | Giấy phép + PCCC + Camera + Đồ chơi | 43 tr | **40 tr** | -3 tr |
+| **E** | Marketing (organic) | 3 tr | **2 tr** | -1 tr |
+| **F** | Dự phòng (5%) | 23 tr | **16 tr** | -7 tr |
+| | **TỔNG GĐ1** | **~442 tr** | **~345 tr** | **-97 tr** |
+
+### GĐ2: SOLAR + CỬA VÒM (tháng 4-6, từ doanh thu)
+
+| Hạng mục | Chi phí |
+| :--- | :---: |
+| Cửa vòm kính CL + khung gỗ mít | 30 tr |
+| Solar 5kWp hòa lưới | 55-65 tr |
+| **Tổng GĐ2** | **85-95 tr** |
+| **Tổng cả 2 GĐ** | **~430-440 tr** |
+
+### 💰 GIÁ TRỊ THU HỒI NẾU THẤT BẠI
+
+| Kịch bản | Thu hồi | Tỷ lệ |
+| :--- | :---: | :---: |
+| Bán lẻ đồ di động | 42-57 tr | 12-17% (+ giữ nhà mái đẹp) |
+| Sang nhượng trọn gói | 100-150 tr | 29-43% |
+| **Cho thuê (đất tự có)** | **Hoàn vốn 14-23 tháng** | **Tốt nhất** |
+
+---
+
+## CHI TIẾT v3 AUDIT (tham khảo)
+
+> **v3 đã audit**: Sửa lỗi tổng số học, điều chỉnh giá máy pha, cửa vòm, phụ kiện mái theo evidence thị trường thực 2025-2026. Nguồn audit: [cost_price_audit_2026-05-23.md](file:///Users/mac/Projects/kid-cafe-blueprint/cost_price_audit_2026-05-23.md)
 
 ### GIAI ĐOẠN 1: XÂY DỰNG + SETUP
 
