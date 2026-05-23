@@ -230,6 +230,7 @@ tbody tr:last-child td{border-bottom:none}
   <div class="nav-links">
     <a href="#model">Mô hình</a>
     <a href="#floorplan">Mặt bằng</a>
+    <a href="#design">Phối cảnh &amp; Vật liệu</a>
     <a href="#kidzone">Kid Zone</a>
     <a href="#activity">Hoạt động</a>
     <a href="#legal">Pháp lý</a>
@@ -357,6 +358,214 @@ tbody tr:last-child td{border-bottom:none}
     </div>
   </div>
 </section>
+
+<!-- PHỐI CẢNH THIẾT KẾ & VẬT LIỆU -->
+<section class="section reveal" id="design">
+  <style>
+    .design-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .gallery-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .gallery-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent-1);
+      box-shadow: var(--shadow-glow);
+    }
+    .gallery-img-wrap {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      background: #1e1e2e;
+    }
+    .gallery-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+    .gallery-card:hover .gallery-img-wrap img {
+      transform: scale(1.05);
+    }
+    .gallery-info {
+      padding: 1.25rem;
+    }
+    .gallery-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-green);
+      margin-bottom: 0.5rem;
+    }
+    .gallery-info h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .gallery-info p {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+  </style>
+
+  <div class="section-header">
+    <div class="overline">Design &amp; Materials</div>
+    <div class="divider"></div>
+    <h2>Phối Cảnh Không Gian &amp; Tối Ưu Vật Liệu</h2>
+    <p>Sự giao thoa giữa Modern Wabi-Sabi mộc mạc và Scandinavian tinh tế · Phù hợp thực tế khu đất ven suối</p>
+  </div>
+
+  <div class="design-gallery">
+    <!-- Image 1 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/media__1779516827178.jpg" alt="Phong cách mộc tự nhiên">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">Style Concept 1</div>
+        <h3>Mộc Tối Giản &amp; Cây Xanh</h3>
+        <p>Vật liệu gỗ mít kết hợp trần cao hở, hệ quạt trần cánh lớn và đèn thả wicker ấm cúng.</p>
+      </div>
+    </div>
+    
+    <!-- Image 2 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/media__1779516855141.png" alt="Lối đi sỏi rải">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">Style Concept 2</div>
+        <h3>Lối Đi Trải Sỏi &amp; Cửa Xếp</h3>
+        <p>Cửa xếp kính mở thông ra suối đón gió trời, lối đi sỏi cuội xen kạch bê tông đúc mộc.</p>
+      </div>
+    </div>
+
+    <!-- Image 3 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/media__1779516895429.jpg" alt="Sân vườn Wabi-Sabi">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">Style Concept 3</div>
+        <h3>Sân Vườn &amp; Tường Bê Tông Mộc</h3>
+        <p>Góc ngồi ngoài trời ven bờ kênh, tường tráng men xi măng mộc mạc và ghế canvas kem nhẹ nhàng.</p>
+      </div>
+    </div>
+
+    <!-- Image 4 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/media__1779516910121.jpg" alt="Courtyard và Tiểu cảnh suối">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">Style Concept 4</div>
+        <h3>Tiểu Cảnh &amp; Đá Cuội Tự Nhiên</h3>
+        <p>Lát cuội sông nhỏ, hòn non bộ / chum gốm tràn nước tạo tiếng chảy thư giãn ven kênh.</p>
+      </div>
+    </div>
+
+    <!-- Render 1 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/v2_exterior_day_1779516372221.png" alt="Mặt tiền Little World">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">V2 Render</div>
+        <h3>Mặt Tiền Ban Ngày Ven Kênh</h3>
+        <p>Kiến trúc Scandinavian hiện đại, tường xi măng mộc và hệ bảng hiệu gỗ mít tự nhiên nguyên tấm.</p>
+      </div>
+    </div>
+
+    <!-- Render 2 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/v2_interior_cafe_1779516400774.png" alt="Parent Cafe Zone">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">V2 Render</div>
+        <h3>Khu Vực Cafe Phụ Huynh</h3>
+        <p>Trần cao 5m hở, kết nối mở với khu chơi qua vách kính cường lực 10 ly cách nhiệt máy lạnh.</p>
+      </div>
+    </div>
+
+    <!-- Render 3 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/v2_bar_counter_1779516636342.png" alt="Bar Counter">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">V2 Render</div>
+        <h3>Quầy Bar Gỗ Mít Live-Edge</h3>
+        <p>Mặt quầy bar xẻ nguyên tấm từ thân gỗ mít lâu năm, tạo điểm nhấn nghệ thuật độc bản ngay lối vào.</p>
+      </div>
+    </div>
+
+    <!-- Render 4 -->
+    <div class="gallery-card">
+      <div class="gallery-img-wrap">
+        <img src="images/v2_play_zone_active_1779516470967.png" alt="Play Zone Active">
+      </div>
+      <div class="gallery-info">
+        <div class="gallery-tag">V2 Render</div>
+        <h3>Khu Vui Chơi Active Montessori</h3>
+        <p>Nhà bóng, cầu trượt mini thanh lý, thảm xốp EVA dày 2cm và rào gỗ bo góc tuyệt đối an toàn.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="font-size:1.15rem;margin:3.5rem 0 1.5rem;text-align:center">🛠️ Bản Tham Mưu Kỹ Thuật Độc Lập Về Vật Liệu &amp; Kiến Trúc</h3>
+  <div class="card-grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+    <div class="card accent-green">
+      <div class="card-icon green">🧱</div>
+      <h3>1. Có nên ốp gạch 90x180 cm nhập khẩu?</h3>
+      <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.75rem"><strong>Thực tế:</strong> Gạch giá 500k/m² là phần nổi của tảng băng. Keo dán chuyên dụng C2 Weber (80k/m²), nhân công thợ cứng (220k/m²), hao hụt lớn. Sàn + tường cao 1.8m tốn <strong>~281 triệu (gây vỡ trận tài chính ngay lập tức)</strong>.</p>
+      <p style="font-size:0.82rem;color:var(--accent-green);font-weight:600"><strong>Giải pháp "Tối ưu hóa kép" (Premium look - Budget safe):</strong></p>
+      <ul style="font-size:0.8rem;padding-left:1.2rem;margin-top:0.25rem;color:var(--text-secondary)">
+        <li style="margin-bottom:0.3rem"><strong>Sàn chính:</strong> Dùng gạch giả bê tông mài men Matt hoặc tráng men xi măng mộc 80x80cm / 60x120cm (giá hoàn thiện chỉ ~380k/m² cả keo và công). Tiết kiệm ngay ~90 triệu.</li>
+        <li style="margin-bottom:0.3rem"><strong>Vách tường:</strong> Ốp đá/gạch xám mộc chân tường cao 1.2m (vừa tầm tay trẻ chạm để chống bẩn). Phần tường trên (1.2m - 5m) sơn hiệu ứng bê tông mộc (Concrete Paint) phối cùng sơn trắng ấm dễ lau chùi. Tiết kiệm ngay ~70 triệu VND!</li>
+      </ul>
+    </div>
+
+    <div class="card accent-indigo">
+      <div class="card-icon indigo">🪵</div>
+      <h3>2. Tận dụng 5 m³ gỗ mít cổ thụ nguyên tấm?</h3>
+      <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.75rem"><strong>Thực tế:</strong> Gỗ mít cực kỳ tốt, bền dẻo, vân đẹp hoàng gia. Nhưng nếu gia công đục đẽo toàn bộ (làm ghế, bàn nhỏ) sẽ tốn công thợ mộc rất cao (1.5-1.8tr/ngày). Đắt hơn nhiều so với mua đồ thanh lý cũ.</p>
+      <p style="font-size:0.82rem;color:var(--accent-indigo);font-weight:600"><strong>Giải pháp "Tận dụng thông minh" (Smart Integration):</strong></p>
+      <ul style="font-size:0.8rem;padding-left:1.2rem;margin-top:0.25rem;color:var(--text-secondary)">
+        <li style="margin-bottom:0.3rem">Chỉ dùng ~1m³ cho 4 điểm nhấn nghệ thuật đắt giá:</li>
+        <li style="margin-bottom:0.2rem">1. Mặt bàn quầy bar live-edge nguyên tấm phủ resin/PU bóng mờ.</li>
+        <li style="margin-bottom:0.2rem">2. Hai bàn dài nhóm lớn chân sắt hộp đen phẳng.</li>
+        <li style="margin-bottom:0.2rem">3. Hệ kệ mở treo tường sau bar trưng bày ly tách và cây xanh.</li>
+        <li style="margin-bottom:0.2rem">4. Bảng hiệu gỗ lớn ngoài trời khắc CNC.</li>
+        <li style="margin-top:0.3rem"><strong>4m³ còn lại:</strong> Cất trữ làm tài sản hoặc thanh lý thu hồi ~60-80 triệu tiền mặt.</li>
+      </ul>
+    </div>
+
+    <div class="card accent-amber">
+      <div class="card-icon amber">💨</div>
+      <h3>3. Thiết kế Thông gió Lai Hybrid &amp; Trần hở</h3>
+      <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.75rem"><strong>Thực tế:</strong> Suối Săn Máu gió mát quanh năm. Không cần bật A/C liên tục. Trần hở (không thạch cao) vừa thoáng khí, mộc mạc gần gũi thiên nhiên, vừa dễ phát hiện rò rỉ nước để vá ngay lập tức.</p>
+      <p style="font-size:0.82rem;color:var(--accent-amber);font-weight:600"><strong>Giải pháp kiến trúc:</strong></p>
+      <ul style="font-size:0.8rem;padding-left:1.2rem;margin-top:0.25rem;color:var(--text-secondary)">
+        <li style="margin-bottom:0.3rem"><strong>Cửa xếp kính ven suối:</strong> Xếp gọn 100% mở thông gió suối lúc sáng sớm &amp; chiều tối 17h-21h. Đóng kín bật máy lạnh khi nắng gắt 11h-15h.</li>
+        <li style="margin-bottom:0.3rem"><strong>Hiệu ứng ống khói:</strong> Lam gió bật sát đỉnh mái tôn đối diện để đẩy khí nóng tích tụ thoát ra ngoài tự nhiên.</li>
+        <li style="margin-bottom:0.3rem"><strong>Cách nhiệt bắt buộc:</strong> Trần hở nên phải sử dụng tôn xốp 3 lớp cách nhiệt PU/EPS dày 50mm, kết hợp quạt trần cánh lớn tạo gió tự nhiên.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
 <!-- KHU VUI CHƠI KID-FRIENDLY -->
 <section class="section reveal" id="kidzone">
