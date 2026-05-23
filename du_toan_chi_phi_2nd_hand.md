@@ -1,12 +1,14 @@
-# DỰ TOÁN CHI PHÍ BÓC TÁCH — PHƯƠNG ÁN TOÀN BỘ 2ND HAND
+# DỰ TOÁN CHI PHÍ BÓC TÁCH — AUDIT MÁI CONG & NỘI THẤT V7
 ## Quán Café 200m² (10×20) · Biên Hòa, Đồng Nai
 ### Nguyên tắc: Mua 2nd tốt + giá ve chai → Tối ưu vốn ban đầu + Bền dài hạn
 
 ---
 
-> **Cập nhật**: 23/05/2026  
-> **Nguồn giá**: Perplexity Deep Research 2025–2026 + website nhà cung cấp cụ thể  
+> **Cập nhật audit**: 23/05/2026
+> **Nguồn giá**: walkthrough v7 mái cong + website nhà cung cấp cụ thể + tham chiếu giá thi công 2026
 > **Quy ước**: Giá đã bao gồm VAT (nếu có). "2nd" = secondhand 80–95%.
+
+> **Kết luận sửa sai**: Tổng **~366 triệu** chỉ hợp lý cho kịch bản đã có sẵn vỏ nhà, mái, kính và MEP, chỉ cần decor/mua đồ. Với walkthrough hiện hành gồm **mái cong đầu hồi phủ nhà 10×20m, trần 5m, kèo gỗ lộ, cửa kính xếp trượt 3.5m, vách kính 10ly, Montessori house và sân vườn 15×35m**, ngân sách launch sát thực tế là **~950 triệu – 1,28 tỷ** dù đã tận dụng tối đa vật liệu 2nd/tái sử dụng.
 
 ---
 
@@ -222,88 +224,48 @@
 
 ---
 
-## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND + MÁI CONG + SOLAR
+## TỔNG DỰ TOÁN — PHƯƠNG ÁN 2ND HAND TỐI ƯU SAU AUDIT
 
-> **Cập nhật**: 23/05/2026 — Bổ sung mái cong đầu hồi (ngói cũ + gỗ mít tự có) + Solar 5kWp (giai đoạn 2)
+> **RCA conflict 23/05/2026**: Kịch bản 399–447 triệu dùng ngói cũ + gỗ mít làm mái chính + solar 5kWp không đạt walkthrough v7. Mức đó có thể là DIY/decor một phần, nhưng thiếu kiểm định kết cấu mái span 10m, chống dột, kính lớn, MEP/PCCC, sân vườn và dự phòng phát sinh. Không dùng làm ngân sách quyết định đầu tư.
 
-### GIAI ĐOẠN 1: XÂY DỰNG + SETUP (≤ 400 triệu)
-
-| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
-| :---: | :--- | :---: | :--- |
-| **A** | Thiết bị pha chế (2nd) | 54,5 triệu | Giữ nguyên |
-| **B** | Nội thất + Máy lạnh (2nd) | 48 triệu | Giữ nguyên |
-| **C** | Sửa sang mặt bằng (tối giản hơn) | 155 triệu | Giảm 45tr: toilet 2nd, tự mua dây điện/ống nước, thuê thợ trực tiếp |
-| **C+** | 🏠 **Mái cong đầu hồi** (ngói cũ + gỗ mít) | 90 triệu | Ngói cũ tháo dỡ 8-13k/viên, gỗ mít 1.5m³ làm kèo, thuê thợ trực tiếp |
-| **C++** | 🪟 **Cửa vòm khung gỗ mít** (5 cửa sổ + 2 cửa đi) | 12 triệu | Tự đóng khung gỗ mít, chỉ mua kính + bản lề |
-| **D1** | Giấy phép | 8 triệu | Giữ nguyên |
-| **D2** | PCCC | 17 triệu | Giữ nguyên |
-| **D3** | Camera (2nd) | 7 triệu | Giữ nguyên |
-| **D4** | Đồ chơi 2nd | 9 triệu | Giữ nguyên |
-| **E** | Marketing khai trương | 3 triệu | Chủ yếu online (FB/TikTok) |
-| **F** | Dự phòng (3%) | 12 triệu | — |
-| | **TỔNG GIAI ĐOẠN 1** | **~399 triệu** | ✅ ≤ 400 triệu |
-
-### GIAI ĐOẠN 2: SOLAR (Tháng thứ 4 — từ doanh thu)
-
-| Phần | Hạng mục | Giá chọn (VNĐ) | Ghi chú |
-| :---: | :--- | :---: | :--- |
-| **G** | ☀️ Solar 5kWp hòa lưới (10 panel + inverter + lắp) | 48 triệu | Hoàn vốn 1 năm 9 tháng, tiết kiệm ~27tr/năm |
-| | **TỔNG CẢ 2 GIAI ĐOẠN** | **~447 triệu** | Solar tự chi từ doanh thu |
+| Phần | Hạng mục theo walkthrough v7 | Cách tận dụng 2nd/tái sử dụng | Ngân sách thực tế |
+| :---: | :--- | :--- | :---: |
+| **A** | Thiết kế kiến trúc/kết cấu/PCCC/shop drawing | Dùng phối cảnh v7 làm SOT, không vẽ lại từ đầu | 35 – 55 triệu |
+| **B** | Mái cong đầu hồi 240–260m² | Gỗ cũ chỉ dùng ốp/kèo giả; săn ngói/tôn giả ngói tồn kho cùng batch | 240 – 340 triệu |
+| **C** | Cửa kính xếp trượt + vách kính 10ly khung đen | Khung sắt/nhôm thanh lý nếu đủ thẳng, sơn lại | 90 – 150 triệu |
+| **D** | MEP, PCCC, chiếu sáng trần cao | Đèn thả/đèn mây 2nd sau khi thay dây | 145 – 220 triệu |
+| **E** | Hoàn thiện Wabi-Sabi, WC, quầy bar, tủ bánh | Microcement vùng nhấn, gỗ pallet xử lý, inox thanh lý bọc gỗ | 210 – 300 triệu |
+| **F** | Thiết bị pha chế 2nd | Appia II, Mazzer, tủ mát, ly sứ/thuỷ tinh ve chai chọn lọc | 55 – 75 triệu |
+| **G** | Nội thất rời + làm mát | Bàn ghế, sofa, kệ, quạt/máy lạnh 2nd kiểm dòng | 65 – 100 triệu |
+| **H** | Montessori house + đồ chơi + padding | Gỗ tái sử dụng đã xử lý, LEGO/boardgame/STEM 2nd có CR | 45 – 80 triệu |
+| **I** | Sân vườn, sandbox, trúc, biển LITTLE WORLD | Đá/gạch cũ, pallet, cây bầu nhỏ, cỏ theo mảng trọng điểm | 45 – 90 triệu |
+| **J** | Solar/wind, pháp lý, camera, POS, khai trương, vốn lưu động | Solar giai đoạn 1 chỉ làm mô hình giáo dục/chờ hạ tầng | 80 – 135 triệu |
+| **K** | Dự phòng phát sinh | 12% vì mái cong, kính lớn và hàng 2nd có rủi ro | 100 – 135 triệu |
+| | **TỔNG LAUNCH SÁT THỰC TẾ** | **Tận dụng tối đa nhưng không đánh đổi an toàn** | **~950 triệu – 1,28 tỷ** |
 
 ---
 
-### PHÂN TÍCH CHI PHÍ MÁI CONG (C+ = 90 triệu)
+### TẬN DỤNG GỖ MÍT / NGÓI CŨ / SOLAR SAU AUDIT
 
-| Hạng mục | Phương án | Tổng (VNĐ) |
-| :--- | :--- | :---: |
-| Kèo gỗ mít (sẵn có 1.5m³) | Xẻ + gia công: 3-4tr/m³ | 4,5 – 6 triệu |
-| Uốn kèo cong 2 đầu hồi | Thợ mộc cứng 1.5-1.8tr/ngày × 5-7 ngày | 9 – 12,6 triệu |
-| Ngói đất nung cũ (tháo dỡ) | 8-13k/viên × 2.875 viên (gồm 15% dư) | 23 – 37,4 triệu |
-| Xà gồ sắt hộp (mới) | 18-22k/kg × 800 kg | 14,4 – 17,6 triệu |
-| Tôn lót chống dột + cách nhiệt | 85-95k/m² × 120m² | 10,2 – 11,4 triệu |
-| Phụ kiện + vận chuyển | Ty ren, bu lông, 2 chuyến xe | 6 – 10 triệu |
-| Nhân công lợp mái (thuê thợ) | 2 thợ chính + 2 phụ × 10-12 ngày | 11,4 – 13,7 triệu |
-| **Tổng mái cong** | | **~90 triệu** |
-
-> **So sánh**: Qua nhà thầu = 180-250 triệu → **Tiết kiệm 90-160 triệu (50-65%)**
-
-**Nguồn ngói cũ uy tín**: trungsongroup.vn · thegioingoilop.com · thegioigachngoi.com · gachngoigiasi.com · muaxacnhasaigon.com
-
-### PHÂN TÍCH SOLAR (G = 48 triệu)
-
-| Chỉ số | Giá trị |
-| :--- | :---: |
-| Công suất | 5 kWp (10 tấm JA Solar 500W) |
-| Sản lượng/tháng | ~630 kWh |
-| Tiền điện tiết kiệm/tháng | ~2,3 triệu (giá điện KD ~3.800đ/kWh) |
-| **Thời gian hoàn vốn** | **~1 năm 9 tháng** |
-| Tiết kiệm 10 năm | ~274 triệu (vs đầu tư 48 triệu) |
-| Tuổi thọ hệ thống | 25 năm |
-
-> **Kết luận**: Solar **ROI rất cao** cho kinh doanh (giá điện KD gấp 2-3× sinh hoạt). Nên lắp sau khai trương (tháng 4) bằng doanh thu.
-
-### TẬN DỤNG GỖ MÍT 5M³
-
-| Mục đích | m³ dùng | Tiết kiệm (VNĐ) |
-| :--- | :---: | :---: |
-| Kèo + xà gồ mái cong | 1,5 m³ | ~30–40 triệu |
-| Bàn bar live-edge + 2 bàn dài | 0,5 m³ | ~15–20 triệu |
-| Khung cửa vòm + kệ + bảng hiệu | 0,3 m³ | ~5–8 triệu |
-| **Dự trữ / thanh lý thu hồi** | **2,7 m³** | **~40–55 triệu** |
-| **Tổng giá trị gỗ mít tạo ra** | **5,0 m³** | **~90–123 triệu** |
+| Tài sản có sẵn | Cách dùng được | Không dùng cho | Giá trị tiết kiệm hợp lý |
+| :--- | :--- | :--- | :---: |
+| Gỗ mít 5m³ | Kèo giả lộ trần, ốp, bàn dài, quầy, bảng hiệu, cửa vòm trang trí | Kết cấu chịu lực chính nếu chưa có thiết kế/kỹ sư kiểm định | 60 – 100 triệu |
+| Ngói đất nung cũ | Mái phụ, ốp trang trí, batch nhỏ nếu đủ đồng màu và không nứt | Toàn bộ mái chính nếu thiếu đồng bộ, thiếu chống dột, thiếu bảo hành | 20 – 50 triệu |
+| Khung sắt/nhôm thanh lý | Vách/cửa phụ sau khi kiểm thẳng, sơn lại, thay phụ kiện | Ray cửa xếp trượt chính, neo kính, bản lề chịu tải | 15 – 40 triệu |
+| Solar/wind | Giai đoạn 1 làm mô hình giáo dục 10–25 triệu; hệ thật làm sau khi ổn dòng tiền | Không đưa 48 triệu solar vào ngân sách launch bắt buộc | 10 – 25 triệu launch |
 
 ---
 
-### SO SÁNH PHƯƠNG ÁN MỚI vs CŨ
+### SO SÁNH 3 PHƯƠNG ÁN SAU AUDIT
 
-| Tiêu chí | v1 (366tr, mái phẳng) | **v2 (399tr, mái cong + cửa vòm)** | Qua nhà thầu (mái cong) |
+| Tiêu chí | Chỉ decor, không đổi mái | Mái cong đúng walkthrough, tận dụng tối đa | Full mới / premium |
 | :--- | :---: | :---: | :---: |
-| **Tổng vốn** | 366 triệu | **399 triệu** | ~650+ triệu |
-| Hệ mái | Mái tôn phẳng | **Mái cong ngói đất nung** | Mái cong ngói |
-| Cửa sổ | Cửa thông thường | **Cửa vòm khung gỗ mít** | Cửa vòm |
-| Solar | Không | **48tr (giai đoạn 2)** | Tùy |
-| Thẩm mỹ | Trung bình | **Cao cấp** | Cao cấp |
-| Tiết kiệm vs nhà thầu | — | **~250+ triệu (40%)** | — |
+| **Tổng vốn ban đầu** | 480 – 650 triệu | **950 triệu – 1,28 tỷ** | 1,45 – 1,90 tỷ |
+| Mức khớp phối cảnh v7 | Thấp – trung bình | **Cao** | Rất cao |
+| Tiết kiệm so với full mới | 55–65% nhưng không đúng mái | **28–38%** | — |
+| Rủi ro bảo trì | Trung bình | Trung bình – cao nếu kiểm hàng 2nd kém | Thấp |
+| Thời gian setup | 8–11 tuần | **14–18 tuần** | 16–22 tuần |
+| Khuyến nghị | Không gọi là match walkthrough | **Chọn nếu muốn công trình thật giống live render** | Chọn nếu vốn đủ và muốn giảm rủi ro |
 
 ---
 
