@@ -1,12 +1,14 @@
-# DỰ TOÁN CHI PHÍ BÓC TÁCH — PHƯƠNG ÁN TOÀN BỘ 2ND HAND
+# DỰ TOÁN CHI PHÍ BÓC TÁCH — AUDIT MÁI CONG & NỘI THẤT V7
 ## Quán Café 200m² (10×20) · Biên Hòa, Đồng Nai
 ### Nguyên tắc: Mua 2nd tốt + giá ve chai → Tối ưu vốn ban đầu + Bền dài hạn
 
 ---
 
-> **Cập nhật**: 23/05/2026  
-> **Nguồn giá**: Perplexity Deep Research 2025–2026 + website nhà cung cấp cụ thể  
+> **Cập nhật audit**: 23/05/2026
+> **Nguồn giá**: walkthrough v7 mái cong + website nhà cung cấp cụ thể + tham chiếu giá thi công 2026
 > **Quy ước**: Giá đã bao gồm VAT (nếu có). "2nd" = secondhand 80–95%.
+
+> **Kết luận sửa sai**: Tổng **~366 triệu** chỉ hợp lý cho kịch bản đã có sẵn vỏ nhà, mái, kính và MEP, chỉ cần decor/mua đồ. Với walkthrough hiện hành gồm **mái cong đầu hồi phủ nhà 10×20m, trần 5m, kèo gỗ lộ, cửa kính xếp trượt 3.5m, vách kính 10ly, Montessori house và sân vườn 15×35m**, ngân sách launch sát thực tế là **~950 triệu – 1,28 tỷ** dù đã tận dụng tối đa vật liệu 2nd/tái sử dụng.
 
 ---
 

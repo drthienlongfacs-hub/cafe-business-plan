@@ -1,12 +1,12 @@
 # KẾ HOẠCH TRIỂN KHAI CHI TIẾT TỪNG BƯỚC
 ## Quán Cà Phê 200m² (10×20) Kết Hợp Giao Lưu Người Nước Ngoài — Trẻ Em
-## Tại Biên Hòa, Đồng Nai | Đất có sẵn — Chỉ sửa sang
+## Tại Biên Hòa, Đồng Nai | Đất có sẵn — Audit theo mái cong & nội thất v7
 
 ---
 
 > **Ngày lập**: 23/05/2026  
 > **Cơ sở pháp lý**: Đã rà soát, đối chiếu với các quy định cập nhật nhất 2026 của Việt Nam (chi tiết tại Phần VII).  
-> **Nguyên tắc xuyên suốt**: Tinh gọn — Giấy phép tối thiểu — Đúng luật — Tối ưu thuế hợp pháp.
+> **Nguyên tắc xuyên suốt**: Tinh gọn — Giấy phép tối thiểu — Đúng luật — Tối ưu thuế hợp pháp — Không giữ số 366 triệu sau khi đã chốt mái cong/nội thất v7.
 
 ---
 
@@ -137,17 +137,25 @@
 | 1.3 | Lập hồ sơ thiết kế PCCC và nộp thẩm duyệt tại Phòng PC07 Công an tỉnh Đồng Nai | 7–15 ngày | 5 – 15 triệu (tư vấn + lệ phí) |
 | 1.4 | Đăng ký khám sức khỏe + tập huấn kiến thức ATTP cho chủ và 2 nhân viên chế biến tại Trung tâm y tế TP. Biên Hòa | 3–5 ngày | 1,5 – 3 triệu |
 
-### Giai đoạn 2: Sửa sang & Mua sắm trang thiết bị (Tuần 3–8)
+### Giai đoạn 2: Thi công mái cong, kính & MEP lõi (Tuần 5–11)
 
 | Bước | Hành động cụ thể | Thời gian | Chi phí ước tính |
 | :---: | :--- | :---: | :---: |
-| 2.1 | Sửa sang cơ bản: sơn tường, lát sàn, nâng cấp toilet, hệ thống điện nước, mái che | 3–5 tuần | 90 – 150 triệu |
-| 2.2 | Lắp đặt quầy bar, kệ trưng bày, hệ thống chiếu sáng trang trí | Song song 2.1 | 25 – 50 triệu |
-| 2.3 | Mua sắm máy pha cà phê 2 group + máy xay + tủ mát + thiết bị pha chế | Tuần 5–6 | 70 – 120 triệu |
-| 2.4 | Mua bàn ghế cho 60–80 chỗ ngồi (20–25 bộ) | Tuần 5–6 | 40 – 80 triệu |
-| 2.5 | Mua đồ chơi thông minh 2nd (ưu tiên sản phẩm có sẵn tem CR gốc) | Tuần 6–7 | 10 – 25 triệu |
-| 2.6 | Lắp đặt camera an ninh (4–6 mắt, góc rộng, khu chơi trẻ em) | Tuần 7 | 5 – 10 triệu |
-| 2.7 | Mua trang bị PCCC (bình chữa cháy, đèn exit, chuông báo cháy, hộp cứu hỏa) | Tuần 7 | 10 – 20 triệu |
+| 2.1 | Khảo sát hiện trạng, chốt kết cấu mái cong đầu hồi 10×20m, trần 5m | Tuần 5 | 10 – 20 triệu |
+| 2.2 | Thi công khung mái mới, chống dột, chống sét, ngói/tôn giả ngói cong | Tuần 5–9 | 240 – 340 triệu |
+| 2.3 | Lắp cửa kính xếp trượt cao 3.5m + vách kính 10ly khung đen | Tuần 8–10 | 90 – 150 triệu |
+| 2.4 | Đi mới điện, nước, PCCC, chiếu sáng trần cao | Tuần 7–11 | 145 – 220 triệu |
+| 2.5 | Chỉ dùng gỗ/đèn/khung cũ ở lớp ốp trang trí; không dùng cho kết cấu chịu lực | Song song | kiểm soát trong 2.2–2.4 |
+
+### Giai đoạn 2B: Nội thất v7, kid zone & sân vườn (Tuần 10–15)
+
+| Bước | Hành động cụ thể | Thời gian | Chi phí ước tính |
+| :---: | :--- | :---: | :---: |
+| 2B.1 | Hoàn thiện microcement/vữa hiệu ứng, WC, quầy bar, tủ bánh, kệ gỗ | Tuần 10–13 | 210 – 300 triệu |
+| 2B.2 | Mua máy pha, máy xay, tủ mát, ly tách 2nd đã kiểm tra | Tuần 11–13 | 55 – 75 triệu |
+| 2B.3 | Mua bàn ghế/sofa/quạt/máy lạnh 2nd; kiểm điện, block, gas, khung ghế | Tuần 11–14 | 65 – 100 triệu |
+| 2B.4 | Làm Montessori house, thảm/padding, đồ chơi 2nd có CR | Tuần 12–15 | 45 – 80 triệu |
+| 2B.5 | Làm sân cỏ, đá lát, sandbox, trúc, biển LITTLE WORLD | Tuần 12–15 | 45 – 90 triệu |
 
 ### Giai đoạn 3: Xin giấy phép & Nghiệm thu (Tuần 8–10)
 
@@ -176,25 +184,26 @@
 
 ---
 
-## PHẦN V: DỰ TOÁN CHI PHÍ TỔNG HỢP
+## PHẦN V: DỰ TOÁN CHI PHÍ TỔNG HỢP SAU AUDIT
 
 ### 5.1. Chi phí đầu tư ban đầu (một lần)
 
-| Hạng mục | Thấp (Tối giản) | Trung bình (Phổ biến) | Cao (Đầu tư đẹp) |
+| Hạng mục | Chỉ decor, không đổi mái | Đúng walkthrough + tái sử dụng tối đa | Full mới / premium |
 | :--- | :---: | :---: | :---: |
-| Sửa sang mặt bằng 200m² | 60 triệu | 120 triệu | 200 triệu |
-| Máy pha + thiết bị pha chế + lạnh | 50 triệu (2nd) | 95 triệu | 120 triệu |
-| Quầy bar + kệ trưng bày | 15 triệu | 35 triệu | 50 triệu |
-| Bàn ghế (60–80 chỗ) | 30 triệu (2nd) | 55 triệu | 80 triệu |
-| Ly tách, dụng cụ phục vụ | 8 triệu | 12 triệu | 15 triệu |
-| Camera an ninh (4–6 mắt) | 5 triệu | 8 triệu | 10 triệu |
-| Đồ chơi thông minh 2nd | 10 triệu | 18 triệu | 25 triệu |
-| Giấy phép (ĐKKD + ATTP + PCCC + ANTT) | 25 triệu | 35 triệu | 50 triệu |
-| Marketing khai trương | 5 triệu | 15 triệu | 25 triệu |
-| **TỔNG ĐẦU TƯ BAN ĐẦU** | **~208 triệu** | **~393 triệu** | **~575 triệu** |
+| Mái cong, kết cấu, chống dột, chống sét | 0 – 60 triệu | 240 – 340 triệu | 360 – 520 triệu |
+| Kính mặt tiền/vách kính 10ly | 35 – 70 triệu | 90 – 150 triệu | 150 – 240 triệu |
+| MEP/PCCC/chiếu sáng trần cao | 90 – 130 triệu | 145 – 220 triệu | 220 – 320 triệu |
+| Hoàn thiện Wabi-Sabi, WC, quầy cố định | 120 – 180 triệu | 210 – 300 triệu | 320 – 450 triệu |
+| Máy pha + thiết bị F&B | 50 – 70 triệu | 55 – 75 triệu | 120 – 180 triệu |
+| Nội thất rời + làm mát | 50 – 80 triệu | 65 – 100 triệu | 130 – 220 triệu |
+| Montessori house + đồ chơi + padding | 25 – 45 triệu | 45 – 80 triệu | 90 – 150 triệu |
+| Sân vườn 15×35m | 30 – 50 triệu | 45 – 90 triệu | 120 – 220 triệu |
+| Legal, camera, POS, marketing, vốn lưu động | 80 – 125 triệu | 105 – 160 triệu | 130 – 220 triệu |
+| Dự phòng phát sinh | 50 – 80 triệu | 100 – 135 triệu | 150 – 220 triệu |
+| **TỔNG ĐẦU TƯ BAN ĐẦU** | **~480 – 650 triệu** | **~950 triệu – 1,28 tỷ** | **~1,45 – 1,90 tỷ** |
 
 > [!NOTE]
-> Quán sử dụng **đất có sẵn** (không thuê mặt bằng), do đó đã loại bỏ chi phí thuê + tiền cọc (thường chiếm 60–120 triệu), giúp tiết kiệm đáng kể so với các quán phải thuê ngoài.
+> Quán sử dụng **đất có sẵn** nên tiết kiệm tiền thuê/cọc, nhưng khoản tiết kiệm này không đủ bù cho chi phí mái cong, kính lớn và trần 5m. Không nên tiếp tục dùng tổng 366 triệu cho phiên bản v7.
 
 ### 5.2. Chi phí vận hành hàng tháng
 
@@ -211,12 +220,13 @@
 
 ### 5.3. Điểm hòa vốn ước tính
 
-| Mức đầu tư | Tổng vốn ban đầu | Chi phí vận hành/tháng | Doanh thu tối thiểu cần đạt/tháng (để hòa vốn trong 18 tháng) |
+| Mức đầu tư | Tổng vốn ban đầu | Chi phí vận hành/tháng | Doanh thu tối thiểu cần đạt/tháng (để hòa vốn + thu hồi vốn trong 36 tháng) |
 | :--- | :---: | :---: | :---: |
-| Tối giản | ~208 triệu | ~85 triệu | ~97 triệu |
-| Trung bình | ~393 triệu | ~120 triệu | ~142 triệu |
+| Chỉ decor, không đổi mái | 480 – 650 triệu | 105 – 130 triệu | 120 – 150 triệu |
+| Đúng walkthrough + tái sử dụng tối đa | 950 triệu – 1,28 tỷ | 125 – 155 triệu | 170 – 205 triệu |
+| Full mới / premium | 1,45 – 1,90 tỷ | 145 – 180 triệu | 220 – 260 triệu |
 
-→ Với giá vé trọn gói trung bình 50.000–60.000đ, cần phục vụ tối thiểu **65–95 khách/ngày** để hòa vốn sau 18 tháng (mức khá khả thi cho quán 200m² tại Biên Hòa).
+→ Với doanh thu bình quân **~170.000đ/khách**, phương án đúng walkthrough cần khoảng **45–55 khách/ngày** để vừa vận hành vừa thu hồi vốn trong khoảng 36 tháng. Mốc **25 khách/ngày** chỉ đủ làm một phép tính lạc quan cho bảng vốn cũ, không còn dùng để quyết định đầu tư.
 
 ---
 
